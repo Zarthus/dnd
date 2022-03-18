@@ -1,0 +1,23 @@
+on:
+    push:
+        branches:
+            - main
+name: Deploy Pages
+jobs:
+    build:
+        concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
+        runs-on: ubuntu-latest
+        steps:
+        - name: Checkout
+          uses: actions/checkout@v3
+        - name: Build
+          run: |
+              npm ci
+              sed -i "s/webroot = ''/webroot = '\/dnd'/" src/html/env/env.njk
+              sed -i "s/webroot: ''/webroot: '\/dnd'/" src/sass/env/env.sass
+              npm run build
+        - name: Deploy
+          uses: JamesIves/github-pages-deploy-action@v4.2.5
+          with:
+              branch: gh-pages
+              folder: public

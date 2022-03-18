@@ -1,0 +1,35 @@
+{
+  "name": "dnd-web",
+  "version": "1.0.0",
+  "description": "A website",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap-icons": "^1.8.1",
+    "bulma": "^0.9.3",
+    "bulma-switch": "^2.0.4",
+    "gulp": "^4.0.2",
+    "gulp-beautify": "^3.0.0",
+    "gulp-nunjucks": "^5.1.0",
+    "gulp-nunjucks-render": "^2.2.3",
+    "sass": "^1.49.9"
+  },
+  "scripts": {
+    "build": "npm run build-html && npm run build-sass && npm run build-fonts",
+    "build-html": "gulp build",
+    "build-sass": "sass src/sass/pages:public/resources/css",
+    "build-fonts": "gulp fonts",
+    "watch-html": "gulp watch",
+    "watch-sass": "sass --watch src/sass/pages:public/resources/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zarthus/dnd.git"
+  },
+  "author": "Jos Ahrens <buughost@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zarthus/dnd/issues"
+  },
+  "homepage": "https://github.com/Zarthus/dnd#readme"
+}

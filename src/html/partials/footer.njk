@@ -1,0 +1,35 @@
+<footer class="footer">
+    <div class="container">
+        <hr>
+        <div class="content has-text-centered">
+            <p>
+                Website by {{ link.relative('/dm/about', 'Zarthus') }}.
+                The source code is licensed under <a rel="license" href="{{ link.page('/content/acknowledgements') }}">Unlicense</a> &amp;
+                website content under <a rel="license" href="{{ link.page('/content/acknowledgements') }}">CC0 4.0</a>.
+            </p>
+        </div>
+        <div class="content">
+            <div class="columns">
+                <div class="column is-one-third"></div>
+                <div class="column has-text-centered">
+                    <a href="https://github.com/Zarthus" target="_blank">
+                        {{ bsi.icon("github") }}
+                        GitHub
+                        {{ bsi.externallink() }}
+                    </a>
+                </div>
+                <div class="column has-text-centered">
+                    <a href="https://github.com/Zarthus" target="_blank">
+                        {{ bsi.icon("discord") }}
+                        Discord
+                        {{ bsi.externallink() }}
+                    </a>
+                </div>
+                <div class="column has-text-centered">
+                    {{ link.relative('/content/acknowledgements', 'Privacy Policy &amp; Terms of Use') }}
+                </div>
+                <div class="column is-one-third"></div>
+            </div>
+        </div>
+    </div>
+</footer>

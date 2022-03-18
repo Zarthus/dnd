@@ -1,0 +1,68 @@
+{% set page_name = 'Licenses & Acknowledgements' %}
+{% extends "layouts/layout.njk" %}
+{% block content %}
+<div class="container is-max-desktop">
+    <h2 class="has-text-centered title is-3">Acknowledgements</h2>
+
+    <section class="box content">
+        <h3 class="has-text-centered subtitle is-3">Licenses</h3>
+
+        <h4 class="subtitle is-5 mt-2 mb-2">Source Code</h4>
+        <p>
+            The source code of this website is licensed under
+            <a rel="license" href="https://github.com/Zarthus/dnd/blob/main/LICENSE" target="_blank">Unlicense <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i></a>
+        </p>
+
+        <h4 class="subtitle is-5 mt-2 mb-2">Website Content</h4>
+        <p>
+            The content on this website is licensed under
+            <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 4.0 <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i></a>
+        </p>
+
+        <h4 class="subtitle is-5 mt-2 mb-2">Why these licenses?</h4>
+        <p>
+            Licensing is permissive - feel free to ideate, alter, copy, etc. anything you find on this website (attribution is appreciated but not required)
+            <br>
+            The goal of this website is twofold: to be informative (of my own campaigns), and to help facilitate fun and inspiration (in the campaigns of others),
+            having a strict license just stands in the way of those goals too much.
+        </p>
+        <p>
+            Acknowledgement is appreciated (especially if redistributing as commercial work) - but not required
+        </p>
+    </section>
+
+    <section class="box content">
+        <h3 class="has-text-centered subtitle is-3">Acknowledgements</h3>
+        <p>
+            This website was made with the help of third-party components, listing them all is impossible, but here are some of the most important ones.
+            Licensing for these components is likely to differ from the site-license.
+        </p>
+        <ul>
+            <li>D&amp;D - for the inspiration and official books for inspiration</li>
+            <li>GitHub - hosting the source code and the website</li>
+            <li>Bulma - a CSS framework</li>
+            <li>Bootstrap Icons - to provide helpful icons</li>
+            <li>NPM, Sass, and Nunjucks - Tooling used to help create this website</li>
+        </ul>
+    </section>
+
+    <section class="box content">
+        <h3 class="has-text-centered subtitle is-3">Privacy Policy &amp; Terms of Use</h3>
+        <p>
+            This website does not collect any data, nor apply any cookies. It runs no essential javascript.
+            <br>
+            The host, GitHub, logs the visitor's IP address.
+            Learn more:
+            <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection" target="_blank">GitHub Pages Data Collection {{ bsi.externallink() }}</a>
+        </p>
+    </section>
+
+    <section class="box content">
+        <h3 class="has-text-centered subtitle is-3">Inspiration</h3>
+        <p>
+            Inspiration is drawn from many different sources - when possible, it is included in the content somewhere.
+            A lot of places are also completely made up from the ground with creativity.
+        </p>
+    </section>
+</div>
+{% endblock %}

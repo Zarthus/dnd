@@ -1,0 +1,5 @@
+{% import "env/env.njk" as env %}
+{# ensures different document roots are respected across hosts, sorta. #}
+{% macro page(url) %}{{ env.webroot }}{{ url }}{% endmacro %}
+{% macro relative(url, text) %}<a href="{{ env.webroot }}{{ url }}">{{ text | safe }}</a>{% endmacro %}
+{% macro external(url, text) %}<a href="{{ url }}" target="_blank">{{ text }} {{ bsi.externallink() }}</a>{% endmacro %}

@@ -1,0 +1,74 @@
+<nav class="navbar">
+
+    <div class="navbar-item has-dropdown is-hoverable is-mega">
+        <a aria-label="Skip to main content" href="#content-main" aria-hidden="false" id="skip-to-content">Skip to main content</a>
+        <a role="img" href="{{ link.page('/') }}" aria-hidden="true">
+            <img id="website-logo" src="https://placekitten.com/200/100" alt="Logo" />
+        </a>
+        <div class="navbar-item">
+            {{ link.relative('/', 'Home') }}
+        </div>
+        <div class="navbar-link">
+            Navigation
+        </div>
+
+        <div class="navbar-item" id="theme-switcher-container">
+            <div class="field">
+                <input id="theme-switcher" type="checkbox" class="switch is-info" checked="checked" />
+                <label for="theme-switcher">Dark Mode</label>
+            </div>
+        </div>
+
+        <div id="blogDropdown" class="navbar-dropdown">
+            <div class="container is-fluid">
+
+                <div class="columns">
+                    <div class="column">
+                        <h1 class="title is-4 is-mega-menu-title">Dungeon Master</h1>
+                        <div class="navbar-item">
+                            <div class="navbar-content">
+                                <p>{{ link.relative('/dm/about', 'About Me') }}</p>
+                                <p>{{ link.relative('/dm/what-to-expect', 'Expectations') }}</p>
+                                <p>{{ link.relative('/dm/guidelines', 'Guidelines') }}</p>
+                                <p>{{ link.relative('/dm/tooling', 'Tooling') }}</p>
+                                <p>{{ link.relative('/dm/links', 'Helpful Links') }}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <h2 class="title is-4 is-mega-menu-title">Campaign</h2>
+                        <div class="navbar-item">
+                            <div class="navbar-content">
+                                <p><small class="has-text-info">World</small></p>
+                                <p>{{ link.relative('/campaign/main/world', 'Overview') }}</p>
+                            </div>
+                        </div>
+
+                        <div class="navbar-item">
+                            <div class="navbar-content">
+                                <p><small class="has-text-info">Story</small></p>
+                                <p>{{ link.relative('/campaign/main/world/story-arcs', 'Story Arcs') }}</p>
+                                <p>{{ link.relative('/campaign/main/world/story-shorts', 'Short Stories, One-shots & Two-shots') }}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <h2 class="title is-4 is-mega-menu-title">Homebrew</h2>
+                        <div class="navbar-item">
+                            <div class="navbar-content">
+                                <p>{{ link.relative('/homebrew/codex/rules', 'Rules Overview') }}</p>
+                                <p>{{ link.relative('/homebrew/codex/npc', 'NPC Overview') }}</p>
+                                <p>{{ link.relative('/homebrew/codex/monster', 'Monster Overview') }}</p>
+                                <p>{{ link.relative('/homebrew/codex/character', 'Character Overview') }}</p>
+                                <p>{{ link.relative('/homebrew/codex/item', 'Item Overview') }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</nav>

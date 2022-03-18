@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% import "macros/icon.njk" as bsi %}
+    {% import "macros/link.njk" as link %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ link.page('/resources/css/style.css') }}" title="Default" id="theme-default" />
+    <link rel="alternate stylesheet" href="{{ link.page('/resources/css/light.css') }}" title="Light" id="theme-light" />
+    <link rel="alternate stylesheet" href="{{ link.page('/resources/css/style.css') }}" title="Dark" id="theme-dark" />
+    <link rel="stylesheet" href="{{ link.page('/resources/css/icons.css') }}" />
+
+    <title>{{ page_name }}</title>
+</head>
+<body class="page-{{ page_name | lower | replace(r/[^a-z]+/, '-') | urlencode }}">
+    {% include "partials/navbar.njk" %}
+    {% block header %}
+    {% include "partials/header.njk" %}
+    {% endblock %}
+    <div id="content-main"></div>
+    {% block content %}{% endblock %}
+    {% include "partials/footer.njk" %}
+    {% block scripts %}{% endblock %}
+    <script defer>
+        (function () {
+            document.body.classList.add('js-enabled');
+
+            document.querySelector('#theme-switcher').addEventListener('click', function () {
+                const maintheme = document.getElementById('theme-default');
+                const lightmode = document.getElementById('theme-light');
+                const darkmode = document.getElementById('theme-dark');
+
+                if (this.checked) {
+                    maintheme.href = darkmode.href;
+                } else {
+                    maintheme.href = lightmode.href;
+                }
+            });
+
+            if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+                document.querySelector('#theme-switcher').dispatchEvent(new Event('click'));
+            }
+        })();
+    </script>
+</body>
+</html>
