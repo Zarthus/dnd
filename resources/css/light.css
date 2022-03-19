@@ -11085,7 +11085,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 #skip-to-content {
-  position: fixed;
+  position: absolute;
   right: 1rem;
   top: 1rem;
   color: white;
