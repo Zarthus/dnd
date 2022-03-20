@@ -11,11 +11,8 @@ npm build
 
 ## Running
 
-A webserver pointing to the `public/` folder should do the trick. Here is a minimalistic Caddyfile:
+A webserver pointing to the `public/` folder should do the trick. For dev purposes, browsersync will do:
 
-```text
-localhost:4443 {
-    root * public/
-    tls internal
-}
+```
+npm start
 ```
