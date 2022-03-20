@@ -11098,7 +11098,16 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   display: block;
 }
 
-body:not(.js-enabled) #theme-switcher-container {
+#main-header {
+  border-top: 2px solid #98c379;
+  border-bottom: 2px solid #98c379;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(35deg, #61afef 0%, #1163a6 20%, #072c4a 40%, #282c34 75%, #282c34 100%);
+}
+
+body:not(.js-enabled) .is-js {
   display: none;
 }
 
