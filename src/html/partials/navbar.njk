@@ -2,9 +2,11 @@
 
     <div class="navbar-item has-dropdown is-hoverable is-mega">
         <a aria-label="Skip to main content" href="#content-main" aria-hidden="false" id="skip-to-content">Skip to main content</a>
+
         <a role="img" href="{{ link.page('/') }}" aria-hidden="true">
-            <img id="website-logo" src="https://placekitten.com/200/100" alt="Logo" />
+            <img id="website-logo" src="{{ link.page('/resources/assets/favicon/favicon.svg') }}" alt="Logo" />
         </a>
+
         <div class="navbar-item">
             {{ link.relative('/', 'Home') }}
         </div>
@@ -12,7 +14,7 @@
             Navigation
         </div>
 
-        <div class="navbar-item" id="theme-switcher-container">
+        <div class="navbar-item is-js" id="theme-switcher-container is-js">
             <div class="field">
                 <input id="theme-switcher" type="checkbox" class="switch is-info" checked="checked" />
                 <label for="theme-switcher">Dark Mode</label>

@@ -15,10 +15,11 @@
     "sass": "^1.49.9"
   },
   "scripts": {
-    "build": "npm run build-html && npm run build-sass && npm run build-fonts",
+    "build": "npm run build-html && npm run build-sass && npm run build-fonts && npm run build-assets",
     "build-html": "gulp build",
     "build-sass": "sass src/sass/pages:public/resources/css",
     "build-fonts": "gulp fonts",
+    "build-assets": "gulp assets",
     "watch-html": "gulp watch",
     "watch-sass": "sass --watch src/sass/pages:public/resources/css"
   },

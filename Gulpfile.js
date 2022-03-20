@@ -20,7 +20,13 @@ function fonts() {
         .pipe(gulp.dest('public/resources/fonts'))
 }
 
+function assets() {
+    return gulp.src('src/assets/**')
+        .pipe(gulp.dest('public/resources/assets'))
+}
+
 exports.build = gulp.series(html)
 exports.watch = gulp.series(watch)
 exports.fonts = gulp.series(fonts)
+exports.assets = gulp.series(assets)
 exports.default = gulp.series(html, watch)
