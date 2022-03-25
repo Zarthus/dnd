@@ -7,14 +7,16 @@
 {% block content %}
     <div class="container">
         {% if not houserules_json.profiles | empty %}
-        <section class="profile-select section">
+        <section class="profile-select section is-js">
             <div class="box content">
-            <p class="title is-5">Profile Selection</p>
-            {% for key, value in houserules_json.profiles %}
-                <button class="button is-link toggle-profile profile-{{ key }}" data-profile="{{ key }}" value="#profile={{ key }}">
-                    {{ key }}
-                </button>
-            {% endfor %}
+                <p class="title is-5">Profile Selection</p>
+                <button class="button is-link toggle-profile profile-all" data-profile="rule-all" value="#profile=all">all</button>
+                <button class="button is-link toggle-profile profile-none" data-profile value="#profile=none">none</button>
+                {% for key, value in houserules_json.profiles %}
+                    <button class="button is-link toggle-profile profile-{{ key }}" data-profile="{{ value | classify('rule-') }}" value="#profile={{ key }}">
+                        {{ key }}
+                    </button>
+                {% endfor %}
             </div>
         </section>
         {% endif %}
