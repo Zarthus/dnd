@@ -17,9 +17,10 @@
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="msapplication-config" content="/resources/assets/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/dnd/resources/css/house-rules.css" />
     <title>Homebrew Codex - Rules</title>
   </head>
-  <body class="page-homebrew-codex%20-%20rules">
+  <body class="page-homebrew-codex-rules">
     <nav class="navbar">
       <div class="navbar-item has-dropdown is-hoverable is-mega">
         <a aria-label="Skip to main content" href="#content-main" aria-hidden="false" id="skip-to-content">Skip to main content</a>
@@ -101,9 +102,383 @@
       </section>
     </header>
     <div id="content-main"></div>
-    <div class="container is-max-desktop is-info">
-      <h2 class="title is-3">Work in Progress</h2>
-      <h3 class="title is-5">Come back later</h3>
+    <div class="container">
+      <section class="profile-select section">
+        <div class="box content">
+          <p class="title is-5">Profile Selection</p>
+          <button class="button is-link toggle-profile profile-none" data-profile="none" value="#profile=none">
+            none
+          </button>
+          <button class="button is-link toggle-profile profile-zarthus" data-profile="zarthus" value="#profile=zarthus">
+            zarthus
+          </button>
+        </div>
+      </section>
+      <section class="rule-select section">
+        <article id="rule-money-only-gp" class="message content house-rule is-info" data-categories="reduces-complexity" data-applications="combat overworld">
+          <div class="message-header">
+            <p class="title is-5 has-text-white">GP is the only primary currency used</p>
+            <a href="#collapse:money-only-gp"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
+          </div>
+          <div class="message-body">
+            <span class="tag is-primary is-medium"><a href="/dnd#rule-money-only-gp">money-only-gp</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=reduces-complexity">reduces-complexity</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=combat">combat</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=overworld">overworld</a></span>
+            <br><br>
+            <p>There are originally 5 currencies in D&D - copper, silver, gold, electrum, and platinum.
+              <br>
+              This rule adjusts it so that gold (GP) is the only currency you hold.
+              <br>
+            </p>
+            <h4 class="subtitle">Pros</h4>
+            <ul class="list">
+              <li>Less things to keep track of</li>
+              <li>Solves &#39;oh, i have 1 gold piece, I&#39;ll have your axe for 50 silver. can you trade me for 50 silver and that axe?&#39;.</li>
+            </ul>
+            <h4 class="subtitle">Cons</h4>
+            <ul class="list">
+              <li>Distorts game balance</li>
+              <li>Might feel weird giving &#39;one gold piece&#39; to a beggar as a donation</li>
+            </ul>
+            <h4 class="subtitle">Suggested</h4>
+            <p><a href="/dnd#rule-money-no-weight">money-no-weight</a></p>
+            <br>
+            <button class="button is-info select-house-rule">Select</button>
+          </div>
+        </article>
+        <article id="rule-money-no-weight" class="message content house-rule is-info" data-categories="reduces-complexity weight" data-applications="combat overworld">
+          <div class="message-header">
+            <p class="title is-5 has-text-white">GP has no weight</p>
+            <a href="#collapse:money-no-weight"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
+          </div>
+          <div class="message-body">
+            <span class="tag is-primary is-medium"><a href="/dnd#rule-money-no-weight">money-no-weight</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=reduces-complexity">reduces-complexity</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=weight">weight</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=combat">combat</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=overworld">overworld</a></span>
+            <br><br>
+            <p>Money originally has weight, this stops that.
+              <br>
+            </p>
+            <br>
+            <button class="button is-info select-house-rule">Select</button>
+          </div>
+        </article>
+        <article id="rule-units-metric" class="message content house-rule is-info" data-categories="reduces-complexity" data-applications="combat overworld">
+          <div class="message-header">
+            <p class="title is-5 has-text-white">Referenced units will be in metrics rather than imperial</p>
+            <a href="#collapse:units-metric"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
+          </div>
+          <div class="message-body">
+            <span class="tag is-primary is-medium"><a href="/dnd#rule-units-metric">units-metric</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=reduces-complexity">reduces-complexity</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=combat">combat</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=overworld">overworld</a></span>
+            <br><br>
+            <p>D&D is a game created in America, and thus uses imperial units (like pounds and miles.)
+              <br>
+              With this rule in place, metric units will be used (like kilograms and kilometers.)
+              <br>
+            </p>
+            <h4 class="subtitle">Pros</h4>
+            <ul class="list">
+              <li>Groups used to metric units will have an easier time visualising distance, weight, and scale.</li>
+            </ul>
+            <br>
+            <button class="button is-info select-house-rule">Select</button>
+          </div>
+        </article>
+        <article id="rule-no-emcumbrance" class="message content house-rule is-info" data-categories="reduces-complexity weight" data-applications="combat overworld">
+          <div class="message-header">
+            <p class="title is-5 has-text-white">Prefer role-playing / &#39;realism&#39; for carry capacity rather than a loot table with weight.</p>
+            <a href="#collapse:no-emcumbrance"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
+          </div>
+          <div class="message-body">
+            <span class="tag is-primary is-medium"><a href="/dnd#rule-no-emcumbrance">no-emcumbrance</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=reduces-complexity">reduces-complexity</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=weight">weight</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=combat">combat</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=overworld">overworld</a></span>
+            <br><br>
+            <p>Encumberance is a mechanic to indicate you are carrying too much. When set, this complication can be foregone<br>
+              This does not mean you can carry whatever you want - it's unrealistic to have 5 axes and 2 greatswords.
+              <br>
+              It just means that players are competent and trustworthy enough to decide for themselves whether or not if they can carry it or not, <br>
+              and are willing to forego realism in favor of convienience.
+              <br>
+              The DM will have the final say on whether or not you can carry this new item you're about to pick up.
+              <br>
+            </p>
+            <br>
+            <button class="button is-info select-house-rule">Select</button>
+          </div>
+        </article>
+        <article id="rule-injuries-linger" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat overworld">
+          <div class="message-header">
+            <p class="title is-5 has-text-white">Near-death situations or traumatic events may leave lingering injuries on characters</p>
+            <a href="#collapse:injuries-linger"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
+          </div>
+          <div class="message-body">
+            <span class="tag is-primary is-medium"><a href="/dnd#rule-injuries-linger">injuries-linger</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=enhancement">enhancement</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=combat">combat</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=overworld">overworld</a></span>
+            <br><br>
+            <p>NPCs, player-characters, animals and more may sustain long-term injuries that cannot be restored with a low-skill healing spell <br>
+              or healing potion. Think about broken bones, or gaining new (negative) traits like trauma.
+              <br>
+              It would take seeking some medical person in a town, a long rest or a long period of time, or something else to restore this injury.
+              <br>
+            </p>
+            <h4 class="subtitle">Pros</h4>
+            <ul class="list">
+              <li>Players are incentivised to avoid (near) death</li>
+            </ul>
+            <br>
+            <button class="button is-info select-house-rule">Select</button>
+          </div>
+        </article>
+        <article id="rule-rule-of-cool" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat overworld">
+          <div class="message-header">
+            <p class="title is-5 has-text-white">Good roleplaying, creative thinking, and unique approaches get rewarded</p>
+            <a href="#collapse:rule-of-cool"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
+          </div>
+          <div class="message-body">
+            <span class="tag is-primary is-medium"><a href="/dnd#rule-rule-of-cool">rule-of-cool</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=enhancement">enhancement</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=combat">combat</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=overworld">overworld</a></span>
+            <br><br>
+            <p>Players get rewarded for thinking outside of the box and applying creative problem solving.
+              <br>
+            </p>
+            <h4 class="subtitle">Pros</h4>
+            <ul class="list">
+              <li>Incentivizes good roleplaying</li>
+            </ul>
+            <br>
+            <button class="button is-info select-house-rule">Select</button>
+          </div>
+        </article>
+        <article id="rule-flanking-bonus" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat">
+          <div class="message-header">
+            <p class="title is-5 has-text-white">Flanking an enemy gives you a bonus to your roll</p>
+            <a href="#collapse:flanking-bonus"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
+          </div>
+          <div class="message-body">
+            <span class="tag is-primary is-medium"><a href="/dnd#rule-flanking-bonus">flanking-bonus</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=enhancement">enhancement</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=combat">combat</a></span>
+            <br><br>
+            <p>When flanking an enemy, an agreed upon value is added to your roll - e.g. +1 or +2
+              <br>
+            </p>
+            <br>
+            <button class="button is-info select-house-rule">Select</button>
+          </div>
+        </article>
+        <article id="rule-bonus-action-healing-potions" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat">
+          <div class="message-header">
+            <p class="title is-5 has-text-white">Healing Potions become a bonus action</p>
+            <a href="#collapse:bonus-action-healing-potions"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
+          </div>
+          <div class="message-body">
+            <span class="tag is-primary is-medium"><a href="/dnd#rule-bonus-action-healing-potions">bonus-action-healing-potions</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=enhancement">enhancement</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=combat">combat</a></span>
+            <br><br>
+            <p>Official rules suggest healing potions are a primary action, with this rule in place that is no longer the case.
+              <br>
+            </p>
+            <h4 class="subtitle">Cons</h4>
+            <ul class="list">
+              <li>Might make combat too easy, affecting balancing</li>
+            </ul>
+            <br>
+            <button class="button is-info select-house-rule">Select</button>
+          </div>
+        </article>
+        <article id="rule-help-requires-proficiency" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat overworld">
+          <div class="message-header">
+            <p class="title is-5 has-text-white">Helping Actions require Proficiency in the relevant skill</p>
+            <a href="#collapse:help-requires-proficiency"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
+          </div>
+          <div class="message-body">
+            <span class="tag is-primary is-medium"><a href="/dnd#rule-help-requires-proficiency">help-requires-proficiency</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=enhancement">enhancement</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=combat">combat</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=overworld">overworld</a></span>
+            <br><br>
+            <p>A low-arcana barbarian cannot assist a high-arcana wizard with an arcana skill check.
+              <br>
+              A high-strength barbarian cannot be assisted by a low-strength wizard with a strength skill check.
+              <br>
+            </p>
+            <br>
+            <button class="button is-info select-house-rule">Select</button>
+          </div>
+        </article>
+        <article id="rule-critical-skill-checks" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat overworld">
+          <div class="message-header">
+            <p class="title is-5 has-text-white">A natural 20 is (nearly) guaranteed success. A natural 1 is (nearly guaranteed) failure.</p>
+            <a href="#collapse:critical-skill-checks"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
+          </div>
+          <div class="message-body">
+            <span class="tag is-primary is-medium"><a href="/dnd#rule-critical-skill-checks">critical-skill-checks</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=enhancement">enhancement</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=combat">combat</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=overworld">overworld</a></span>
+            <br><br>
+            <p>If you roll fantastic, you can do things you normally cannot. And the inverse.
+              <br>
+            </p>
+            <h4 class="subtitle">Cons</h4>
+            <ul class="list">
+              <li>Leads to potentially awkward situations</li>
+              <li>DM needs to pay a lot of attention to what players roll for to avoid long-term campaign problems</li>
+            </ul>
+            <br>
+            <button class="button is-info select-house-rule">Select</button>
+          </div>
+        </article>
+        <article id="rule-faint-causes-exhaustion" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat">
+          <div class="message-header">
+            <p class="title is-5 has-text-white">You gain a level of exhaustion when you are knocked unconcious</p>
+            <a href="#collapse:faint-causes-exhaustion"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
+          </div>
+          <div class="message-body">
+            <span class="tag is-primary is-medium"><a href="/dnd#rule-faint-causes-exhaustion">faint-causes-exhaustion</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=enhancement">enhancement</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=combat">combat</a></span>
+            <br><br>
+            <p>Discourage fainting by granting exhaustion on HP reduction to 0.
+              <br>
+            </p>
+            <br>
+            <button class="button is-info select-house-rule">Select</button>
+          </div>
+        </article>
+        <article id="rule-disable-weapon-sheathing" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat">
+          <div class="message-header">
+            <p class="title is-5 has-text-white">Weapon Sheathe / Drawing is unnecessary</p>
+            <a href="#collapse:disable-weapon-sheathing"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
+          </div>
+          <div class="message-body">
+            <span class="tag is-primary is-medium"><a href="/dnd#rule-disable-weapon-sheathing">disable-weapon-sheathing</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=enhancement">enhancement</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=combat">combat</a></span>
+            <br><br>
+            <p>When combat begins, weapons are automatically drawn. You may still role-play that you draw or sheathe your weapon, of course.
+              <br>
+              Disarming can still happen, in which case the weapon needs to be picked up.
+              <br>
+              Optional: Surprise attacks, ambushes, etc. still require retrieving your weapon(s).
+              <br>
+            </p>
+            <br>
+            <button class="button is-info select-house-rule">Select</button>
+          </div>
+        </article>
+        <article id="rule-levelup-roll-hp" class="message content house-rule is-info" data-categories="enhancement" data-applications="character">
+          <div class="message-header">
+            <p class="title is-5 has-text-white">Roll hit die for HP on level up</p>
+            <a href="#collapse:levelup-roll-hp"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
+          </div>
+          <div class="message-body">
+            <span class="tag is-primary is-medium"><a href="/dnd#rule-levelup-roll-hp">levelup-roll-hp</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=enhancement">enhancement</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=character">character</a></span>
+            <br><br>
+            <p>Rolling for HP on level up
+              <br>
+              Optional: The con modifier may also be used.
+              <br>
+              Optional: Grant re-rolls on streaks of bad luck.
+              <br>
+            </p>
+            <h4 class="subtitle">Pros</h4>
+            <ul class="list">
+              <li>Promotes fun</li>
+            </ul>
+            <br>
+            <button class="button is-info select-house-rule">Select</button>
+          </div>
+        </article>
+        <article id="rule-0hp-may-not-faint" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat">
+          <div class="message-header">
+            <p class="title is-5 has-text-white">Reaching 0 HP may not cause you to faint</p>
+            <a href="#collapse:0hp-may-not-faint"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
+          </div>
+          <div class="message-body">
+            <span class="tag is-primary is-medium"><a href="/dnd#rule-0hp-may-not-faint">0hp-may-not-faint</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=enhancement">enhancement</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=combat">combat</a></span>
+            <br><br>
+            <p>You can still do minor actions
+              <br>
+            </p>
+            <h4 class="subtitle">Pros</h4>
+            <ul class="list">
+              <li>Allow a fainted player to do something while on 0 HP so they aren&#39;t just out and rolling.</li>
+            </ul>
+            <h4 class="subtitle">Cons</h4>
+            <ul class="list">
+              <li>May reduce stakes of combat</li>
+            </ul>
+            <br>
+            <button class="button is-info select-house-rule">Select</button>
+          </div>
+        </article>
+        <article id="rule-inspiration-enhancements" class="message content house-rule is-info" data-categories="enhancement inspiration" data-applications="combat overworld">
+          <div class="message-header">
+            <p class="title is-5 has-text-white">Inspiration is granted for certain actions</p>
+            <a href="#collapse:inspiration-enhancements"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
+          </div>
+          <div class="message-body">
+            <span class="tag is-primary is-medium"><a href="/dnd#rule-inspiration-enhancements">inspiration-enhancements</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=enhancement">enhancement</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:category=inspiration">inspiration</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=combat">combat</a></span>
+            <span class="tag is-info is-medium"><a href="/dnd#filter:application=overworld">overworld</a></span>
+            <br><br>
+            <p>Inspiration may be granted on some of the following:
+              <br>
+              - Joining the session on time
+              <br>
+              - End of the session MVP vote
+              <br>
+              - End of combat MVP vote
+              <br>
+              Optional: Inspiration resets on session.
+              <br>
+            </p>
+            <h4 class="subtitle">Pros</h4>
+            <ul class="list">
+              <li>Makes it easier to award inspiration points</li>
+              <li>Makes it harder to forget about the inspiration mechanic</li>
+            </ul>
+            <br>
+            <button class="button is-info select-house-rule">Select</button>
+          </div>
+        </article>
+      </section>
+      <section class="resources-overview section content">
+        <h4 class="subtitle">Resources</h4>
+        <div class="message is-link">
+          <div class="message-body">
+            <p>Official Dungeon Master&#39;s Guide</p>
+          </div>
+        </div>
+        <div class="message is-link">
+          <div class="message-body">
+            <p><a href="https://youtu.be/FzibcPR06w8" target="_blank">Are D&amp;D House Rules Right For You - Ginny Di
+                <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+              </a></p>
+          </div>
+        </div>
+      </section>
     </div>
     <footer class="footer">
       <div class="container">
@@ -140,22 +515,11 @@
         </div>
       </div>
     </footer>
-    <script defer>
+    <script async defer type="text/javascript" src="/dnd/resources/javascript/house-rules.js"></script>
+    <script async defer type="text/javascript" src="/dnd/resources/javascript/theme-switcher.js"></script>
+    <script defer async>
       (function() {
         document.body.classList.add('js-enabled');
-        document.querySelector('#theme-switcher').addEventListener('click', function() {
-          const maintheme = document.getElementById('theme-default');
-          const lightmode = document.getElementById('theme-light');
-          const darkmode = document.getElementById('theme-dark');
-          if (this.checked) {
-            maintheme.href = darkmode.href;
-          } else {
-            maintheme.href = lightmode.href;
-          }
-        });
-        if (window.matchMedia('(prefers-color-scheme: light)').matches) {
-          document.querySelector('#theme-switcher').dispatchEvent(new Event('click'));
-        }
       })();
     </script>
   </body>

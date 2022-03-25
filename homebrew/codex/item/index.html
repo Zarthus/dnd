@@ -19,7 +19,7 @@
     <meta name="theme-color" content="#ffffff">
     <title>Homebrew Codex - Items</title>
   </head>
-  <body class="page-homebrew-codex%20-%20items">
+  <body class="page-homebrew-codex-items">
     <nav class="navbar">
       <div class="navbar-item has-dropdown is-hoverable is-mega">
         <a aria-label="Skip to main content" href="#content-main" aria-hidden="false" id="skip-to-content">Skip to main content</a>
@@ -140,22 +140,10 @@
         </div>
       </div>
     </footer>
-    <script defer>
+    <script async defer type="text/javascript" src="/dnd/resources/javascript/theme-switcher.js"></script>
+    <script defer async>
       (function() {
         document.body.classList.add('js-enabled');
-        document.querySelector('#theme-switcher').addEventListener('click', function() {
-          const maintheme = document.getElementById('theme-default');
-          const lightmode = document.getElementById('theme-light');
-          const darkmode = document.getElementById('theme-dark');
-          if (this.checked) {
-            maintheme.href = darkmode.href;
-          } else {
-            maintheme.href = lightmode.href;
-          }
-        });
-        if (window.matchMedia('(prefers-color-scheme: light)').matches) {
-          document.querySelector('#theme-switcher').dispatchEvent(new Event('click'));
-        }
       })();
     </script>
   </body>
