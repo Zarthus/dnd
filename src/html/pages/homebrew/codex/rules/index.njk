@@ -1,2 +1,54 @@
 {% set page_name = 'Homebrew Codex - Rules' %}
-{% extends "layouts/wip.njk" %}
+{% extends "layouts/layout.njk" %}
+
+{% set houserules_json = (root_path + '/src/assets/json/house-rules.json') | json_parse %}
+{% import 'macros/link.njk' as link %}
+
+{% block content %}
+    <div class="container">
+        {% if not houserules_json.profiles | empty %}
+        <section class="profile-select section">
+            <div class="box content">
+            <p class="title is-5">Profile Selection</p>
+            {% for key, value in houserules_json.profiles %}
+                <button class="button is-link toggle-profile profile-{{ key }}" data-profile="{{ key }}" value="#profile={{ key }}">
+                    {{ key }}
+                </button>
+            {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+
+        <section class="rule-select section">
+            {% for rule in houserules_json.rules %}
+                {% include "partials/house-rule.njk" %}
+            {% endfor %}
+        </section>
+
+        <section class="resources-overview section content">
+            <h4 class="subtitle">Resources</h4>
+            {% for resource in houserules_json.resources %}
+                <div class="message is-link">
+                    <div class="message-body">
+                        {% if resource.url %}
+                            <p>{{ link.external(resource.url, resource.title) }}</p>
+                        {% else %}
+                            <p>{{ resource.title }}</p>
+                        {% endif %}
+                    </div>
+                </div>
+                {% for key, value in resources %}
+                    <p>{{ key }}: {{ value }}</p>
+                {% endfor %}
+            {% endfor %}
+        </section>
+    </div>
+{% endblock %}
+
+{% block styles %}
+    {{ link.style('house-rules.css') }}
+{% endblock %}
+
+{% block scripts %}
+    {{ link.script('house-rules.js') }}
+{% endblock %}

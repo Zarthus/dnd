@@ -1,0 +1,272 @@
+{
+  "profiles": {
+    "none": [],
+    "zarthus": [
+      "money-only-gp",
+      "money-no-weight",
+      "units-metric",
+      "no-encumbrance",
+      "levelup-roll-hp",
+      "injuries-linger",
+      "rule-of-cool",
+      "flanking-bonus",
+      "disable-weapon-sheathing",
+      "help-requires-proficiency"
+    ]
+  },
+
+  "rules": [
+    {
+      "id": "money-only-gp",
+      "title": "GP is the only primary currency used",
+      "description": [
+        "There are originally 5 currencies in D&D - copper, silver, gold, electrum, and platinum.\n",
+        "This rule adjusts it so that gold (GP) is the only currency you hold.\n"
+      ],
+      "applications": ["combat", "overworld"],
+      "suggestions": ["money-no-weight"],
+      "categories": ["reduces-complexity"],
+      "pros": [
+        "Less things to keep track of",
+        "Solves 'oh, i have 1 gold piece, I'll have your axe for 50 silver. can you trade me for 50 silver and that axe?'."
+      ],
+      "cons": [
+        "Distorts game balance",
+        "Might feel weird giving 'one gold piece' to a beggar as a donation"
+      ]
+    },
+
+    {
+      "id": "money-no-weight",
+      "enabled": true,
+      "title": "GP has no weight",
+      "description": [
+        "Money originally has weight, this stops that.\n"
+      ],
+      "applications": ["combat", "overworld"],
+      "suggestions": [],
+      "categories": ["reduces-complexity", "weight"],
+      "pros": [],
+      "cons": []
+    },
+
+    {
+      "id": "units-metric",
+      "title": "Referenced units will be in metrics rather than imperial",
+      "description": [
+        "D&D is a game created in America, and thus uses imperial units (like pounds and miles.)\n",
+        "With this rule in place, metric units will be used (like kilograms and kilometers.)\n"
+      ],
+      "applications": ["combat", "overworld"],
+      "suggestions": [],
+      "categories": ["reduces-complexity"],
+      "pros": [
+        "Groups used to metric units will have an easier time visualising distance, weight, and scale."
+      ],
+      "cons": []
+    },
+
+    {
+      "id": "no-emcumbrance",
+      "title": "Prefer role-playing / 'realism' for carry capacity rather than a loot table with weight.",
+      "description": [
+        "Encumberance is a mechanic to indicate you are carrying too much. When set, this complication can be foregone",
+        "This does not mean you can carry whatever you want - it's unrealistic to have 5 axes and 2 greatswords.\n",
+        "It just means that players are competent and trustworthy enough to decide for themselves whether or not if they can carry it or not, ",
+        "and are willing to forego realism in favor of convienience.\n",
+        "The DM will have the final say on whether or not you can carry this new item you're about to pick up.\n"
+      ],
+      "applications": ["combat", "overworld"],
+      "suggestions": [],
+      "categories": ["reduces-complexity", "weight"],
+      "pros": [],
+      "cons": []
+    },
+
+    {
+      "id": "injuries-linger",
+      "title": "Near-death situations or traumatic events may leave lingering injuries on characters",
+      "description": [
+        "NPCs, player-characters, animals and more may sustain long-term injuries that cannot be restored with a low-skill healing spell ",
+        "or healing potion. Think about broken bones, or gaining new (negative) traits like trauma.\n",
+        "It would take seeking some medical person in a town, a long rest or a long period of time, or something else to restore this injury.\n"
+      ],
+      "applications": ["combat", "overworld"],
+      "suggestions": [],
+      "categories": ["enhancement"],
+      "pros": [
+        "Players are incentivised to avoid (near) death"
+      ],
+      "cons": []
+    },
+
+    {
+      "id": "rule-of-cool",
+      "title": "Good roleplaying, creative thinking, and unique approaches get rewarded",
+      "description": [
+        "Players get rewarded for thinking outside of the box and applying creative problem solving.\n"
+      ],
+      "applications": ["combat", "overworld"],
+      "suggestions": [],
+      "categories": ["enhancement"],
+      "pros": [
+        "Incentivizes good roleplaying"
+      ],
+      "cons": []
+    },
+
+    {
+      "id": "flanking-bonus",
+      "title": "Flanking an enemy gives you a bonus to your roll",
+      "description": [
+        "When flanking an enemy, an agreed upon value is added to your roll - e.g. +1 or +2\n"
+      ],
+      "applications": ["combat"],
+      "suggestions": [],
+      "categories": ["enhancement"],
+      "pros": [],
+      "cons": []
+    },
+
+    {
+      "id": "bonus-action-healing-potions",
+      "title": "Healing Potions become a bonus action",
+      "description": [
+        "Official rules suggest healing potions are a primary action, with this rule in place that is no longer the case.\n"
+      ],
+      "applications": ["combat"],
+      "suggestions": [],
+      "categories": ["enhancement"],
+      "pros": [],
+      "cons": [
+        "Might make combat too easy, affecting balancing"
+      ]
+    },
+
+    {
+      "id": "help-requires-proficiency",
+      "title": "Helping Actions require Proficiency in the relevant skill",
+      "description": [
+        "A low-arcana barbarian cannot assist a high-arcana wizard with an arcana skill check.\n",
+        "A high-strength barbarian cannot be assisted by a low-strength wizard with a strength skill check.\n"
+      ],
+      "applications": ["combat", "overworld"],
+      "suggestions": [],
+      "categories": ["enhancement"],
+      "pros": [],
+      "cons": []
+    },
+
+    {
+      "id": "critical-skill-checks",
+      "title": "A natural 20 is (nearly) guaranteed success. A natural 1 is (nearly guaranteed) failure.",
+      "description": [
+        "If you roll fantastic, you can do things you normally cannot. And the inverse.\n"
+      ],
+      "applications": ["combat", "overworld"],
+      "suggestions": [],
+      "categories": ["enhancement"],
+      "pros": [],
+      "cons": [
+        "Leads to potentially awkward situations",
+        "DM needs to pay a lot of attention to what players roll for to avoid long-term campaign problems"
+      ]
+    },
+
+    {
+      "id": "faint-causes-exhaustion",
+      "title": "You gain a level of exhaustion when you are knocked unconcious",
+      "description": [
+        "Discourage fainting by granting exhaustion on HP reduction to 0.\n"
+      ],
+      "applications": ["combat"],
+      "suggestions": [],
+      "categories": ["enhancement"],
+      "pros": [],
+      "cons": []
+    },
+
+    {
+      "id": "disable-weapon-sheathing",
+      "title": "Weapon Sheathe / Drawing is unnecessary",
+      "description": [
+        "When combat begins, weapons are automatically drawn. You may still role-play that you draw or sheathe your weapon, of course.\n",
+        "Disarming can still happen, in which case the weapon needs to be picked up.\n",
+        "\nOptional: Surprise attacks, ambushes, etc. still require retrieving your weapon(s).\n"
+      ],
+      "applications": ["combat"],
+      "suggestions": [],
+      "categories": ["enhancement"],
+      "pros": [],
+      "cons": []
+    },
+
+    {
+      "id": "levelup-roll-hp",
+      "title": "Roll hit die for HP on level up",
+      "description": [
+        "Rolling for HP on level up\n",
+        "\nOptional: The con modifier may also be used.\n",
+        "\nOptional: Grant re-rolls on streaks of bad luck.\n"
+      ],
+      "applications": ["character"],
+      "suggestions": [],
+      "categories": ["enhancement"],
+      "pros": [
+        "Promotes fun"
+      ],
+      "cons": []
+    },
+
+    {
+      "id": "0hp-may-not-faint",
+      "title": "Reaching 0 HP may not cause you to faint",
+      "description": [
+        "You can still do minor actions\n"
+      ],
+      "applications": ["combat"],
+      "suggestions": [],
+      "categories": ["enhancement"],
+      "pros": [
+        "Allow a fainted player to do something while on 0 HP so they aren't just out and rolling."
+      ],
+      "cons": [
+        "May reduce stakes of combat"
+      ]
+    },
+
+    {
+      "id": "inspiration-enhancements",
+      "title": "Inspiration is granted for certain actions",
+      "description": [
+        "Inspiration may be granted on some of the following:\n",
+        "- Joining the session on time\n",
+        "- End of the session MVP vote\n",
+        "- End of combat MVP vote\n",
+        "\nOptional: Inspiration resets on session.\n"
+      ],
+      "applications": ["combat", "overworld"],
+      "suggestions": [],
+      "categories": ["enhancement", "inspiration"],
+      "pros": [
+        "Makes it easier to award inspiration points",
+        "Makes it harder to forget about the inspiration mechanic"
+      ],
+      "cons": []
+    }
+
+  ],
+
+  "resources": [
+    {
+      "title": "Official Dungeon Master's Guide",
+      "type": "book",
+      "url": null
+    },
+    {
+      "title": "Are D&D House Rules Right For You - Ginny Di",
+      "type": "video",
+      "url": "https://youtu.be/FzibcPR06w8"
+    }
+  ]
+}

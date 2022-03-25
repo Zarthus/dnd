@@ -1,0 +1,51 @@
+{# a single rule in house-rules.json #}
+<article id="rule-{{ rule.id }}"
+         class="message content house-rule is-info"
+         data-categories="{{ rule.categories | join(' ') }}"
+         data-applications="{{ rule.applications | join(' ') }}"
+>
+    <div class="message-header">
+        <p class="title is-5 has-text-white">{{ rule.title }}</p>
+
+        <a href="#collapse:{{ rule.id }}"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
+    </div>
+    <div class="message-body">
+        <span class="tag is-primary is-medium">{{ link.relative('#rule-' + rule.id, rule.id) }}</span>
+        {% for category in rule.categories %}
+            <span class="tag is-info is-medium">{{ link.relative('#filter:category=' + category, category) }}</span>
+        {% endfor %}
+        {% for application in rule.applications %}
+            <span class="tag is-info is-medium">{{ link.relative('#filter:application=' + application, application) }}</span>
+        {% endfor %}
+        <br><br>
+        <p>{{ rule.description | nl2br | safe }}</p>
+
+        {% if not rule.pros | empty %}
+            <h4 class="subtitle">Pros</h4>
+            <ul class="list">
+                {% for pro in rule.pros %}
+                    <li>{{ pro }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+        {% if not rule.cons | empty %}
+            <h4 class="subtitle">Cons</h4>
+            <ul class="list">
+                {% for con in rule.cons %}
+                    <li>{{ con }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+        {% if not rule.suggestions | empty %}
+            <h4 class="subtitle">Suggested</h4>
+            {% for suggestion in rule.suggestions %}
+                <p>{{ link.relative('#rule-' + suggestion, suggestion) }}</p>
+            {% endfor %}
+        {% endif %}
+
+        <br>
+        <button class="button is-info select-house-rule">Select</button>
+    </div>
+</article>
