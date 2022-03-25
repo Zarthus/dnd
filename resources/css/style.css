@@ -12683,8 +12683,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 #main-header {
-  border-top: 2px solid #98c379;
-  border-bottom: 2px solid #98c379;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   margin-bottom: 1.5rem;

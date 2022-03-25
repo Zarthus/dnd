@@ -103,13 +103,12 @@
     </header>
     <div id="content-main"></div>
     <div class="container">
-      <section class="profile-select section">
+      <section class="profile-select section is-js">
         <div class="box content">
           <p class="title is-5">Profile Selection</p>
-          <button class="button is-link toggle-profile profile-none" data-profile="none" value="#profile=none">
-            none
-          </button>
-          <button class="button is-link toggle-profile profile-zarthus" data-profile="zarthus" value="#profile=zarthus">
+          <button class="button is-link toggle-profile profile-all" data-profile="rule-all" value="#profile=all">all</button>
+          <button class="button is-link toggle-profile profile-none" data-profile value="#profile=none">none</button>
+          <button class="button is-link toggle-profile profile-zarthus" data-profile="rule-bonus-action-healing-potions rule-disable-weapon-sheathing rule-flanking-bonus rule-help-requires-proficiency rule-injuries-linger rule-inspiration-enhancements rule-levelup-roll-hp rule-money-no-weight rule-money-only-gp rule-no-encumbrance rule-rule-of-cool rule-units-metric " value="#profile=zarthus">
             zarthus
           </button>
         </div>
@@ -144,7 +143,6 @@
             <h4 class="subtitle">Suggested</h4>
             <p><a href="/dnd#rule-money-no-weight">money-no-weight</a></p>
             <br>
-            <button class="button is-info select-house-rule">Select</button>
           </div>
         </article>
         <article id="rule-money-no-weight" class="message content house-rule is-info" data-categories="reduces-complexity weight" data-applications="combat overworld">
@@ -163,7 +161,6 @@
               <br>
             </p>
             <br>
-            <button class="button is-info select-house-rule">Select</button>
           </div>
         </article>
         <article id="rule-units-metric" class="message content house-rule is-info" data-categories="reduces-complexity" data-applications="combat overworld">
@@ -187,16 +184,15 @@
               <li>Groups used to metric units will have an easier time visualising distance, weight, and scale.</li>
             </ul>
             <br>
-            <button class="button is-info select-house-rule">Select</button>
           </div>
         </article>
-        <article id="rule-no-emcumbrance" class="message content house-rule is-info" data-categories="reduces-complexity weight" data-applications="combat overworld">
+        <article id="rule-no-encumbrance" class="message content house-rule is-info" data-categories="reduces-complexity weight" data-applications="combat overworld">
           <div class="message-header">
             <p class="title is-5 has-text-white">Prefer role-playing / &#39;realism&#39; for carry capacity rather than a loot table with weight.</p>
-            <a href="#collapse:no-emcumbrance"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
+            <a href="#collapse:no-encumbrance"><button class="bi-arrows-collapse is-pulled-right is-js fn-collapse" aria-label="Collapse"></button></a>
           </div>
           <div class="message-body">
-            <span class="tag is-primary is-medium"><a href="/dnd#rule-no-emcumbrance">no-emcumbrance</a></span>
+            <span class="tag is-primary is-medium"><a href="/dnd#rule-no-encumbrance">no-encumbrance</a></span>
             <span class="tag is-info is-medium"><a href="/dnd#filter:category=reduces-complexity">reduces-complexity</a></span>
             <span class="tag is-info is-medium"><a href="/dnd#filter:category=weight">weight</a></span>
             <span class="tag is-info is-medium"><a href="/dnd#filter:application=combat">combat</a></span>
@@ -212,7 +208,6 @@
               <br>
             </p>
             <br>
-            <button class="button is-info select-house-rule">Select</button>
           </div>
         </article>
         <article id="rule-injuries-linger" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat overworld">
@@ -237,7 +232,6 @@
               <li>Players are incentivised to avoid (near) death</li>
             </ul>
             <br>
-            <button class="button is-info select-house-rule">Select</button>
           </div>
         </article>
         <article id="rule-rule-of-cool" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat overworld">
@@ -259,7 +253,6 @@
               <li>Incentivizes good roleplaying</li>
             </ul>
             <br>
-            <button class="button is-info select-house-rule">Select</button>
           </div>
         </article>
         <article id="rule-flanking-bonus" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat">
@@ -276,7 +269,6 @@
               <br>
             </p>
             <br>
-            <button class="button is-info select-house-rule">Select</button>
           </div>
         </article>
         <article id="rule-bonus-action-healing-potions" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat">
@@ -297,7 +289,6 @@
               <li>Might make combat too easy, affecting balancing</li>
             </ul>
             <br>
-            <button class="button is-info select-house-rule">Select</button>
           </div>
         </article>
         <article id="rule-help-requires-proficiency" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat overworld">
@@ -317,7 +308,6 @@
               <br>
             </p>
             <br>
-            <button class="button is-info select-house-rule">Select</button>
           </div>
         </article>
         <article id="rule-critical-skill-checks" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat overworld">
@@ -340,7 +330,6 @@
               <li>DM needs to pay a lot of attention to what players roll for to avoid long-term campaign problems</li>
             </ul>
             <br>
-            <button class="button is-info select-house-rule">Select</button>
           </div>
         </article>
         <article id="rule-faint-causes-exhaustion" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat">
@@ -357,7 +346,6 @@
               <br>
             </p>
             <br>
-            <button class="button is-info select-house-rule">Select</button>
           </div>
         </article>
         <article id="rule-disable-weapon-sheathing" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat">
@@ -378,7 +366,6 @@
               <br>
             </p>
             <br>
-            <button class="button is-info select-house-rule">Select</button>
           </div>
         </article>
         <article id="rule-levelup-roll-hp" class="message content house-rule is-info" data-categories="enhancement" data-applications="character">
@@ -403,7 +390,6 @@
               <li>Promotes fun</li>
             </ul>
             <br>
-            <button class="button is-info select-house-rule">Select</button>
           </div>
         </article>
         <article id="rule-0hp-may-not-faint" class="message content house-rule is-info" data-categories="enhancement" data-applications="combat">
@@ -428,7 +414,6 @@
               <li>May reduce stakes of combat</li>
             </ul>
             <br>
-            <button class="button is-info select-house-rule">Select</button>
           </div>
         </article>
         <article id="rule-inspiration-enhancements" class="message content house-rule is-info" data-categories="enhancement inspiration" data-applications="combat overworld">
@@ -460,7 +445,6 @@
               <li>Makes it harder to forget about the inspiration mechanic</li>
             </ul>
             <br>
-            <button class="button is-info select-house-rule">Select</button>
           </div>
         </article>
       </section>

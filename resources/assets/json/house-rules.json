@@ -1,17 +1,18 @@
 {
   "profiles": {
-    "none": [],
     "zarthus": [
-      "money-only-gp",
-      "money-no-weight",
-      "units-metric",
-      "no-encumbrance",
-      "levelup-roll-hp",
-      "injuries-linger",
-      "rule-of-cool",
-      "flanking-bonus",
+      "bonus-action-healing-potions",
       "disable-weapon-sheathing",
-      "help-requires-proficiency"
+      "flanking-bonus",
+      "help-requires-proficiency",
+      "injuries-linger",
+      "inspiration-enhancements",
+      "levelup-roll-hp",
+      "money-no-weight",
+      "money-only-gp",
+      "no-encumbrance",
+      "rule-of-cool",
+      "units-metric"
     ]
   },
 
@@ -67,7 +68,7 @@
     },
 
     {
-      "id": "no-emcumbrance",
+      "id": "no-encumbrance",
       "title": "Prefer role-playing / 'realism' for carry capacity rather than a loot table with weight.",
       "description": [
         "Encumberance is a mechanic to indicate you are carrying too much. When set, this complication can be foregone",
