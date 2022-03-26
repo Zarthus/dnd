@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 /*! bulma.io v0.9.3 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 .pagination-previous,
 .pagination-next,
 .pagination-link,
@@ -12682,11 +12683,24 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   display: block;
 }
 
-#main-header {
+.theme-dark #main-header {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   margin-bottom: 1.5rem;
   background: linear-gradient(35deg, #61afef 0%, #1163a6 20%, #072c4a 40%, #282c34 75%, #282c34 100%);
+}
+.theme-dark #main-header h1, .theme-dark #main-header h2 {
+  color: inherit;
+}
+
+.theme-light #main-header {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(35deg, #61afef 0%, #1163a6 20%, #072c4a 40%, white 75%, white 100%);
+}
+.theme-light #main-header h1, .theme-light #main-header h2 {
+  color: #b5b5b5;
 }
 
 body:not(.js-enabled) .is-js {

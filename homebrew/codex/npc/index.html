@@ -17,9 +17,10 @@
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="msapplication-config" content="/resources/assets/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/dnd/resources/css/codex/npcs.css" />
     <title>Homebrew Codex - NPCs</title>
   </head>
-  <body class="page-homebrew-codex-npcs">
+  <body class="page-homebrew-codex-npcs theme-dark">
     <nav class="navbar">
       <div class="navbar-item has-dropdown is-hoverable is-mega">
         <a aria-label="Skip to main content" href="#content-main" aria-hidden="false" id="skip-to-content">Skip to main content</a>
@@ -57,13 +58,14 @@
                 <h2 class="title is-4 is-mega-menu-title">Campaign</h2>
                 <div class="navbar-item">
                   <div class="navbar-content">
-                    <p><small class="has-text-info">World</small></p>
+                    <p><small class="is-primary">World</small></p>
                     <p><a href="/dnd/campaign/main/world">Overview</a></p>
+                    <p><a href="/dnd/campaign/main/world/dungeons">Dungeons</a></p>
                   </div>
                 </div>
                 <div class="navbar-item">
                   <div class="navbar-content">
-                    <p><small class="has-text-info">Story</small></p>
+                    <p><small class="is-primary">Story</small></p>
                     <p><a href="/dnd/campaign/main/world/story-arcs">Story Arcs</a></p>
                     <p><a href="/dnd/campaign/main/world/story-shorts">Short Stories, One-shots & Two-shots</a></p>
                   </div>
@@ -101,9 +103,841 @@
       </section>
     </header>
     <div id="content-main"></div>
-    <div class="container is-max-desktop is-info">
-      <h2 class="title is-3">Work in Progress</h2>
-      <h3 class="title is-5">Come back later</h3>
+    <div class="container">
+      <div class="columns">
+        <div class="column is-offset-3 is-6 has-text-warning">
+          <span class="bi-asterisk"></span>
+          The information below might spoil elements of future campaigns or one-shots.
+          If you are a player you might wish to stop reading to maintain elements of surprise and wonder.
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-offset-3 is-6 has-text-info">
+          <span class="has-text-warning"><span class="bi-asterisk"></span> Artwork may follow a different license.</span>
+          <br>
+          <br>
+          <span class="bi-info-circle"></span>
+          NPCs are sorted by: Race, Class, Name (alphabetically)
+          <br>
+          The purpose of this directory is to inspire you with your own NPCs.
+        </div>
+      </div>
+      <hr>
+      <div class="columns is-multiline">
+        <div id="npc-balthazar" class="card npc column is-one-third" data-name="Balthazar">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <span class="circle is-medium is-danger is-pulled-right hitpoints" data-value="22">HP 22</span>
+                <span class="circle is-medium is-success is-pulled-right armor-class" data-value="16">AC 16</span>
+                <span class="circle is-medium is-success is-pulled-right alignment" data-alignment="TN"><abbr title="True Neutral">TN</abbr></span>
+                <p class="title is-5">
+                  Balthazar
+                </p>
+                <p class="subtitle is-6" data-race="dragonborn" data-class="artificer">
+                  <span class="dnd-race-dragonborn">Dragonborn</span> <span class="dnd-class-artificer">Artificer</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="dnd-stats-str circle is-small">STR 15</div>
+            <div class="dnd-stats-dex circle is-small">DEX 12</div>
+            <div class="dnd-stats-con circle is-small">CON 14</div>
+            <div class="dnd-stats-int circle is-small">INT 11</div>
+            <div class="dnd-stats-wis circle is-small">WIS 11</div>
+            <div class="dnd-stats-cha circle is-small">CHA 14</div>
+          </div>
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://dummyimage.com/240x180/b03a3a/000000.png" alt="NPC Balthazar" title="Unknown author">
+            </figure>
+          </div>
+          <div class="card-content">
+            <details>
+              <summary class="is-6"><b>Background</b></summary>
+              This proud dragonborn belonging to the Delmirev clan towers before most people, it has travelled together with a pet for several years that has grown to be it's most valued companion.
+            </details>
+            <details>
+              <summary class="is-6"><b>Spells</b></summary>
+              <a target="_blank" href="https://dndspellslist.com/spells/dragonic-ancestry-bronze-lightning-by-line-dex-save">Dragonic Ancestry: Bronze | Lightning 5 by 30 (line) | Dex Save</a><br>
+            </details>
+          </div>
+          <div class="card-footer">
+            <div class="card-footer-item">
+              <p>
+                Writer: <a href="https://github.com/zarthus" target="_blank">Zarthus
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                License:
+                <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 4.0
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="npc-ar-imen" class="card npc column is-one-third" data-name="Ar-imen">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <span class="circle is-medium is-danger is-pulled-right hitpoints" data-value="22">HP 22</span>
+                <span class="circle is-medium is-success is-pulled-right armor-class" data-value="12">AC 12</span>
+                <span class="circle is-medium is-success is-pulled-right alignment" data-alignment="NE"><abbr title="Neutral Evil">NE</abbr></span>
+                <p class="title is-5">
+                  Ar-imen
+                </p>
+                <p class="subtitle is-6" data-race="elf" data-class="ranger">
+                  <span class="dnd-race-elf">Elf</span> <span class="dnd-class-ranger">Ranger</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="dnd-stats-str circle is-small">STR 8</div>
+            <div class="dnd-stats-dex circle is-small">DEX 14</div>
+            <div class="dnd-stats-con circle is-small">CON 12</div>
+            <div class="dnd-stats-int circle is-small">INT 14</div>
+            <div class="dnd-stats-wis circle is-small">WIS 14</div>
+            <div class="dnd-stats-cha circle is-small">CHA 14</div>
+          </div>
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <a href="https://www.hanakogames.com/sword_daughter.shtml">
+                <img src="/dnd/resources/assets/npc/ar-imen.jpg" alt="NPC Ar-imen" title="Kim Sokol (Hanako Games)">
+              </a>
+            </figure>
+          </div>
+          <div class="card-content">
+            <details>
+              <summary class="is-6"><b>Background</b></summary>
+              Ar-imen is an elf that has been imprisoned by humans for years, and has grown a severe distrust towards them
+            </details>
+            <details>
+              <summary class="is-6"><b>Spells</b></summary>
+              <a target="_blank" href="https://dndspellslist.com/spells/animal-companion">Animal Companion</a><br>
+            </details>
+            <details>
+              <summary class="is-6"><b>Equipment</b></summary>
+              <a target="_blank" href="https://www.dndbeyond.com/equipment/longsword">Longsword</a> (1d8 slashing)<br>
+              <a target="_blank" href="https://www.dndbeyond.com/equipment/longbow">Longbow</a> (1d8 piercing)<br>
+            </details>
+          </div>
+          <div class="card-footer">
+            <div class="card-footer-item">
+              <p>
+                Writer: <a href="https://github.com/zarthus" target="_blank">Zarthus
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                Artist: <a href="https://www.hanakogames.com/" target="_blank">Kim Sokol (Hanako Games)
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                License:
+                <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 4.0
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="npc-quatix-kindriver" class="card npc column is-one-third" data-name="Quatix Kindriver">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <span class="circle is-medium is-danger is-pulled-right hitpoints" data-value="15">HP 15</span>
+                <span class="circle is-medium is-success is-pulled-right armor-class" data-value="10">AC 10</span>
+                <span class="circle is-medium is-success is-pulled-right alignment" data-alignment="LG"><abbr title="Lawful Good">LG</abbr></span>
+                <p class="title is-5">
+                  Quatix Kindriver
+                </p>
+                <p class="subtitle is-6" data-race="gnome" data-class="fighter">
+                  <span class="dnd-race-gnome">Gnome</span> <span class="dnd-class-fighter">Fighter</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="dnd-stats-str circle is-small">STR 12</div>
+            <div class="dnd-stats-dex circle is-small">DEX 12</div>
+            <div class="dnd-stats-con circle is-small">CON 11</div>
+            <div class="dnd-stats-int circle is-small">INT 8</div>
+            <div class="dnd-stats-wis circle is-small">WIS 8</div>
+            <div class="dnd-stats-cha circle is-small">CHA 12</div>
+          </div>
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://dummyimage.com/240x180/eeeeee/000000.png" alt="NPC Quatix Kindriver" title="Unknown author">
+            </figure>
+          </div>
+          <div class="card-content">
+          </div>
+          <div class="card-footer">
+            <div class="card-footer-item">
+              <p>
+                Writer: <a href="https://github.com/zarthus" target="_blank">Zarthus
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                License:
+                <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 4.0
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="npc-thing-smasher-" class="card npc column is-one-third" data-name="Thing Smasher #39">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <span class="circle is-medium is-danger is-pulled-right hitpoints" data-value="40">HP 40</span>
+                <span class="circle is-medium is-success is-pulled-right armor-class" data-value="13">AC 13</span>
+                <span class="circle is-medium is-success is-pulled-right alignment" data-alignment="CG"><abbr title="Chaotic Good">CG</abbr></span>
+                <p class="title is-5">
+                  Thing Smasher #39
+                </p>
+                <p class="subtitle is-6" data-race="half-orc" data-class="barbarian">
+                  <span class="dnd-race-half-orc">Half-Orc</span> <span class="dnd-class-barbarian">Barbarian</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="dnd-stats-str circle is-small">STR 18</div>
+            <div class="dnd-stats-dex circle is-small">DEX 12</div>
+            <div class="dnd-stats-con circle is-small">CON 18</div>
+            <div class="dnd-stats-int circle is-small">INT 8</div>
+            <div class="dnd-stats-wis circle is-small">WIS 8</div>
+            <div class="dnd-stats-cha circle is-small">CHA 6</div>
+          </div>
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <a href="https://thearcademan.net/">
+                <img src="/dnd/resources/assets/npc/thingsmasher.jpg" alt="NPC Thing Smasher #39" title="The Arcade Man">
+              </a>
+            </figure>
+          </div>
+          <div class="card-content">
+            <details>
+              <summary class="is-6"><b>Background</b></summary>
+              The title "Thing Smasher" was granted to this Barbarian after winning the Orc Super Smash #39, a yearly event where many orcs and half-orcs gather to smash as many things in as short as time as possible. They have astonished the crowds when they cast Mage Hand to help smashing things. No Orc in the history of the Orc Super Smash before has ever Smashed Things using three hands.
+            </details>
+            <details>
+              <summary class="is-6"><b>Features &amp; Traits</b></summary>
+              Thing Smasher isn't particularily smart or knows a whole lot about the world. But they don't mind: They have found the thing they are good at: Smashing Things.
+              Thing Smasher has an upbeat, happy-go-round and easily-distracted personality that isn't afraid of any Thing, because they WILL Smash it!
+            </details>
+            <details>
+              <summary class="is-6"><b>Spells</b></summary>
+              <a target="_blank" href="https://dndspellslist.com/spells/mage-hand">Mage Hand</a><br>
+            </details>
+            <details>
+              <summary class="is-6"><b>Equipment</b></summary>
+              Left-Hand: <a target="_blank" href="https://www.dndbeyond.com/equipment/battleaxe">Battleaxe</a> (1d8 slashing)<br>
+              Other Left-Hand: <a target="_blank" href="https://www.dndbeyond.com/equipment/warhammer">Warhammer</a> (1d8 bludgeoning)<br>
+              Armour: <a target="_blank" href="https://www.dndbeyond.com/equipment/leather">Leather</a><br>
+            </details>
+          </div>
+          <div class="card-footer">
+            <div class="card-footer-item">
+              <p>
+                Writer: <a href="https://github.com/zarthus" target="_blank">Zarthus
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                Artist: <a href="https://thearcademan.net/" target="_blank">The Arcade Man
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                License:
+                <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 4.0
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="npc-il-bryen" class="card npc column is-one-third" data-name="Il&#39;bryen">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <span class="circle is-medium is-danger is-pulled-right hitpoints" data-value="14">HP 14</span>
+                <span class="circle is-medium is-success is-pulled-right armor-class" data-value="8">AC 8</span>
+                <span class="circle is-medium is-success is-pulled-right alignment" data-alignment="CE"><abbr title="Chaotic Evil">CE</abbr></span>
+                <p class="title is-5">
+                  Il&#39;bryen
+                </p>
+                <p class="subtitle is-6" data-race="half-orc" data-class="warlock">
+                  <span class="dnd-race-half-orc">Half-Orc</span> <span class="dnd-class-warlock">Warlock</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="dnd-stats-str circle is-small">STR 8</div>
+            <div class="dnd-stats-dex circle is-small">DEX 8</div>
+            <div class="dnd-stats-con circle is-small">CON 12</div>
+            <div class="dnd-stats-int circle is-small">INT 16</div>
+            <div class="dnd-stats-wis circle is-small">WIS 16</div>
+            <div class="dnd-stats-cha circle is-small">CHA 12</div>
+          </div>
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <a href="https://sagegamers.com/dd-5e-half-orc-warlock-guide/">
+                <img src="/dnd/resources/assets/npc/il-bryen.png" alt="NPC Il&#39;bryen" title="Sage Gamers">
+              </a>
+            </figure>
+          </div>
+          <div class="card-content">
+          </div>
+          <div class="card-footer">
+            <div class="card-footer-item">
+              <p>
+                Writer: <a href="https://github.com/zarthus" target="_blank">Zarthus
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                Artist: <a href="https://sagegamers.com" target="_blank">Sage Gamers
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                License:
+                <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 4.0
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="npc-leonela-vigour" class="card npc column is-one-third" data-name="Leonela Vigour">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <span class="circle is-medium is-danger is-pulled-right hitpoints" data-value="18">HP 18</span>
+                <span class="circle is-medium is-success is-pulled-right armor-class" data-value="15">AC 15</span>
+                <span class="circle is-medium is-success is-pulled-right alignment" data-alignment="LG"><abbr title="Lawful Good">LG</abbr></span>
+                <p class="title is-5">
+                  Leonela Vigour
+                </p>
+                <p class="subtitle is-6" data-race="human" data-class="cleric">
+                  <span class="dnd-race-human">Human</span> <span class="dnd-class-cleric">Cleric</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="dnd-stats-str circle is-small">STR 12</div>
+            <div class="dnd-stats-dex circle is-small">DEX 10</div>
+            <div class="dnd-stats-con circle is-small">CON 14</div>
+            <div class="dnd-stats-int circle is-small">INT 14</div>
+            <div class="dnd-stats-wis circle is-small">WIS 14</div>
+            <div class="dnd-stats-cha circle is-small">CHA 12</div>
+          </div>
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://dummyimage.com/240x180/3eaba0/000000.png" alt="NPC Leonela Vigour" title="Unknown author">
+            </figure>
+          </div>
+          <div class="card-content">
+          </div>
+          <div class="card-footer">
+            <div class="card-footer-item">
+              <p>
+                Writer: <a href="https://github.com/zarthus" target="_blank">Zarthus
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                License:
+                <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 4.0
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="npc-keya-vertigo" class="card npc column is-one-third" data-name="Keya Vertigo">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <span class="circle is-medium is-danger is-pulled-right hitpoints" data-value="22">HP 22</span>
+                <span class="circle is-medium is-success is-pulled-right armor-class" data-value="11">AC 11</span>
+                <span class="circle is-medium is-success is-pulled-right alignment" data-alignment="LE"><abbr title="Lawful Evil">LE</abbr></span>
+                <p class="title is-5">
+                  Keya Vertigo
+                </p>
+                <p class="subtitle is-6" data-race="human" data-class="monk">
+                  <span class="dnd-race-human">Human</span> <span class="dnd-class-monk">Monk</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="dnd-stats-str circle is-small">STR 13</div>
+            <div class="dnd-stats-dex circle is-small">DEX 13</div>
+            <div class="dnd-stats-con circle is-small">CON 13</div>
+            <div class="dnd-stats-int circle is-small">INT 9</div>
+            <div class="dnd-stats-wis circle is-small">WIS 9</div>
+            <div class="dnd-stats-cha circle is-small">CHA 11</div>
+          </div>
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://dummyimage.com/240x180/9e4444/000000.png" alt="NPC Keya Vertigo" title="Unknown author">
+            </figure>
+          </div>
+          <div class="card-content">
+          </div>
+          <div class="card-footer">
+            <div class="card-footer-item">
+              <p>
+                Writer: <a href="https://github.com/zarthus" target="_blank">Zarthus
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                License:
+                <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 4.0
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="npc-carissa-sparrow" class="card npc column is-one-third" data-name="Carissa Sparrow">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <span class="circle is-medium is-danger is-pulled-right hitpoints" data-value="33">HP 33</span>
+                <span class="circle is-medium is-success is-pulled-right armor-class" data-value="11">AC 11</span>
+                <span class="circle is-medium is-success is-pulled-right alignment" data-alignment="LG"><abbr title="Lawful Good">LG</abbr></span>
+                <p class="title is-5">
+                  Carissa Sparrow
+                </p>
+                <p class="subtitle is-6" data-race="human" data-class="ranger">
+                  <span class="dnd-race-human">Human</span> <span class="dnd-class-ranger">Ranger</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="dnd-stats-str circle is-small">STR 11</div>
+            <div class="dnd-stats-dex circle is-small">DEX 14</div>
+            <div class="dnd-stats-con circle is-small">CON 12</div>
+            <div class="dnd-stats-int circle is-small">INT 8</div>
+            <div class="dnd-stats-wis circle is-small">WIS 11</div>
+            <div class="dnd-stats-cha circle is-small">CHA 14</div>
+          </div>
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <a href="https://nl.pinterest.com/pin/266416134183033659/">
+                <img src="/dnd/resources/assets/npc/carissa-sparrow.jpg" alt="NPC Carissa Sparrow" title="Paizo Publishing">
+              </a>
+            </figure>
+          </div>
+          <div class="card-content">
+            <details>
+              <summary class="is-6"><b>Background</b></summary>
+              Carissa and her bird companion Trustwood are on a hunt of a fierce Wereboar.
+            </details>
+            <details>
+              <summary class="is-6"><b>Features &amp; Traits</b></summary>
+              A skilled trapper that aims to hunt bigger and better prey until it is her undoing. Thrill of The Hunt describes her.Confident in her abilities, aims to make their first strike on an animal also their last.
+            </details>
+            <details>
+              <summary class="is-6"><b>Spells</b></summary>
+              <a target="_blank" href="https://dndspellslist.com/spells/animal-friendship">Animal Friendship</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/cure-wounds">Cure Wounds</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/detect-poison-and-disease">Detect Poison and Disease</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/entangle">Entangle</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/speak-with-animals">Speak with Animals</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/summon-beast">Summon Beast</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/conjure-animals">Conjure Animals</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/water-breathing">Water Breathing</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/speak-wih-plants">Speak wih Plants</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/nondetection">Nondetection</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/lightning-arrow">Lightning Arrow</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/locate-creature">Locate Creature</a><br>
+            </details>
+            <details>
+              <summary class="is-6"><b>Equipment</b></summary>
+              <a target="_blank" href="https://www.dndbeyond.com/equipment/crossbow-heavy">Crossbow Heavy</a> +2 (1d10+2 piercing)<br>
+              <a target="_blank" href="https://www.dndbeyond.com/equipment/longsword">Longsword</a> (1d8 slashing)<br>
+              <a target="_blank" href="https://www.dndbeyond.com/equipment/shield">Shield</a><br>
+              <a target="_blank" href="https://www.dndbeyond.com/equipment/leather">Leather</a><br>
+            </details>
+          </div>
+          <div class="card-footer">
+            <div class="card-footer-item">
+              <p>
+                Writer: <a href="https://github.com/zarthus" target="_blank">Zarthus
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                Artist: <a href="https://paizo.com/" target="_blank">Paizo Publishing
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                License:
+                <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 4.0
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="npc-magistrate" class="card npc column is-one-third" data-name="Magistrate">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <span class="circle is-medium is-danger is-pulled-right hitpoints" data-value="35">HP 35</span>
+                <span class="circle is-medium is-success is-pulled-right armor-class" data-value="13">AC 13</span>
+                <span class="circle is-medium is-success is-pulled-right alignment" data-alignment="TN"><abbr title="True Neutral">TN</abbr></span>
+                <p class="title is-5">
+                  Magistrate
+                </p>
+                <p class="subtitle is-6" data-race="human" data-class="rogue">
+                  <span class="dnd-race-human">Human</span> <span class="dnd-class-rogue">Rogue</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="dnd-stats-str circle is-small">STR 12</div>
+            <div class="dnd-stats-dex circle is-small">DEX 18</div>
+            <div class="dnd-stats-con circle is-small">CON 14</div>
+            <div class="dnd-stats-int circle is-small">INT 11</div>
+            <div class="dnd-stats-wis circle is-small">WIS 11</div>
+            <div class="dnd-stats-cha circle is-small">CHA 16</div>
+          </div>
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="/dnd/resources/assets/npc/magistrate.jpg" alt="NPC Magistrate" title="Unknown author">
+            </figure>
+          </div>
+          <div class="card-content">
+            <details>
+              <summary class="is-6"><b>Background</b></summary>
+              A hired assassin that simply is interested in coin. Goes by Codename "Magistrate". Not much is known about them, except that they are very skilled at their job.
+            </details>
+            <details>
+              <summary class="is-6"><b>Equipment</b></summary>
+              Left hand: <a target="_blank" href="https://www.dndbeyond.com/equipment/dagger">Dagger</a> +1 (1d4 + 1)<br>
+              Right hand: <a target="_blank" href="https://www.dndbeyond.com/magic-items/dagger-of-venom">Dagger Of Venom</a> (1d4 + 1)<br>
+              A big sack of gold<br>
+              <a target="_blank" href="https://www.dndbeyond.com/magic-items/potion-of-healing-superior">Potion of Healing Superior</a> (8d4 + 8)<br>
+              <a target="_blank" href="https://www.dndbeyond.com/magic-items/eyes-of-charming">Eyes of Charming</a><br>
+              <a target="_blank" href="https://www.dndbeyond.com/magic-items/gem-of-seeing">Gem of Seeing</a><br>
+            </details>
+          </div>
+          <div class="card-footer">
+            <div class="card-footer-item">
+              <p>
+                Writer: <a href="https://github.com/zarthus" target="_blank">Zarthus
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                Artist: <a href="https://pinterest.com/pin/263460646929835006/" target="_blank">JasonTN
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                License:
+                <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 4.0
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="npc-magus-brunns-conjurer-of-fire" class="card npc column is-one-third" data-name="Magus Brunns, Conjurer of Fire">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <span class="circle is-medium is-danger is-pulled-right hitpoints" data-value="56">HP 56</span>
+                <span class="circle is-medium is-success is-pulled-right armor-class" data-value="11">AC 11</span>
+                <span class="circle is-medium is-success is-pulled-right alignment" data-alignment="LG"><abbr title="Lawful Good">LG</abbr></span>
+                <p class="title is-5">
+                  Magus Brunns, Conjurer of Fire
+                </p>
+                <p class="subtitle is-6" data-race="human" data-class="sorcerer">
+                  <span class="dnd-race-human">Human</span> <span class="dnd-class-sorcerer">Sorcerer</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="dnd-stats-str circle is-small">STR 8</div>
+            <div class="dnd-stats-dex circle is-small">DEX 8</div>
+            <div class="dnd-stats-con circle is-small">CON 10</div>
+            <div class="dnd-stats-int circle is-small">INT 16</div>
+            <div class="dnd-stats-wis circle is-small">WIS 16</div>
+            <div class="dnd-stats-cha circle is-small">CHA 16</div>
+          </div>
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <a href="https://twitter.com/leeshahannigan/status/624543724333367296">
+                <img src="/dnd/resources/assets/npc/brunns.jpg" alt="NPC Magus Brunns, Conjurer of Fire" title="Leesha Hannigan">
+              </a>
+            </figure>
+          </div>
+          <div class="card-content">
+            <details>
+              <summary class="is-6"><b>Background</b></summary>
+              Magus Brunns is the Conjurer of the Fire, and he is sure to let you know that fact. One of the strongest fire sorcerers in the realm. Stories of Brunns exist of them decimating legions of undead single-handedly with fiery rain from atop castle walls. It has also been said that they have slain a Dracolich, but the corpse has never been identified since by the time the others arrived, it was a big pile of ash.
+            </details>
+            <details>
+              <summary class="is-6"><b>Features &amp; Traits</b></summary>
+              A cocky and competent sorcerer with a fantastic potency in fire magic.Highly charasmatic and probably likes to skew the truth a little bit, at least when talking about themselves and their own achievements.
+            </details>
+            <details>
+              <summary class="is-6"><b>Spells</b></summary>
+              <a target="_blank" href="https://dndspellslist.com/spells/light">Light</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/green-flame-blade">Green-Flame Blade</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/control-flames">Control Flames</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/fire-bolt">Fire Bolt</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/message">Message</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/friends">Friends</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/alter-self">Alter Self</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/blink">Blink</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/counterspell">Counterspell</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/fireball">Fireball</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/dispel-magic">Dispel Magic</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/fire-shield">Fire Shield</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/polymorph">Polymorph</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/wall-of-fire">Wall of Fire</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/telekenisis">Telekenisis</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/investiture-of-flame">Investiture of Flame</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/sunbeam">Sunbeam</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/teleport">Teleport</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/incendiary-cloud">Incendiary Cloud</a><br>
+            </details>
+            <details>
+              <summary class="is-6"><b>Equipment</b></summary>
+              <a target="_blank" href="https://www.dndbeyond.com/equipment/clothes-fine">Clothes Fine</a><br>
+              <a target="_blank" href="https://www.dndbeyond.com/equipment/quarterstaff">Quarterstaff</a> (1d6 bludgeoning)<br>
+            </details>
+          </div>
+          <div class="card-footer">
+            <div class="card-footer-item">
+              <p>
+                Writer: <a href="https://github.com/zarthus" target="_blank">Zarthus
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                Artist: <a href="https://twitter.com/leeshahannigan/" target="_blank">Leesha Hannigan
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                License:
+                <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 4.0
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="npc-fleabag" class="card npc column is-one-third" data-name="Fleabag">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <span class="circle is-medium is-danger is-pulled-right hitpoints" data-value="">HP ?</span>
+                <span class="circle is-medium is-success is-pulled-right armor-class" data-value="">AC ?</span>
+                <span class="circle is-medium is-success is-pulled-right alignment" data-alignment="">?</span>
+                <p class="title is-5">
+                  Fleabag
+                </p>
+                <p class="subtitle is-6" data-race="human" data-class="unknown">
+                  <span class="dnd-race-human">Human</span> <span class="dnd-class-unknown">Unknown</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="stats">
+          </div>
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <a href="https://dagnadraws.tumblr.com/post/172931091979/a-goblin-mom-her-hobo-wizard-son-and-his-cat">
+                <img src="/dnd/resources/assets/npc/fleabag.png" alt="NPC Fleabag" title="Dagnadraws">
+              </a>
+            </figure>
+          </div>
+          <div class="card-content">
+            <details>
+              <summary class="is-6"><b>Background</b></summary>
+              Fleabag is a common beggar - found on the streets asking for coin and in general looking miserable.
+              However: There is a special twist. Fleabag is actually of another plane and is merely tricking people.
+              Fleabag believes that good deeds get rewarded, and bad deeds get punished severely.
+              When people are good to him, good fortune will befall them.
+              When people treat him poorly, terrible fortune will befall them.
+            </details>
+            <details>
+              <summary class="is-6"><b>Features &amp; Traits</b></summary>
+              They smell awful, torn clothing, and several scars - but an overall friendly attitude that only changes when others do not treat them nicely.
+              They take on the appearance of an old masculine human, but most definitely are not.
+              Fleabag can be killed very easily - but they will re-appear at some point in the future and appear fully alive again. Upon being murdered - a hefty curse will befall on the murderer(s), and the surrounding area will start to rot. Their memory stays intact throughout death and they remember and may even haunt specific people if they have been especially harsh to them.
+            </details>
+            <details>
+              <summary class="is-6"><b>Spells</b></summary>
+              <a target="_blank" href="https://dndspellslist.com/spells/illusion-magic">Illusion magic</a><br>
+              <a target="_blank" href="https://dndspellslist.com/spells/message">Message</a><br>
+            </details>
+            <details>
+              <summary class="is-6"><b>Equipment</b></summary>
+              <a target="_blank" href="https://www.dndbeyond.com/equipment/tattered-clothing">Tattered clothing</a><br>
+            </details>
+          </div>
+          <div class="card-footer">
+            <div class="card-footer-item">
+              <p>
+                Writer: <a href="https://github.com/zarthus" target="_blank">Zarthus
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                Artist: <a href="https://dagnadraws.tumblr.com" target="_blank">Dagnadraws
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                License:
+                <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 4.0
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="npc-li-mon" class="card npc column is-one-third" data-name="Li Mon">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <span class="circle is-medium is-danger is-pulled-right hitpoints" data-value="8">HP 8</span>
+                <span class="circle is-medium is-success is-pulled-right armor-class" data-value="8">AC 8</span>
+                <span class="circle is-medium is-success is-pulled-right alignment" data-alignment="CN"><abbr title="Chaotic Neutral">CN</abbr></span>
+                <p class="title is-5">
+                  Li Mon
+                </p>
+                <p class="subtitle is-6" data-race="tiefling" data-class="bard">
+                  <span class="dnd-race-tiefling">Tiefling</span> <span class="dnd-class-bard">Bard</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="dnd-stats-str circle is-small">STR 8</div>
+            <div class="dnd-stats-dex circle is-small">DEX 14</div>
+            <div class="dnd-stats-con circle is-small">CON 8</div>
+            <div class="dnd-stats-int circle is-small">INT 12</div>
+            <div class="dnd-stats-wis circle is-small">WIS 12</div>
+            <div class="dnd-stats-cha circle is-small">CHA 15</div>
+          </div>
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <a href="https://robofeather.tumblr.com/post/176035169611/tieflings-are-the-best-they-just-are">
+                <img src="/dnd/resources/assets/npc/li-mon.png" alt="NPC Li Mon" title="Robofeather">
+              </a>
+            </figure>
+          </div>
+          <div class="card-content">
+            <details>
+              <summary class="is-6"><b>Background</b></summary>
+              Li Mon has been playing around in taverns for as long as they can remember
+            </details>
+            <details>
+              <summary class="is-6"><b>Equipment</b></summary>
+              <a target="_blank" href="https://www.dndbeyond.com/equipment/cloth-armour">Cloth Armour</a><br>
+              Instrument: <a target="_blank" href="https://www.dndbeyond.com/equipment/cello">Cello</a><br>
+            </details>
+          </div>
+          <div class="card-footer">
+            <div class="card-footer-item">
+              <p>
+                Writer: <a href="https://github.com/zarthus" target="_blank">Zarthus
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                Artist: <a href="https://robofeather.tumblr.com" target="_blank">Robofeather
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+            <div class="card-footer-item">
+              <p>
+                License:
+                <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 4.0
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="columns">
+        <div class="column is-offset-3 is-6 has-text-info">
+          <span class="bi-info-circle"></span>
+          Genders are missing on purpose.
+          My worlds try to remove the concept of gender altogether and all characters may have masculine and feminine properties.
+          Ultimately, names are easy to change and not the biggest point of this list.
+          <br><br>
+          Other properties may also be missing, like alignment, stats, etc. when they are unknown, irrelevant, or hidden on purpose.
+        </div>
+      </div>
     </div>
     <footer class="footer">
       <div class="container">
@@ -140,8 +974,8 @@
         </div>
       </div>
     </footer>
-    <script async defer type="text/javascript" src="/dnd/resources/javascript/theme-switcher.js"></script>
-    <script defer async>
+    <script async type="text/javascript" src="/dnd/resources/javascript/theme-switcher.js"></script>
+    <script type="text/javascript">
       (function() {
         document.body.classList.add('js-enabled');
       })();

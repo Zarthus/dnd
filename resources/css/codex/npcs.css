@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+.rectangle {
+  border-radius: 10%;
+  border: 0.1rem solid;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+  white-space: nowrap;
+  display: inline-flex;
+  padding: 0.1rem;
+}
+
+.circle {
+  border-radius: 100%;
+  border: 0.1rem solid;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+  white-space: nowrap;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 3.25rem;
+  width: 3.25rem;
+}
+
+.circle .is-small {
+  height: 2.75rem;
+  width: 2.75rem;
+}
+.circle .is-large {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.theme-dark .circle {
+  border-color: #abb2bf;
+}
+.theme-dark .circle .is-white {
+  background-color: white;
+}
+.theme-dark .circle .is-black {
+  background-color: #0a0a0a;
+}
+.theme-dark .circle .is-light {
+  background-color: #abb2bf;
+}
+.theme-dark .circle .is-dark {
+  background-color: #282c34;
+}
+.theme-dark .circle .is-primary {
+  background-color: #282c34;
+}
+.theme-dark .circle .is-link {
+  background-color: #61afef;
+}
+.theme-dark .circle .is-info {
+  background-color: #61afef;
+}
+.theme-dark .circle .is-warning {
+  background-color: #e5c07b;
+}
+.theme-dark .circle .is-danger {
+  background-color: #e06c75;
+}
+
+.theme-light .circle {
+  border-color: #282c34;
+}
+.theme-light .circle .is-white {
+  background-color: white;
+}
+.theme-light .circle .is-black {
+  background-color: #0a0a0a;
+}
+.theme-light .circle .is-light {
+  background-color: whitesmoke;
+}
+.theme-light .circle .is-dark {
+  background-color: #363636;
+}
+.theme-light .circle .is-primary {
+  background-color: #61afef;
+}
+.theme-light .circle .is-link {
+  background-color: #485fc7;
+}
+.theme-light .circle .is-info {
+  background-color: #3e8ed0;
+}
+.theme-light .circle .is-warning {
+  background-color: #ffe08a;
+}
+.theme-light .circle .is-danger {
+  background-color: #f14668;
+}
+
+.npc {
+  margin-bottom: 0.75rem;
+}
+.npc img {
+  object-fit: contain;
+}
+.npc div.card-content .armor-class {
+  margin-right: 2px;
+}
+.npc div.stats {
+  margin-bottom: 0.75rem;
+}
+.npc div.card-content {
+  padding: 0.75rem;
+}
+
+.theme-dark .dnd-class-barbarian {
+  color: red;
+}
+.theme-dark .dnd-class-bard {
+  color: purple;
+}
+.theme-dark .dnd-class-cleric {
+  color: white;
+}
+.theme-dark .dnd-class-druid {
+  color: green;
+}
+.theme-dark .dnd-class-fighter {
+  color: brown;
+}
+.theme-dark .dnd-class-monk {
+  color: lightblue;
+}
+.theme-dark .dnd-class-paladin {
+  color: gold;
+}
+.theme-dark .dnd-class-ranger {
+  color: darkgreen;
+}
+.theme-dark .dnd-class-rogue {
+  color: gray;
+}
+.theme-dark .dnd-class-sorcerer {
+  color: red;
+}
+.theme-dark .dnd-class-warlock {
+  color: purple;
+}
+.theme-dark .dnd-class-wizard {
+  color: royalblue;
+}
+.theme-dark .dnd-class-artificer {
+  color: #68471c;
+}
+.theme-dark .dnd-class-bloodhunter {
+  color: #691d1d;
+}
+.theme-dark .dnd-race-dragonborn {
+  color: red;
+}
+.theme-dark .dnd-race-dwarf {
+  color: gray;
+}
+.theme-dark .dnd-race-elf {
+  color: darkgreen;
+}
+.theme-dark .dnd-race-gnome {
+  color: tan;
+}
+.theme-dark .dnd-race-half-elf {
+  color: #0dff0d;
+}
+.theme-dark .dnd-race-half-orc {
+  color: brown;
+}
+.theme-dark .dnd-race-halfling {
+  color: white;
+}
+.theme-dark .dnd-race-human {
+  color: white;
+}
+.theme-dark .dnd-race-tiefling {
+  color: purple;
+}
+
+.theme-light .dnd-class-barbarian {
+  color: red;
+}
+.theme-light .dnd-class-bard {
+  color: purple;
+}
+.theme-light .dnd-class-cleric {
+  color: #696969;
+}
+.theme-light .dnd-class-druid {
+  color: green;
+}
+.theme-light .dnd-class-fighter {
+  color: brown;
+}
+.theme-light .dnd-class-monk {
+  color: lightblue;
+}
+.theme-light .dnd-class-paladin {
+  color: gold;
+}
+.theme-light .dnd-class-ranger {
+  color: darkgreen;
+}
+.theme-light .dnd-class-rogue {
+  color: gray;
+}
+.theme-light .dnd-class-sorcerer {
+  color: red;
+}
+.theme-light .dnd-class-warlock {
+  color: purple;
+}
+.theme-light .dnd-class-wizard {
+  color: royalblue;
+}
+.theme-light .dnd-class-artificer {
+  color: #68471c;
+}
+.theme-light .dnd-class-bloodhunter {
+  color: #691d1d;
+}
+.theme-light .dnd-race-dragonborn {
+  color: red;
+}
+.theme-light .dnd-race-dwarf {
+  color: gray;
+}
+.theme-light .dnd-race-elf {
+  color: darkgreen;
+}
+.theme-light .dnd-race-gnome {
+  color: tan;
+}
+.theme-light .dnd-race-half-elf {
+  color: #0dff0d;
+}
+.theme-light .dnd-race-half-orc {
+  color: brown;
+}
+.theme-light .dnd-race-halfling {
+  color: white;
+}
+.theme-light .dnd-race-human {
+  color: #696969;
+}
+.theme-light .dnd-race-tiefling {
+  color: purple;
+}
+
+/*# sourceMappingURL=npcs.css.map */
