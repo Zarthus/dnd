@@ -1,0 +1,51 @@
+@use "../themes/_default" as defaults
+@use "../themes/light-vars" as light
+@use "../themes/one-dark-vars" as dark
+
+$base-rem: 2rem
+
+.rectangle
+    border-radius: 10%
+    border: 0.1rem solid
+    align-items: center
+    justify-content: center
+    line-height: 1.5
+    white-space: nowrap
+    display: inline-flex
+    padding: 0.1rem
+
+.circle
+    border-radius: 100%
+    border: 0.1rem solid
+    align-items: center
+    justify-content: center
+    line-height: 1.5
+    white-space: nowrap
+    display: inline-flex
+    font-size: 0.75rem
+    height: $base-rem + defaults.$size-medium
+    width: $base-rem + defaults.$size-medium
+
+.circle
+    .is-small
+        height: $base-rem + defaults.$size-small
+        width: $base-rem + defaults.$size-small
+    .is-large
+        height: $base-rem + defaults.$size-large
+        width: $base-rem + defaults.$size-large
+
+.theme-dark
+    .circle
+        border-color: dark.$onedark-8
+
+        @each $name, $col in dark.$types
+            .is-#{$name}
+                background-color: $col
+
+.theme-light
+    .circle
+        border-color: dark.$primary
+
+        @each $name, $col in light.$types
+            .is-#{$name}
+                background-color: $col

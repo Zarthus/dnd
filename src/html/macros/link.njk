@@ -4,10 +4,14 @@
 {% macro page(url) %}{{ webroot }}{{ url }}{% endmacro %}
 {% macro relative(url, text) %}<a href="{{ webroot }}{{ url }}">{{ text | safe }}</a>{% endmacro %}
 {% macro external(url, text) %}<a href="{{ url }}" target="_blank">{{ text }} {{ bsi.externallink() }}</a>{% endmacro %}
+{% macro license(url, text) %}<a rel="license" href="{{ url }}" target="_blank">{{ text }} {{ bsi.externallink() }}</a>{% endmacro %}
 
 {% macro resource(url) %}{{ webroot }}/resources/{{ url }}{% endmacro %}
 {% macro script(url) %}
-    <script async defer type="text/javascript" src="{{ webroot }}/resources/javascript/{{ url }}"></script>
+    <script async type="text/javascript" src="{{ webroot }}/resources/javascript/{{ url }}"></script>
+{% endmacro %}
+{% macro scriptDefer(url) %}
+    <script defer type="text/javascript" src="{{ webroot }}/resources/javascript/{{ url }}"></script>
 {% endmacro %}
 {% macro style(url) %}
     <link rel="stylesheet" href="{{ webroot }}/resources/css/{{ url }}" />

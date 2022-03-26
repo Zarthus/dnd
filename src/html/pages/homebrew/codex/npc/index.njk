@@ -1,2 +1,49 @@
 {% set page_name = 'Homebrew Codex - NPCs' %}
-{% extends "layouts/wip.njk" %}
+{% extends "layouts/layout.njk" %}
+
+{% set npcs = (root_path + '/src/assets/json/codex/npcs.json') | json_parse | sort_by(['race', 'class', 'name']) %}
+{% import 'macros/link.njk' as link %}
+
+{% block content %}
+    <div class="container">
+        {% include "partials/snippets/spoiler-warning.njk" %}
+        <div class="columns">
+            <div class="column is-offset-3 is-6 has-text-info">
+                <span class="has-text-warning"><span class="bi-asterisk"></span> Artwork may follow a different license.</span>
+                <br>
+                <br>
+                <span class="bi-info-circle"></span>
+                NPCs are sorted by: Race, Class, Name (alphabetically)
+                <br>
+                The purpose of this directory is to inspire you with your own NPCs.
+            </div>
+        </div>
+        <hr>
+
+        {% if npcs | empty %}
+            <h3>There aren't any NPCs to display</h3>
+        {% else %}
+            <div class="columns is-multiline">
+                {% for npc in npcs %}
+                    {% include "partials/codex/npc.njk" %}
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        <hr>
+        <div class="columns">
+            <div class="column is-offset-3 is-6 has-text-info">
+                <span class="bi-info-circle"></span>
+                Genders are missing on purpose.
+                My worlds try to remove the concept of gender altogether and all characters may have masculine and feminine properties.
+                Ultimately, names are easy to change and not the biggest point of this list.
+                <br><br>
+                Other properties may also be missing, like alignment, stats, etc. when they are unknown, irrelevant, or hidden on purpose.
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block styles %}
+    {{ link.style('codex/npcs.css') }}
+{% endblock %}

@@ -1,0 +1,78 @@
+@forward "../fonts/lato"
+@use "_default" as *
+
+$family-sans-serif: "Lato", "Roboto", sans-serif
+$family-monospace: monospace
+
+$onedark-1: #282c34
+$onedark-2: #e06c75
+$onedark-3: #98c379
+$onedark-4: #e5c07b
+$onedark-5: #61afef
+$onedark-6: #c678dd
+$onedark-7: #56b6c2
+$onedark-8: #abb2bf
+
+// Derived Colours
+$text: $onedark-8
+$primary: $onedark-1
+$primary-invert: $onedark-8
+$info: $onedark-5
+$info-invert: $onedark-1
+$success: $onedark-3
+$success-invert: $onedark-1
+$warning: $onedark-4
+$warning-invert: $onedark-8
+$danger: $onedark-2
+$danger-invert: $onedark-1
+$link: $onedark-5
+$link-invert: $onedark-1
+$light: $onedark-8
+$light-invert: $onedark-1
+$dark: $onedark-1
+$dark-invert: $onedark-8
+
+$content-heading-color: $onedark-8
+$title-color: $onedark-8
+
+// General colors
+$scheme-main: $onedark-1
+$scheme-main-bis: $onedark-1
+$scheme-main-ter: $onedark-1
+$scheme-invert: $onedark-8
+$scheme-invert-bis: $onedark-8
+$scheme-invert-ter: $onedark-8
+
+$background: $onedark-1
+
+$border: $grey-lighter
+$border-hover: $grey-light
+$border-light: $grey-lightest
+$border-light-hover: $grey-light
+
+// Code colors
+$code: darken($onedark-2, 15%)
+$code-background: $background
+
+$hr-background-color: $onedark-8
+$hr-heading-background-color: $onedark-6
+
+// Link colors
+$link: $onedark-5
+$link-color: $green
+$link-visited: $onedark-6
+$link-hover: $onedark-6
+$link-hover-border: $grey-light
+$link-focus: $onedark-2
+$link-active: $onedark-3
+
+// Typography
+$family-primary: $family-sans-serif
+$family-secondary: $family-sans-serif
+$family-code: $family-monospace
+
+// Heading
+$heading-hero-text: inherit
+$heading-hero-gradient: linear-gradient(35deg, $onedark-5 0%, darken($onedark-5, 30%) 20%, darken($onedark-5, 50%) 40%, $background 75%, $background 100%)
+
+$types: ("white": $white, "black": $black, "light": $light, "dark": $dark, "primary": $primary, "link": $link, "info": $info, "warning": $warning, "danger": $danger)

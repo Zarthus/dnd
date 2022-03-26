@@ -1,0 +1,39 @@
+@use "../themes/_default" as defaults
+@use "../themes/one-dark-vars" as dark
+@use "../themes/light-vars" as light
+@use "../themes/dnd" as dnd
+@use "../components/circle"
+
+.npc
+    margin-bottom: defaults.$size-small
+
+    img
+        object-fit: contain
+
+    div.card-content
+        .armor-class
+            margin-right: 2px
+
+    div.stats
+        margin-bottom: defaults.$size-small
+
+    div.card-content
+        padding: defaults.$size-small
+
+.theme-dark
+    @each $className, $classColor in dnd.$darkAllClasses
+        .dnd-class-#{$className}
+            color: $classColor
+
+    @each $raceName, $raceColor in dnd.$darkAllRaces
+        .dnd-race-#{$raceName}
+            color: $raceColor
+
+.theme-light
+    @each $className, $classColor in dnd.$lightAllClasses
+        .dnd-class-#{$className}
+            color: $classColor
+
+    @each $raceName, $raceColor in dnd.$lightAllRaces
+        .dnd-race-#{$raceName}
+            color: $raceColor

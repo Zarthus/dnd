@@ -1,0 +1,45 @@
+{
+  "name": "Sample NPC",
+  "race": "Human",
+  "class": "Cleric",
+  "hitpoints": 10,
+  "armor_class": 10,
+  "alignment": "LG",
+  "image": {
+    "url": "/resources/assets/npc/thingsmasher.jpg",
+    "relative": true,
+    "source": "",
+    "credits": "Author"
+  },
+  "background": [
+  ],
+  "stats": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "features": [
+  ],
+  "spells": [
+  ],
+  "equipment": [
+  ],
+  "authors": [
+    {
+      "name": "Zarthus",
+      "social": "https://github.com/zarthus"
+    },
+    {
+      "name": "Sample Artist",
+      "social": null,
+      "artwork": true
+    }
+  ],
+  "license": {
+    "name": "CC0 4.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}

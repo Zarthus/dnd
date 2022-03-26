@@ -1,0 +1,66 @@
+@use "_default" as *
+
+$onedark-5: #61afef
+
+// Derived Colours
+$primary: $onedark-5
+
+$info: $cyan
+$success: $green
+$warning: $yellow
+$danger: $red
+
+$light: $white-ter
+$dark: $grey-darker
+
+// General colors
+$scheme-main: $white
+$scheme-main-bis: $white-bis
+$scheme-main-ter: $white-ter
+$scheme-invert: $black
+$scheme-invert-bis: $black-bis
+$scheme-invert-ter: $black-ter
+
+$background: $white
+
+$border: $grey-lighter
+$border-hover: $grey-light
+$border-light: $grey-lightest
+$border-light-hover: $grey-light
+
+// Text colors
+$text: $grey-dark
+$text-invert: findColorInvert($text)
+$text-light: $grey
+$text-strong: $grey-darker
+
+// Code colors
+$code: darken($red, 15%)
+$code-background: $background
+
+$pre: $text
+$pre-background: $background
+
+// Link colors
+$link: $blue
+$link-visited: $purple
+
+$link-hover: $grey-darker
+$link-hover-border: $grey-light
+
+$link-focus: $grey-darker
+$link-focus-border: $blue
+
+$link-active: $grey-darker
+$link-active-border: $grey-dark
+
+// Typography
+$family-primary: $family-sans-serif
+$family-secondary: $family-sans-serif
+$family-code: $family-monospace
+
+// Heading
+$heading-hero-text: $grey-light
+$heading-hero-gradient: linear-gradient(35deg, $onedark-5 0%, darken($onedark-5, 30%) 20%, darken($onedark-5, 50%) 40%, $background 75%, $background 100%)
+
+$types: ("white": $white, "black": $black, "light": $light, "dark": $dark, "primary": $primary, "link": $link, "info": $info, "warning": $warning, "danger": $danger)

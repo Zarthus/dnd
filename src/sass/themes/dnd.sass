@@ -1,0 +1,65 @@
+@use "sass:map"
+
+// Classes
+// Official
+$barbarian: red
+$bard: purple
+$cleric: white
+$druid: green
+$fighter: brown
+$monk: lightblue
+$paladin: gold
+$ranger: darkgreen
+$rogue: gray
+$sorcerer: red
+$warlock: purple
+$wizard: royalblue
+$artificer: rgb(104, 71, 28)
+
+$lightCleric: #696969
+$lightMonk: darken($monk, 50%)
+
+// CR
+$bloodhunter: rgb(105, 29, 29)
+
+// Races
+// Official
+$dragonborn: red
+$dwarf: gray
+$elf: darkgreen
+$gnome: tan
+$half-elf: lighten($elf, 33%)
+$half-orc: brown
+$halfling: lighten(tan, 33%)
+$human: white
+$tiefling: purple
+
+$lightHuman: #696969
+
+//
+// Collections
+//
+$dndClasses: ("barbarian": $barbarian, "bard": $bard, "cleric": $cleric, "druid": $druid, "fighter": $fighter, "monk": $monk, "paladin": $paladin, "ranger": $ranger, "rogue": $rogue, "sorcerer": $sorcerer, "warlock": $warlock, "wizard": $wizard, "artificer": $artificer)
+$crClasses: ("bloodhunter": $bloodhunter)
+$allClasses: map.merge($dndClasses, $crClasses)
+
+$dndRaces: ("dragonborn": $dragonborn, "dwarf": $dwarf, "elf": $elf, "gnome": $gnome, "half-elf": $half-elf, "half-orc": $half-orc, "halfling": $halfling, "human": $human, "tiefling": $tiefling)
+$allRaces: $dndRaces
+
+// Colors suitable when on a darker background
+$darkDndClasses: ("barbarian": $barbarian, "bard": $bard, "cleric": $cleric, "druid": $druid, "fighter": $fighter, "monk": $monk, "paladin": $paladin, "ranger": $ranger, "rogue": $rogue, "sorcerer": $sorcerer, "warlock": $warlock, "wizard": $wizard, "artificer": $artificer)
+$darkCrClasses: ("bloodhunter": $bloodhunter)
+$darkAllClasses: map.merge($darkDndClasses, $darkCrClasses)
+
+$darkDndRaces: ("dragonborn": $dragonborn, "dwarf": $dwarf, "elf": $elf, "gnome": $gnome, "half-elf": $half-elf, "half-orc": $half-orc, "halfling": $halfling, "human": $human, "tiefling": $tiefling)
+$darkAllRaces: $darkDndRaces
+
+// Colors suitable when on a lighter background
+$lightDndClasses: ("barbarian": $barbarian, "bard": $bard, "cleric": $lightCleric, "druid": $druid, "fighter": $fighter, "monk": $monk, "paladin": $paladin, "ranger": $ranger, "rogue": $rogue, "sorcerer": $sorcerer, "warlock": $warlock, "wizard": $wizard, "artificer": $artificer)
+$lightCrClasses: ("bloodhunter": $bloodhunter)
+$lightAllClasses: map.merge($lightDndClasses, $lightCrClasses)
+
+$lightDndRaces: ("dragonborn": $dragonborn, "dwarf": $dwarf, "elf": $elf, "gnome": $gnome, "half-elf": $half-elf, "half-orc": $half-orc, "halfling": $halfling, "human": $lightHuman, "tiefling": $tiefling)
+$lightAllRaces: $lightDndRaces
+
+// Colors suitable when on a darker background

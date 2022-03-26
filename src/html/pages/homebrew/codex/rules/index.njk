@@ -1,18 +1,18 @@
 {% set page_name = 'Homebrew Codex - Rules' %}
 {% extends "layouts/layout.njk" %}
 
-{% set houserules_json = (root_path + '/src/assets/json/house-rules.json') | json_parse %}
+{% set houserules = (root_path + '/src/assets/json/codex/house-rules.json') | json_parse %}
 {% import 'macros/link.njk' as link %}
 
 {% block content %}
     <div class="container">
-        {% if not houserules_json.profiles | empty %}
+        {% if not houserules.profiles | empty %}
         <section class="profile-select section is-js">
             <div class="box content">
                 <p class="title is-5">Profile Selection</p>
                 <button class="button is-link toggle-profile profile-all" data-profile="rule-all" value="#profile=all">all</button>
                 <button class="button is-link toggle-profile profile-none" data-profile value="#profile=none">none</button>
-                {% for key, value in houserules_json.profiles %}
+                {% for key, value in houserules.profiles %}
                     <button class="button is-link toggle-profile profile-{{ key }}" data-profile="{{ value | classify('rule-') }}" value="#profile={{ key }}">
                         {{ key }}
                     </button>
@@ -22,14 +22,14 @@
         {% endif %}
 
         <section class="rule-select section">
-            {% for rule in houserules_json.rules %}
-                {% include "partials/house-rule.njk" %}
+            {% for rule in houserules.rules %}
+                {% include "partials/codex/house-rule.njk" %}
             {% endfor %}
         </section>
 
         <section class="resources-overview section content">
             <h4 class="subtitle">Resources</h4>
-            {% for resource in houserules_json.resources %}
+            {% for resource in houserules.resources %}
                 <div class="message is-link">
                     <div class="message-body">
                         {% if resource.url %}
@@ -48,9 +48,9 @@
 {% endblock %}
 
 {% block styles %}
-    {{ link.style('house-rules.css') }}
+    {{ link.style('codex/house-rules.css') }}
 {% endblock %}
 
 {% block scripts %}
-    {{ link.script('house-rules.js') }}
+    {{ link.script('codex/house-rules.js') }}
 {% endblock %}

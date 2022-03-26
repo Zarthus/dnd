@@ -1,0 +1,98 @@
+{# a single npc in npcs.json #}
+<div id="{{ npc.name | classify('npc-') }}"
+         class="card npc column is-one-third"
+         data-name="{{ npc.name }}"
+>
+    <div class="card-content">
+        <div class="media">
+            <div class="media-content">
+                <span class="circle is-medium is-danger is-pulled-right hitpoints" data-value="{{ npc.hitpoints }}">HP {{ npc.hitpoints | default('?', true)  }}</span>
+                <span class="circle is-medium is-success is-pulled-right armor-class" data-value="{{ npc.armor_class }}">AC {{ npc.armor_class | default('?', true) }}</span>
+                <span class="circle is-medium is-success is-pulled-right alignment" data-alignment="{{ npc.alignment }}">{{ npc.alignment | default('?', true) | abbr_alignment | safe }}</span>
+                <p class="title is-5">
+                    {{ npc.name }}
+                </p>
+                <p class="subtitle is-6" data-race="{{ npc.race | lower }}" data-class="{{ npc.class | lower }}">
+                    <span class="dnd-race-{{ npc.race | lower }}">{{ npc.race }}</span> <span class="dnd-class-{{ npc.class | lower }}">{{ npc.class }}</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="stats">
+        {% if not npc.stats | empty %}
+            {% for stat, val in npc.stats %}
+                <div class="dnd-stats-{{ stat | lower }} circle is-small">{{ stat | upper }} {{ val }}</div>
+            {% endfor %}
+        {% endif %}
+   </div>
+    <div class="card-image">
+        <figure class="image is-4by3">
+            {% set credits %}{{ npc.image.credits | default('Unknown author', true) }}{% endset %}
+            {% if not npc.image.source | empty %}<a href="{{ npc.image.source }}">{% endif %}
+            {% if not npc.image.relative | empty %}
+                <img src="{{ link.page(npc.image.url) }}" alt="NPC {{ npc.name }}" title="{{ credits }}">
+            {% else %}
+                <img src="{{ npc.image.url | placeholder(240, 180) }}" alt="NPC {{ npc.name }}" title="{{ credits }}">
+            {% endif %}
+            {% if not npc.image.source | empty %}</a>{% endif %}
+        </figure>
+    </div>
+    <div class="card-content">
+        {% if not npc.background | empty %}
+        <details>
+            <summary class="is-6"><b>Background</b></summary>
+            {{ npc.background | nl2br_desc | safe }}
+        </details>
+        {% endif %}
+        {% if not npc.features | empty %}
+        <details>
+            <summary class="is-6"><b>Features &amp; Traits</b></summary>
+            {{ npc.features | nl2br_desc | safe }}
+        </details>
+        {% endif %}
+        {% if not npc.spells | empty %}
+            <details>
+                <summary class="is-6"><b>Spells</b></summary>
+                {% for spell in npc.spells %}
+                    {{ spell | lookup_spell | safe }}<br>
+                {% endfor %}
+            </details>
+        {% endif %}
+        {% if not npc.equipment | empty %}
+            <details>
+                <summary class="is-6"><b>Equipment</b></summary>
+                {% for equip in npc.equipment %}
+                    {{ equip | lookup_equipment | lookup_magic_item | safe }}<br>
+                {% endfor %}
+            </details>
+        {% endif %}
+    </div>
+    <div class="card-footer">
+        {% if not npc.authors | empty %}
+            {% for author in npc.authors %}
+                {% set authorString %}{% if not author.artwork | empty %}Artist{% else %}Writer{% endif %}{% endset %}
+                <div class="card-footer-item">
+                    <p>
+                        {% if author.social %}
+                            {{ authorString | safe }}: {{ link.external(author.social, author.name) }}
+                        {% else %}
+                            {{ authorString | safe }}: {{ author.name }}
+                        {% endif %}
+                    </p>
+                </div>
+            {% endfor %}
+        {% endif %}
+        {% if not npc.license | empty %}
+        <div class="card-footer-item">
+            <p>
+                License:
+                {% if npc.license.url %}
+                    {{ link.license(npc.license.url, npc.license.name) }}
+                {% else %}
+                    {{ npc.license.name }}
+                {% endif %}
+            </p>
+        </div>
+        {% endif %}
+    </div>
+</div>

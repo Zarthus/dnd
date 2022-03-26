@@ -1,0 +1,555 @@
+[
+  {
+    "name": "Quatix Kindriver",
+    "race": "Gnome",
+    "class": "Fighter",
+    "hitpoints": 15,
+    "armor_class": 10,
+    "alignment": "LG",
+    "image": { "url": null },
+    "background": [
+    ],
+    "stats": {
+      "str": 12,
+      "dex": 12,
+      "con": 11,
+      "int": 8,
+      "wis": 8,
+      "cha": 12
+    },
+    "features": [
+
+    ],
+    "spells": [
+
+    ],
+    "equipment": [
+
+    ],
+    "authors": [
+      {
+        "name": "Zarthus",
+        "social": "https://github.com/zarthus"
+      }
+    ],
+    "license": {
+      "name": "CC0 4.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+
+  {
+    "name": "Thing Smasher #39",
+    "race": "Half-Orc",
+    "class": "Barbarian",
+    "hitpoints": 40,
+    "armor_class": 13,
+    "alignment": "CG",
+    "image": { "url": "/resources/assets/npc/thingsmasher.jpg", "relative": true, "source": "https://thearcademan.net/", "credits": "The Arcade Man" },
+    "background": [
+      "The title \"Thing Smasher\" was granted to this Barbarian after winning the Orc Super Smash #39, a yearly event where ",
+      "many orcs and half-orcs gather to smash as many things in as short as time as possible. They have astonished the crowds ",
+      "when they cast Mage Hand to help smashing things. No Orc in the history of the Orc Super Smash before has ever Smashed Things using three hands."
+    ],
+    "stats": {
+      "str": 18,
+      "dex": 12,
+      "con": 18,
+      "int": 8,
+      "wis": 8,
+      "cha": 6
+    },
+    "features": [
+      "Thing Smasher isn't particularily smart or knows a whole lot about the world. But they don't mind: They have found ",
+      "the thing they are good at: Smashing Things.\n",
+      "Thing Smasher has an upbeat, happy-go-round and easily-distracted personality that isn't afraid of any Thing, because they WILL Smash it!"
+    ],
+    "spells": ["Mage Hand"],
+    "equipment": [
+      "Left-Hand: {Battleaxe} (1d8 slashing)",
+      "Other Left-Hand: {Warhammer} (1d8 bludgeoning)",
+      "Armour: {Leather}"
+    ],
+    "authors": [
+      {
+        "name": "Zarthus",
+        "social": "https://github.com/zarthus"
+      },
+      {
+        "name": "The Arcade Man",
+        "social": "https://thearcademan.net/",
+        "artwork": true
+      }
+    ],
+    "license": {
+      "name": "CC0 4.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+
+  {
+    "name": "Ar-imen",
+    "race": "Elf",
+    "class": "Ranger",
+    "hitpoints": 22,
+    "armor_class": 12,
+    "alignment": "NE",
+    "image": { "url": "/resources/assets/npc/ar-imen.jpg", "relative": true, "source": "https://www.hanakogames.com/sword_daughter.shtml", "credits": "Kim Sokol (Hanako Games)"},
+    "background": [
+      "Ar-imen is an elf that has been imprisoned by humans for years, and has grown a severe distrust towards them"
+    ],
+    "stats": {
+      "str": 8,
+      "dex": 14,
+      "con": 12,
+      "int": 14,
+      "wis": 14,
+      "cha": 14
+    },
+    "features": [
+    ],
+    "spells": [
+      "Animal Companion"
+    ],
+    "equipment": [
+      "{Longsword} (1d8 slashing)",
+      "{Longbow} (1d8 piercing)"
+    ],
+    "authors": [
+      {
+        "name": "Zarthus",
+        "social": "https://github.com/zarthus"
+      },
+      {
+        "name": "Kim Sokol (Hanako Games)",
+        "social": "https://www.hanakogames.com/",
+        "artwork": true
+      }
+    ],
+    "license": {
+      "name": "CC0 4.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+
+  {
+    "name": "Leonela Vigour",
+    "race": "Human",
+    "class": "Cleric",
+    "hitpoints": 18,
+    "armor_class": 15,
+    "alignment": "LG",
+    "image": { "url": null },
+    "background": [
+    ],
+    "stats": {
+      "str": 12,
+      "dex": 10,
+      "con": 14,
+      "int": 14,
+      "wis": 14,
+      "cha": 12
+    },
+    "features": [
+    ],
+    "spells": [
+    ],
+    "equipment": [
+    ],
+    "authors": [
+      {
+        "name": "Zarthus",
+        "social": "https://github.com/zarthus"
+      }
+    ],
+    "license": {
+      "name": "CC0 4.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+
+  {
+    "name": "Magus Brunns, Conjurer of Fire",
+    "race": "Human",
+    "class": "Sorcerer",
+    "hitpoints": 56,
+    "armor_class": 11,
+    "alignment": "LG",
+    "image": { "url": "/resources/assets/npc/brunns.jpg", "relative": true, "source": "https://twitter.com/leeshahannigan/status/624543724333367296", "credits": "Leesha Hannigan" },
+    "background": [
+      "Magus Brunns is the Conjurer of the Fire, and he is sure to let you know that fact. One of the strongest fire sorcerers in the realm. ",
+      "Stories of Brunns exist of them decimating legions of undead single-handedly with fiery rain from atop castle walls. ",
+      "It has also been said that they have slain a Dracolich, but the corpse has never been identified since by the time the others arrived, it was a big pile of ash."
+    ],
+    "stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 10,
+      "int": 16,
+      "wis": 16,
+      "cha": 16
+    },
+    "features": [
+      "A cocky and competent sorcerer with a fantastic potency in fire magic.",
+      "Highly charasmatic and probably likes to skew the truth a little bit, at least when talking about themselves and their own achievements."
+    ],
+    "spells": [
+      "Light",
+      "Green-Flame Blade",
+      "Control Flames",
+      "Fire Bolt",
+      "Message",
+      "Friends",
+
+      "Alter Self",
+      "Blink",
+      "Counterspell",
+      "Fireball",
+      "Dispel Magic",
+
+      "Fire Shield",
+      "Polymorph",
+      "Wall of Fire",
+      "Telekenisis",
+
+      "Investiture of Flame",
+      "Sunbeam",
+
+      "Teleport",
+      "Incendiary Cloud"
+    ],
+    "equipment": [
+      "{Clothes Fine}",
+      "{Quarterstaff} (1d6 bludgeoning)"
+    ],
+    "authors": [
+      {
+        "name": "Zarthus",
+        "social": "https://github.com/zarthus"
+      },
+      {
+        "name": "Leesha Hannigan",
+        "social": "https://twitter.com/leeshahannigan/",
+        "artwork": true
+      }
+    ],
+    "license": {
+      "name": "CC0 4.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+
+  {
+    "name": "Li Mon",
+    "race": "Tiefling",
+    "class": "Bard",
+    "hitpoints": 8,
+    "armor_class": 8,
+    "alignment": "CN",
+    "image": { "url": "/resources/assets/npc/li-mon.png", "relative": true, "source": "https://robofeather.tumblr.com/post/176035169611/tieflings-are-the-best-they-just-are", "credits": "Robofeather" },
+    "background": [
+      "Li Mon has been playing around in taverns for as long as they can remember"
+    ],
+    "stats": {
+      "str": 8,
+      "dex": 14,
+      "con": 8,
+      "int": 12,
+      "wis": 12,
+      "cha": 15
+    },
+    "features": [
+    ],
+    "spells": [
+    ],
+    "equipment": [
+      "{Cloth Armour}",
+      "Instrument: {Cello}"
+    ],
+    "authors": [
+      {
+        "name": "Zarthus",
+        "social": "https://github.com/zarthus"
+      },
+      {
+        "name": "Robofeather",
+        "social": "https://robofeather.tumblr.com",
+        "artwork": true
+      }
+    ],
+    "license": {
+      "name": "CC0 4.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+
+  {
+    "name": "Keya Vertigo",
+    "race": "Human",
+    "class": "Monk",
+    "hitpoints": 22,
+    "armor_class": 11,
+    "alignment": "LE",
+    "image": { "url": null },
+    "background": [
+    ],
+    "stats": {
+      "str": 13,
+      "dex": 13,
+      "con": 13,
+      "int": 9,
+      "wis": 9,
+      "cha": 11
+    },
+    "features": [
+    ],
+    "spells": [
+    ],
+    "equipment": [
+    ],
+    "authors": [
+      {
+        "name": "Zarthus",
+        "social": "https://github.com/zarthus"
+      }
+    ],
+    "license": {
+      "name": "CC0 4.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+
+  {
+    "name": "Carissa Sparrow",
+    "race": "Human",
+    "class": "Ranger",
+    "hitpoints": 33,
+    "armor_class": 11,
+    "alignment": "LG",
+    "image": { "url": "/resources/assets/npc/carissa-sparrow.jpg", "relative": true, "source": "https://nl.pinterest.com/pin/266416134183033659/", "credits": "Paizo Publishing"},
+    "background": [
+      "Carissa and her bird companion Trustwood are on a hunt of a fierce Wereboar."
+    ],
+    "stats": {
+      "str": 11,
+      "dex": 14,
+      "con": 12,
+      "int": 8,
+      "wis": 11,
+      "cha": 14
+    },
+    "features": [
+      "A skilled trapper that aims to hunt bigger and better prey until it is her undoing. Thrill of The Hunt describes her.",
+      "Confident in her abilities, aims to make their first strike on an animal also their last."
+    ],
+    "spells": [
+      "Animal Friendship",
+      "Cure Wounds",
+      "Detect Poison and Disease",
+      "Entangle",
+      "Speak with Animals",
+      "Summon Beast",
+      "Conjure Animals",
+      "Water Breathing",
+      "Speak wih Plants",
+      "Nondetection",
+      "Lightning Arrow",
+      "Locate Creature"
+    ],
+    "equipment": [
+      "{Crossbow Heavy} +2 (1d10+2 piercing)",
+      "{Longsword} (1d8 slashing)",
+      "{Shield}",
+      "{Leather}"
+    ],
+    "authors": [
+      {
+        "name": "Zarthus",
+        "social": "https://github.com/zarthus"
+      },
+      {
+        "name": "Paizo Publishing",
+        "social": "https://paizo.com/",
+        "artwork": true
+      }
+    ],
+    "license": {
+      "name": "CC0 4.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+
+  {
+    "name": "Il'bryen",
+    "race": "Half-Orc",
+    "class": "Warlock",
+    "hitpoints": 14,
+    "armor_class": 8,
+    "alignment": "CE",
+    "image": { "url": "/resources/assets/npc/il-bryen.png", "relative": true, "source": "https://sagegamers.com/dd-5e-half-orc-warlock-guide/", "credits": "Sage Gamers" },
+    "background": [
+    ],
+    "stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 12,
+      "int": 16,
+      "wis": 16,
+      "cha": 12
+    },
+    "features": [
+    ],
+    "spells": [
+    ],
+    "equipment": [
+    ],
+    "authors": [
+      {
+        "name": "Zarthus",
+        "social": "https://github.com/zarthus"
+      },
+      {
+        "name": "Sage Gamers",
+        "social": "https://sagegamers.com",
+        "artwork": true
+      }
+    ],
+    "license": {
+      "name": "CC0 4.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+
+  {
+    "name": "Balthazar",
+    "race": "Dragonborn",
+    "class": "Artificer",
+    "hitpoints": 22,
+    "armor_class": 16,
+    "alignment": "TN",
+    "image": { "url": null },
+    "background": [
+      "This proud dragonborn belonging to the Delmirev clan towers before most people, it has travelled together ",
+      "with a pet for several years that has grown to be it's most valued companion."
+    ],
+    "stats": {
+      "str": 15,
+      "dex": 12,
+      "con": 14,
+      "int": 11,
+      "wis": 11,
+      "cha": 14
+    },
+    "features": [
+
+    ],
+    "spells": [
+      "Dragonic Ancestry: Bronze | Lightning 5 by 30 (line) | Dex Save"
+    ],
+    "equipment": [
+
+    ],
+    "authors": [
+      {
+        "name": "Zarthus",
+        "social": "https://github.com/zarthus"
+      }
+    ],
+    "license": {
+      "name": "CC0 4.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+
+
+  {
+    "name": "Magistrate",
+    "race": "Human",
+    "class": "Rogue",
+    "hitpoints": 35,
+    "armor_class": 13,
+    "alignment": "TN",
+    "image": { "url": "/resources/assets/npc/magistrate.jpg", "relative": true },
+    "background": [
+      "A hired assassin that simply is interested in coin. Goes by Codename \"Magistrate\". ",
+      "Not much is known about them, except that they are very skilled at their job."
+    ],
+    "stats": {
+      "str": 12,
+      "dex": 18,
+      "con": 14,
+      "int": 11,
+      "wis": 11,
+      "cha": 16
+    },
+    "features": [
+    ],
+    "spells": [
+    ],
+    "equipment": [
+      "Left hand: {Dagger} +1 (1d4 + 1)",
+      "Right hand: _Dagger Of Venom_ (1d4 + 1)",
+      "A big sack of gold",
+      "_Potion of Healing Superior_ (8d4 + 8)",
+      "_Eyes of Charming_",
+      "_Gem of Seeing_"
+    ],
+    "authors": [
+      {
+        "name": "Zarthus",
+        "social": "https://github.com/zarthus"
+      },
+      {
+        "name": "JasonTN",
+        "social": "https://pinterest.com/pin/263460646929835006/",
+        "artwork": true
+      }
+    ],
+    "license": {
+      "name": "CC0 4.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+
+  {
+    "name": "Fleabag",
+    "race": "Human",
+    "class": "Unknown",
+    "hitpoints": null,
+    "armor_class": null,
+    "alignment": null,
+    "image": { "url": "/resources/assets/npc/fleabag.png", "relative": true, "source": "https://dagnadraws.tumblr.com/post/172931091979/a-goblin-mom-her-hobo-wizard-son-and-his-cat", "credits": "Dagnadraws" },
+    "background": [
+      "Fleabag is a common beggar - found on the streets asking for coin and in general looking miserable.\n",
+      "However: There is a special twist. Fleabag is actually of another plane and is merely tricking people.\n",
+      "Fleabag believes that good deeds get rewarded, and bad deeds get punished severely.\n",
+      "When people are good to him, good fortune will befall them.\n",
+      "When people treat him poorly, terrible fortune will befall them.\n"
+    ],
+    "stats": null,
+    "features": [
+      "They smell awful, torn clothing, and several scars - but an overall friendly attitude that only changes when others do not treat them nicely.\n",
+      "They take on the appearance of an old masculine human, but most definitely are not.\n",
+      "Fleabag can be killed very easily - but they will re-appear at some point in the future and appear fully alive again. ",
+      "Upon being murdered - a hefty curse will befall on the murderer(s), and the surrounding area will start to rot. ",
+      "Their memory stays intact throughout death and they remember and may even haunt specific people if they have been especially harsh to them.\n"
+    ],
+    "spells": ["Illusion magic", "Message"],
+    "equipment": ["{Tattered clothing}"],
+    "authors": [
+      {
+        "name": "Zarthus",
+        "social": "https://github.com/zarthus"
+      },
+      {
+        "name": "Dagnadraws",
+        "social": "https://dagnadraws.tumblr.com",
+        "artwork": true
+      }
+    ],
+    "license": {
+      "name": "CC0 4.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  }
+]

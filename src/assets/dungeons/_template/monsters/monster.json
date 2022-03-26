@@ -1,0 +1,71 @@
+{
+  "name": "Aarakocra",
+  "manual": "Monster Manual Pg 12",
+  "hitpoints": 13,
+  "hitpoints_die": [3, 8],
+  "armor_class": 12,
+  "alignment": null,
+  "speed": {
+    "move": 20,
+    "fly": 50
+  },
+  "stats": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "skills": {
+
+  },
+  "senses": {
+    "passive-perception": 15
+  },
+  "languages": [
+    "Auran"
+  ],
+  "challenge": {
+    "rating": 0.25,
+    "exp": 50
+  },
+  "spells": [
+    {
+      "name": "Dive Attack",
+      "description": [
+        "If the aarakocra is flying and dives at least 30 feet straight towards a target and then hits it with a melee weapon attack. ",
+        "The attack deals an extra 3 (1d6) damage to the target"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Talon",
+      "reach": 5,
+      "range": null,
+      "targets": 1,
+      "radius": null,
+      "hit_die": 4,
+      "type": "slashing",
+      "description": [
+        "Melee Weapon Attack: 1d4 - 2"
+      ]
+    },
+    {
+      "name": "Javelin",
+      "reach": 5,
+      "range": "30/120",
+      "targets": 1,
+      "radius": null,
+      "hit_die": 5,
+      "type": "piercing",
+      "description": [
+        "Melee or Ranged Weapon Weapon Attack: 1d6 + 2"
+      ]
+    }
+  ],
+  "special": [
+    "Summoning Air Elementals"
+  ]
+}

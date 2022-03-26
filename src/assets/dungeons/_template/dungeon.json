@@ -1,0 +1,54 @@
+{
+  "name": "sample",
+  "objective": [
+    "Objective"
+  ],
+  "description": [
+  ],
+  "setting": "foo",
+  "resources": {
+    "images": [
+      {
+        "name": "foo",
+        "description": [
+          "Description"
+        ],
+        "url": "url"
+      }
+    ]
+  },
+  "maps": [
+    {
+      "name": "Entrance",
+      "url": "./maps/sample.jpg"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "NPC sample",
+      "url": "./npcs/npc.json"
+    }
+  ],
+  "monsters": [
+    {
+      "name": "Monster sample",
+      "url": "./monsters/monster.json"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Author",
+      "social": "https://twitter.com/author",
+      "artwork": false
+    },
+    {
+      "name": "Artist",
+      "social": "https://twitter.com/author",
+      "artwork": true
+    }
+  ],
+  "license": {
+    "name": "CC0 4.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}

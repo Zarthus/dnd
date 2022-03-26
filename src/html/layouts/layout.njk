@@ -15,7 +15,7 @@
 
     <title>{{ page_name }}</title>
 </head>
-<body class="{{ page_name | classify('page-') }}">
+<body class="{{ page_name | classify('page-') }} theme-dark">
     {% include "partials/navbar.njk" %}
     {% block header %}
         {% include "partials/header.njk" %}
@@ -25,6 +25,6 @@
     {% include "partials/footer.njk" %}
     {% block scripts %}{% endblock %}
     {{ link.script('theme-switcher.js') }}
-    <script defer async>(function () { document.body.classList.add('js-enabled'); })();</script>
+    <script type="text/javascript">(function () { document.body.classList.add('js-enabled'); })();</script>
 </body>
 </html>
