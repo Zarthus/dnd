@@ -1,5 +1,4 @@
-const fs = require('fs')
-const {urlencode} = require("nunjucks/src/filters");
+const dungeon = require('../dnd/dungeon')
 
 exports.abbr_alignment = function (alignment) {
     let abbr = null;
@@ -74,3 +73,6 @@ exports.lookup_magic_item = function(equipment) {
     }
     return newEquipmentStr
 }
+
+exports.dungeon_ls = dungeon.ls
+exports.dungeon_parse = dungeon.parse

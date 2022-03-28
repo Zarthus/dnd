@@ -1,10 +1,12 @@
 {
   "name": "Aarakocra",
   "manual": "Monster Manual Pg 12",
-  "hitpoints": 13,
-  "hitpoints_die": [3, 8],
   "armor_class": 12,
+  "hitpoints": 13,
+  "hitpoints_die": "7d8 +21",
   "alignment": null,
+  "size": "medium",
+  "type": "elemental",
   "speed": {
     "move": 20,
     "fly": 50
@@ -21,7 +23,7 @@
 
   },
   "senses": {
-    "passive-perception": 15
+    "Passive Perception": "15"
   },
   "languages": [
     "Auran"

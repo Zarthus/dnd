@@ -1,0 +1,6 @@
+<section id="{{ dungeon.name | classify('dungeon-npcs-') }}" class="content is-js">
+    <h4>NPCs</h4>
+    {% for npc in dungeon.npcs %}
+        <p>{{ npc | dump }}</p>
+    {% endfor %}
+</section>

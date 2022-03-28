@@ -23,6 +23,8 @@ function setupEnv() {
     env.addFilter('lookup_spell', dnd_filters.lookup_spell)
     env.addFilter('lookup_equipment', dnd_filters.lookup_equipment)
     env.addFilter('lookup_magic_item', dnd_filters.lookup_magic_item)
+    env.addFilter('dungeon_ls', dnd_filters.dungeon_ls)
+    env.addFilter('dungeon_parse', dnd_filters.dungeon_parse)
 
     if (devmode) {
         env.addFilter('debug', filters.debug)

@@ -1,0 +1,10 @@
+<section id="{{ dungeon.name | classify('dungeon-maps-') }}" class="content is-js">
+    <h4>Maps</h4>
+    {% for map in dungeon.maps %}
+        <h5>{{ map.name }} <small>(<a target="_blank" href="{{ dungeon_dir }}{{ map.url }}">download link</a>)</small></h5>
+        <img src="{{ dungeon_dir }}{{ map.url }}" alt="Map: {{ map.name }}">
+        <h6>Dungeon Master's Guide</h6>
+        <p>{{ map.dm_guide | nl2br | safe }}</p>
+        <hr>
+    {% endfor %}
+</section>

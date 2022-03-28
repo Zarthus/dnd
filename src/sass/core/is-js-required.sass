@@ -1,2 +1,7 @@
-body:not(.js-enabled) .is-js
+// Component is activated using JS, hide if no JS
+body:not(.js-enabled) .is-js-activated
+    display: none
+
+// Component requires JS to be shown, otherwise show always
+body.js-enabled .is-js
     display: none

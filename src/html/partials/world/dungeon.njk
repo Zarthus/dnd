@@ -1,0 +1,34 @@
+{% set dungeon_dir = link.resource('assets/dungeons/' + (dungeon.name | classify(''))) + '/' %}
+<div id="{{ dungeon.name | classify('dungeon-') }}">
+    <div class="tabs">
+        <ul>
+            <li class="dungeon-title">
+                {{ dungeon.name }}
+            </li>
+            <li><a href="#{{ dungeon.name | classify('dungeon-overview-') }}"><span class="bi-info"></span>&nbsp;Overview</a></li>
+            {% if not dungeon.maps | empty %}<li><a href="#{{ dungeon.name | classify('dungeon-maps-') }}"><span class="bi-map"></span>&nbsp;Maps</a></li>{% endif %}
+            {% if not dungeon.npcs | empty %}<li><a href="#{{ dungeon.name | classify('dungeon-npcs-') }}"><span class="bi-person"></span>&nbsp;NPCs</a></li>{% endif %}
+            {% if not dungeon.resources | empty %}<li><a href="#{{ dungeon.name | classify('dungeon-resources-') }}"><span class="bi-receipt"></span>&nbsp;Resources</a></li>{% endif %}
+            {% if not dungeon.monsters | empty %}<li><a href="#{{ dungeon.name | classify('dungeon-monsters-') }}"><span class="bi-book"></span>&nbsp;Monsters</a></li>{% endif %}
+            {% if not dungeon.questline | empty %}
+                {% if not dungeon.questline.previous | empty %}
+                    <li>Next Quest: {{ dungeon.questline.previous.name }}</li>
+                {% else %}
+                    <li>Questline: Starting point</li>
+                {% endif %}
+                {% if not dungeon.questline.next | empty %}
+                    <li>Next Quest: {{ dungeon.questline.next.name }}</li>
+                {% else %}
+                    <li>Questline: Finale</li>
+                {% endif %}
+            {% endif %}
+            <li><a href="#{{ dungeon.name | classify('dungeon-authors-') }}"><span class="bi-people"></span>&nbsp;Authors</a></li>
+        </ul>
+    </div>
+    {% include "partials/world/dungeon/overview.njk" %}
+    {% include "partials/world/dungeon/maps.njk" %}
+    {% include "partials/world/dungeon/npcs.njk" %}
+    {% include "partials/world/dungeon/resources.njk" %}
+    {% include "partials/world/dungeon/monsters.njk" %}
+    {% include "partials/world/dungeon/authors.njk" %}
+</div>

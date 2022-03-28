@@ -1,0 +1,6 @@
+<section id="{{ dungeon.name | classify('dungeon-resources-') }}" class="content is-js">
+    <h4>Resources</h4>
+    {% for res in dungeon.resources %}
+        <p>{{ res | dump }}</p>
+    {% endfor %}
+</section>

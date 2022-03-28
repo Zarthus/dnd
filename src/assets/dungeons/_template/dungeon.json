@@ -1,26 +1,39 @@
 {
   "name": "sample",
+  "banner": "./banner.jpg",
+  "questline": {
+    "name": "",
+    "previous": null,
+    "next": null
+  },
   "objective": [
     "Objective"
   ],
   "description": [
   ],
+  "dm_guide": [
+    "Instructions for the DM"
+  ],
   "setting": "foo",
-  "resources": {
-    "images": [
-      {
-        "name": "foo",
-        "description": [
-          "Description"
-        ],
-        "url": "url"
-      }
-    ]
-  },
+  "tags": ["List of tags that may apply", "Example"],
+  "level_range": [3, 6],
+  "resources": [
+    {
+      "name": "Crumpled Letter",
+      "type": "markdown",
+      "description": [
+        "A letter holding some clue or text"
+      ],
+      "url": "./resources/letter.md"
+    }
+  ],
   "maps": [
     {
       "name": "Entrance",
-      "url": "./maps/sample.jpg"
+      "url": "./maps/sample.jpg",
+      "dm_guide": [
+        "Instructions for the DM"
+      ]
     }
   ],
   "npcs": [

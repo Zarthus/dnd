@@ -2,7 +2,7 @@ const fs = require('fs')
 
 exports.json_parse = function (file) {
     const res = fs.readFileSync(file)
-    console.log('compiled json: ' + file)
+    console.log('preprocessing json: ' + file)
     return JSON.parse(res.toString())
 }
 

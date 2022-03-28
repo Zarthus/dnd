@@ -1,0 +1,73 @@
+{
+  "name": "Gargoyle",
+  "manual": "Monster Manual Pg 140",
+  "armor_class": 15,
+  "hitpoints": 52,
+  "hitpoints_die": "7d8 +21",
+  "size": "medium",
+  "type": "elemental",
+  "alignment": "CE",
+  "speed": {
+    "move": 30,
+    "fly": 60
+  },
+  "stats": {
+    "str": 15,
+    "dex": 11,
+    "con": 16,
+    "int": 6,
+    "wis": 11,
+    "cha": 7
+  },
+  "skills": {
+    "False Appearance": "While the gargoyle remains motionless, it is indistinguishable from an inanimate statue."
+  },
+  "senses": {
+    "Passive Perception": "10",
+    "Darkvision": "60 ft"
+  },
+  "languages": [
+    "Terran"
+  ],
+  "challenge": {
+    "rating": 2,
+    "exp": 450
+  },
+  "spells": [
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "description": [
+        "The gargoyle makes two attacks: One with its bite, one with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "reach": 5,
+      "range": null,
+      "targets": 1,
+      "radius": null,
+      "hit_die": 5,
+      "type": "piercing",
+      "description": [
+        "Melee Weapon Attack: 1d6 + 2"
+      ]
+    },
+    {
+      "name": "Claws",
+      "reach": 5,
+      "range": null,
+      "targets": 1,
+      "radius": null,
+      "hit_die": 5,
+      "type": "slashing",
+      "description": [
+        "Melee Weapon Attack: 1d6 + 2"
+      ]
+    }
+  ],
+  "special": [
+    "Shards of Elemental Evil"
+  ]
+}

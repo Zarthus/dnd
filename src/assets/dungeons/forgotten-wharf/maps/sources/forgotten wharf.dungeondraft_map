@@ -1,0 +1,2020 @@
+{
+	"header": {
+		"creation_build": "1.0.3.2 tricky vampire",
+		"creation_date": {
+			"year": 2022,
+			"month": 3,
+			"day": 27,
+			"weekday": 0,
+			"dst": false,
+			"hour": 11,
+			"minute": 0,
+			"second": 51
+		},
+		"uses_default_assets": true,
+		"asset_manifest": [
+			{
+				"name": "Skront's Ferns and Mushrooms",
+				"id": "3pJZgkDx",
+				"version": "1",
+				"author": "Skront",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "CSA - Community Suggested Assets",
+				"id": "566ki5wO",
+				"version": "1,1",
+				"author": "Nexoness",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Geordie_full_cliff_package",
+				"id": "8K8jJisA",
+				"version": "1.2",
+				"author": "Geordie_LaForge_",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Skront's Wooden Stuff",
+				"id": "8LR9chxF",
+				"version": "1",
+				"author": "Skront",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Hakupack v2",
+				"id": "A9Ogfn7p",
+				"version": "2",
+				"author": "Hakurai",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "TygerTailor",
+				"id": "FOXTK7Iy",
+				"version": "1",
+				"author": "Tyger_purr",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Crave's Lights 1.6d",
+				"id": "GEdExrk1",
+				"version": "1.6",
+				"author": "Doug Craven, Ajax, Ontario, Attribution-NonCommercial (CC BY-NC)",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Skront's Rugs",
+				"id": "IlCM0d4s",
+				"version": "1",
+				"author": "Skront",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0.1,
+					"min_saturation": 0,
+					"red_tolerance": 0.04
+				}
+			},
+			{
+				"name": "TygerFireplace",
+				"id": "KAH5aZQH",
+				"version": "1.1",
+				"author": "Tyger_purr",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "TygerLibrary",
+				"id": "MJQ9gdYx",
+				"version": "1",
+				"author": "Tyger_purr",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Stairs Path",
+				"id": "MWiUiRno",
+				"version": "1",
+				"author": "RaianStar",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Gogots Maps-Forest",
+				"id": "OVC1WiJZ",
+				"version": "1,1",
+				"author": "Gogots",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Debris Pack",
+				"id": "PqgDsxLp",
+				"version": "1,4",
+				"author": "Nexoness",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Skront's Bakery",
+				"id": "RKn6NZOA",
+				"version": "1",
+				"author": "Skront",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "TygerBakery",
+				"id": "WByMWZuR",
+				"version": "1.1",
+				"author": "Tyger_purr",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Skront's Beds",
+				"id": "WUJzRpCV",
+				"version": "1",
+				"author": "Skront",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Gogots Maps-Water",
+				"id": "WyI6zN7Z",
+				"version": "1",
+				"author": "Gogots",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Gogots Maps-Winter",
+				"id": "asEx3TgJ",
+				"version": "1",
+				"author": "Gogots",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0.1,
+					"min_saturation": 0,
+					"red_tolerance": 0.04
+				}
+			},
+			{
+				"name": "Gogots Maps-Ruins",
+				"id": "b65LP7hJ",
+				"version": "1",
+				"author": "Gogots",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0.1,
+					"min_saturation": 0,
+					"red_tolerance": 0.04
+				}
+			},
+			{
+				"name": "Mog Fantasy Doors Pack",
+				"id": "cJwoMuUv",
+				"version": "1",
+				"author": "JSpashett",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Skront's Alchemy Mk2",
+				"id": "dS0IUhwf",
+				"version": "1",
+				"author": "Skront",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Gogots Maps-Camp",
+				"id": "fiQwsb3E",
+				"version": "1",
+				"author": "Gogots",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0.1,
+					"min_saturation": 0,
+					"red_tolerance": 0.04
+				}
+			},
+			{
+				"name": "Skront's Farm and Field",
+				"id": "hA8yMy2D",
+				"version": "1",
+				"author": "Skront",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Skront's Stones",
+				"id": "hWrYYb8W",
+				"version": "1",
+				"author": "Skront",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Skront's Alchemy",
+				"id": "kNUrZPY0",
+				"version": "1",
+				"author": "Skront",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Skront's Rocks and Bricks",
+				"id": "o4K03ljk",
+				"version": "1",
+				"author": "Skront",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Skront's Trees",
+				"id": "ol6t37Ek",
+				"version": "1",
+				"author": "Skront",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "TygerMusic",
+				"id": "pMI97nEl",
+				"version": "1.1",
+				"author": "Tyger_purr",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "TygerRoofTool",
+				"id": "r0dlnUzh",
+				"version": "1",
+				"author": "Tyger_purr",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Gogots Maps-Smoke and Fire",
+				"id": "tt1y1hJz",
+				"version": "1",
+				"author": "Gogots",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0.1,
+					"min_saturation": 0,
+					"red_tolerance": 0.04
+				}
+			},
+			{
+				"name": "Gogots Maps- Shadows & Lights",
+				"id": "xDsFP8Dh",
+				"version": "1",
+				"author": "Gogots",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "Gogots Maps-Vegetation",
+				"id": "yjfy2kT3",
+				"version": "1",
+				"author": "Gogots",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			}
+		],
+		"editor_state": {
+			"current_level": 0,
+			"camera_position": "Vector2( 4196.02, 877.723 )",
+			"camera_zoom": 1.6,
+			"guide_position": "null",
+			"trace_image": null,
+			"color_palettes": {
+				"object_custom_colors": [
+					"ff6b3834",
+					"ffac584c",
+					"ff885848",
+					"ffc0866c",
+					"ff8d6d58",
+					"fff3a768",
+					"ff685848",
+					"ff9c8868",
+					"ffae9254",
+					"ffd8c888",
+					"ff888868",
+					"ffaab478",
+					"ff92aa58",
+					"ff87a868",
+					"ff679865",
+					"ff789868",
+					"ff546d56",
+					"ff68887c",
+					"ff667878",
+					"ff809dab",
+					"ff61788d",
+					"ff535869",
+					"ff786878",
+					"ff886878",
+					"ff905868",
+					"ff994858",
+					"ffd8d8d8",
+					"ff8a8a8a",
+					"ff585858",
+					"ff282828"
+				],
+				"scatter_custom_colors": [
+					"ff6b3834",
+					"ffac584c",
+					"ff885848",
+					"ffc0866c",
+					"ff8d6d58",
+					"fff3a768",
+					"ff685848",
+					"ff9c8868",
+					"ffae9254",
+					"ffd8c888",
+					"ff888868",
+					"ffaab478",
+					"ff92aa58",
+					"ff87a868",
+					"ff679865",
+					"ff789868",
+					"ff546d56",
+					"ff68887c",
+					"ff667878",
+					"ff809dab",
+					"ff61788d",
+					"ff535869",
+					"ff786878",
+					"ff886878",
+					"ff905868",
+					"ff994858",
+					"ffd8d8d8",
+					"ff8a8a8a",
+					"ff585858",
+					"ff282828"
+				],
+				"light_colors": [
+					"ffeccd8b",
+					"ffeaefca",
+					"ff80beff",
+					"ffffad58",
+					"ff4dd569"
+				],
+				"grid_colors": [
+					"7fffffff",
+					"7fcccccc",
+					"7f333333",
+					"7f000000"
+				],
+				"deep_water_colors": [
+					"ff3aa19a",
+					"ff8bceb0",
+					"ffffcc55",
+					"ff3c8ab8"
+				],
+				"shallow_water_colors": [
+					"ff3ac3b2",
+					"ff8bceb0",
+					"ffcc5555",
+					"ff54c1da"
+				],
+				"cave_ground_colors": [
+					"ff7f7e71"
+				],
+				"cave_wall_colors": [
+					"ff7f7e71"
+				]
+			},
+			"object_tags_memory": {
+				"set": 0,
+				"tags": [
+					"Stable"
+				]
+			},
+			"scatter_tags_memory": {
+				"set": 0,
+				"tags": [
+
+				]
+			},
+			"object_library_memory": {
+				"mode": "tags",
+				"scroll": 0,
+				"selected": [
+					"res://textures/objects/stable/trough_barn_03.png"
+				],
+				"search_strictness": 0.61
+			},
+			"scatter_library_memory": {
+				"mode": "all",
+				"scroll": 0,
+				"selected": [
+					"res://textures/objects/activities/administration/map_01.png"
+				],
+				"search_strictness": 0.5
+			},
+			"path_library_memory": {
+				"scroll": 0,
+				"selected": [
+					"res://packs/b65LP7hJ/textures/paths/Ruin_Path-Plank_wood_1.png"
+				],
+				"search_strictness": 0.5
+			},
+			"sharpen_fonts": true
+		}
+	},
+	"world": {
+		"format": 3,
+		"width": 22,
+		"height": 12,
+		"next_node_id": "20c",
+		"next_prefab_id": "8",
+		"msi": {
+			"offset_map_size": 512,
+			"max_offset_distance": 0.2,
+			"cell_size": 64,
+			"seed": "624027c3"
+		},
+		"grid": {
+			"color": "7f000000",
+			"texture": "res://textures/grid/dotted_line.png"
+		},
+		"building_wear": "res://textures/wear/grime.png",
+		"embedded": {
+
+		},
+		"levels": {
+			"0": {
+				"label": "Ground",
+				"environment": {
+					"baked_lighting": true,
+					"ambient_light": "ffffffff"
+				},
+				"layers": {
+					"-400": "Below Ground",
+					"-100": "Below Water",
+					"100": "User Layer 1",
+					"200": "User Layer 2",
+					"300": "User Layer 3",
+					"400": "User Layer 4",
+					"700": "Above Walls",
+					"900": "Above Roofs"
+				},
+				"shapes": {
+					"polygons": [
+						"PoolVector2Array( 5376, 2048, 4096, 2048, 4096, 1280, 2048, 1280, 2048, 256, 5376, 256 )"
+					],
+					"walls": [
+						81
+					]
+				},
+				"tiles": {
+					"cells": "PoolIntArray( -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, 0, 0, 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, 0, 0, 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, 0, 0, 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 )",
+					"colors": [
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffb28f6f",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff",
+						"ffffffff"
+					],
+					"lookup": {
+						"0": "res://textures/tilesets/smart/tileset_wood_vertical.png",
+						"1": "res://textures/tilesets/smart_double/tileset_stone.png",
+						"2": "res://textures/tilesets/simple/tileset_brick_basketweave.png",
+						"3": "res://textures/tilesets/simple/tileset_brick_running.png",
+						"4": "res://textures/tilesets/simple/tileset_brick_worn.png",
+						"5": "res://textures/tilesets/simple/tileset_carpet.png",
+						"6": "res://textures/tilesets/simple/tileset_cave.png",
+						"7": "res://textures/tilesets/simple/tileset_cobble.png",
+						"8": "res://textures/tilesets/simple/tileset_concrete.png",
+						"9": "res://textures/tilesets/simple/tileset_concrete_large.png",
+						"10": "res://textures/tilesets/simple/tileset_concrete_slab.png",
+						"11": "res://textures/tilesets/simple/tileset_cut_stone.png",
+						"12": "res://textures/tilesets/simple/tileset_diamond.png",
+						"13": "res://textures/tilesets/simple/tileset_diamond_2.png",
+						"14": "res://textures/tilesets/simple/tileset_herringbone.png",
+						"15": "res://textures/tilesets/simple/tileset_ornate.png",
+						"16": "res://textures/tilesets/simple/tileset_plank_45.png",
+						"17": "res://textures/tilesets/simple/tileset_roman_tiles.png",
+						"18": "res://textures/tilesets/simple/tileset_roman_worn.png",
+						"19": "res://textures/tilesets/simple/tileset_sewers.png",
+						"20": "res://textures/tilesets/simple/tileset_straw.png",
+						"21": "res://textures/tilesets/simple/tileset_wood_damaged.png",
+						"22": "res://textures/tilesets/simple/tileset_wood_interlaced.png",
+						"23": "res://textures/tilesets/simple/tileset_worn_cobble.png",
+						"24": "res://packs/8LR9chxF/textures/tilesets/smart/Skront_Wood_Broken_tileset_smart.png",
+						"25": "res://packs/8LR9chxF/textures/tilesets/smart/Skront_Wood_Gradient_tileset_smart.png",
+						"26": "res://packs/8LR9chxF/textures/tilesets/smart/Skront_Wood_tileset_smart.png",
+						"27": "res://packs/cJwoMuUv/textures/tilesets/smart/tileset_smart.png",
+						"28": "res://packs/cJwoMuUv/textures/tilesets/smart_double/tileset_smart_double.png",
+						"29": "res://packs/8LR9chxF/textures/tilesets/simple/Skront_Wood_Carved_tileset_simple.png",
+						"30": "res://packs/8LR9chxF/textures/tilesets/simple/Skront_Wood_Decorative_tileset_simple.png",
+						"31": "res://packs/b65LP7hJ/textures/tilesets/simple/Ruin-Parquet_H_color.png",
+						"32": "res://packs/b65LP7hJ/textures/tilesets/simple/Ruin-Parquet_V_color.png",
+						"33": "res://packs/b65LP7hJ/textures/tilesets/simple/Ruin-Tiles1_color.png",
+						"34": "res://packs/b65LP7hJ/textures/tilesets/simple/Ruin-Tiles2_color.png",
+						"35": "res://packs/b65LP7hJ/textures/tilesets/simple/Ruin-Tiles3_color.png",
+						"36": "res://packs/b65LP7hJ/textures/tilesets/simple/Ruin-Tiles4_color.png",
+						"37": "res://packs/b65LP7hJ/textures/tilesets/simple/Ruin-Tiles5_colorable.png",
+						"38": "res://packs/b65LP7hJ/textures/tilesets/simple/Ruin-Tiles5_colorfull.png",
+						"39": "res://packs/b65LP7hJ/textures/tilesets/simple/Ruin-Tiles6_colorable.png",
+						"40": "res://packs/b65LP7hJ/textures/tilesets/simple/Ruin-Tiles6_colorfull.png"
+					}
+				},
+				"patterns": [
+					{
+						"position": "Vector2( 224.104, 512.667 )",
+						"shape_rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"points": "PoolVector2Array( 825.531, 879.099, 862.198, 879.099, 862.198, 1175.1, 825.531, 1175.1 )",
+						"layer": 200,
+						"color": "ff7e7774",
+						"outline": true,
+						"node_id": "136"
+					},
+					{
+						"position": "Vector2( 224.104, 512.667 )",
+						"shape_rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"points": "PoolVector2Array( 1187.53, 872.433, 1222.2, 872.433, 1222.2, 1170.43, 1187.53, 1170.43 )",
+						"layer": 200,
+						"color": "ff7e7774",
+						"outline": true,
+						"node_id": "137"
+					}
+				],
+				"walls": [
+					{
+						"points": "PoolVector2Array( 2048, 1280, 2816, 1280 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "98",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 2048, 256, 2560, 256, 2304, 256 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "97",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 2048, 1280, 2048, 256, 5376, 256, 5376, 2048, 4096, 2048, 4096, 1280 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": true,
+						"type": 0,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "51",
+						"portals": [
+							{
+								"position": "Vector2( 2048, 768 )",
+								"rotation": -1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, -1 )",
+								"texture": "res://textures/portals/door_01.png",
+								"radius": 128,
+								"wall_id": "51",
+								"wall_distance": 0.5,
+								"closed": true,
+								"node_id": "7"
+							},
+							{
+								"position": "Vector2( 2048, 512 )",
+								"rotation": -1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, -1 )",
+								"texture": "res://textures/portals/door_01.png",
+								"radius": 128,
+								"wall_id": "51",
+								"wall_distance": 0.75,
+								"closed": true,
+								"node_id": "6"
+							},
+							{
+								"position": "Vector2( 2304, 256 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://textures/ui/null.png",
+								"radius": 256,
+								"wall_id": "51",
+								"wall_distance": 1.076923,
+								"closed": true,
+								"node_id": "28"
+							},
+							{
+								"position": "Vector2( 2944, 256 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://textures/portals/window_12.png",
+								"radius": 96.5,
+								"wall_id": "51",
+								"wall_distance": 1.269231,
+								"closed": true,
+								"node_id": "95"
+							},
+							{
+								"position": "Vector2( 3840, 256 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://textures/portals/window_12.png",
+								"radius": 96.5,
+								"wall_id": "51",
+								"wall_distance": 1.538462,
+								"closed": true,
+								"node_id": "27"
+							},
+							{
+								"position": "Vector2( 5376, 512 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/8LR9chxF/textures/portals/SW_Window_02.png",
+								"radius": 128,
+								"wall_id": "51",
+								"wall_distance": 2.142857,
+								"closed": true,
+								"node_id": "33"
+							},
+							{
+								"position": "Vector2( 5376, 1280 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/8LR9chxF/textures/portals/SW_Window_02.png",
+								"radius": 128,
+								"wall_id": "51",
+								"wall_distance": 2.571429,
+								"closed": true,
+								"node_id": "32"
+							},
+							{
+								"position": "Vector2( 3840, 1280 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://textures/portals/window_12.png",
+								"radius": 96.5,
+								"wall_id": "51",
+								"wall_distance": 5.125,
+								"closed": true,
+								"node_id": "26"
+							},
+							{
+								"position": "Vector2( 2944, 1280 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://textures/portals/window_12.png",
+								"radius": 96.5,
+								"wall_id": "51",
+								"wall_distance": 5.5625,
+								"closed": true,
+								"node_id": "96"
+							},
+							{
+								"position": "Vector2( 2432, 1280 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://textures/ui/null.png",
+								"radius": 256,
+								"wall_id": "51",
+								"wall_distance": 5.8125,
+								"closed": false,
+								"node_id": "25"
+							}
+						]
+					}
+				],
+				"portals": [
+
+				],
+				"cave": {
+					"bitmap": "PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 )",
+					"ground_color": "ff7f7e71",
+					"wall_color": "ff7f7e71",
+					"entrance_bitmap": "PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 224, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 62, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 240, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 224, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 126, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 224, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 )",
+					"texture": "res://textures/caves/colorable/floor.png"
+				},
+				"terrain": {
+					"enabled": true,
+					"expand_slots": false,
+					"smooth_blending": false,
+					"texture_1": "res://textures/terrain/terrain_dirt.png",
+					"texture_2": "res://textures/terrain/terrain_gravel.png",
+					"texture_3": "res://textures/terrain/terrain_sand.png",
+					"texture_4": "res://textures/terrain/terrain_snow.png",
+					"splat": "PoolByteArray( 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0 )"
+				},
+				"water": {
+					"disable_border": false,
+					"tree": {
+						"ref": -1770656282,
+						"polygon": "PoolVector2Array(  )",
+						"join": 0,
+						"end": 0,
+						"is_open": false,
+						"deep_color": "00000000",
+						"shallow_color": "00000000",
+						"blend_distance": 0,
+						"children": [
+							{
+								"ref": 903424658,
+								"polygon": "PoolVector2Array( 5376, 2048, 5376, 1536, 5632, 1536, 5632, 1566, 5706, 1574, 5728, 1605, 5748, 1629, 5781, 1672, 5787, 1738, 5804, 1784, 5758, 1828, 5820, 1819, 5881, 1825, 5879, 1863, 5893, 1922, 5875, 1975, 5880, 2049, 5885, 2071, 5831, 2074, 5761, 2073, 5760, 2073, 5776, 2084, 5859, 2148, 5933, 2216, 5996, 2288, 6048, 2364, 6090, 2442, 6120, 2523, 6137, 2605, 6144, 2688, 6137, 2770, 6120, 2852, 6090, 2933, 6048, 3011, 5996, 3087, 5933, 3159, 5885, 3203, 5929, 3213, 6005, 3235, 6065, 3257, 6109, 3280, 6135, 3304, 6144, 3328, 6135, 3351, 6109, 3375, 6065, 3398, 6005, 3420, 5929, 3442, 5837, 3462, 5730, 3482, 5609, 3500, 5475, 3517, 5330, 3532, 5174, 3545, 5122, 3549, 5121, 3549, 4994, 3568, 4865, 3580, 4736, 3584, 4606, 3580, 4567, 3576, 4472, 3579, 4284, 3582, 4096, 3584, 3907, 3582, 3719, 3579, 3535, 3574, 3416, 3569, 3403, 3570, 3239, 3580, 3072, 3584, 2904, 3580, 2740, 3570, 2582, 3554, 2432, 3532, 2292, 3504, 2166, 3471, 2056, 3433, 1963, 3392, 1889, 3346, 1871, 3330, 1849, 3334, 1801, 3337, 1728, 3315, 1653, 3335, 1603, 3323, 1534, 3326, 1510, 3315, 1542, 3293, 1591, 3308, 1637, 3261, 1659, 3223, 1698, 3197, 1739, 3170, 1754, 3140, 1783, 3106, 1826, 3072, 1792, 3072, 1792, 1536, 4096, 1536, 4096, 2048 )",
+								"join": 0,
+								"end": 0,
+								"is_open": false,
+								"deep_color": "ff3aa19a",
+								"shallow_color": "ff8bceb0",
+								"blend_distance": 1.5,
+								"children": [
+
+								]
+							}
+						]
+					}
+				},
+				"materials": {
+					"-400": [
+						{
+							"bitmap": "PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 0, 0, 0, 248, 255, 63, 0, 0, 0, 252, 255, 63, 0, 0, 0, 254, 255, 31, 0, 0, 0, 255, 255, 7, 0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 )",
+							"texture": "res://packs/A9Ogfn7p/textures/materials/ruinsfade_tile - Copy.png",
+							"smooth": false
+						},
+						{
+							"bitmap": "PoolByteArray( 55, 255, 239, 123, 96, 155, 255, 255, 255, 255, 255, 159, 255, 255, 255, 255, 255, 223, 255, 255, 255, 255, 255, 255, 255, 255, 45, 0, 168, 255, 223, 7, 0, 0, 224, 127, 7, 0, 0, 0, 112, 31, 253, 7, 192, 2, 124, 135, 255, 7, 248, 63, 190, 255, 255, 3, 248, 31, 222, 255, 255, 0, 0, 8, 238, 255, 63, 0, 0, 0, 247, 255, 15, 0, 0, 0, 249, 255, 1, 0, 0, 0, 250, 255, 1, 0, 0, 0, 253, 255, 0, 0, 128, 0, 255, 127, 0, 0, 0, 128, 255, 63, 0, 0, 0, 192, 243, 15, 0, 0, 0, 224, 240, 7, 0, 0, 0, 96, 248, 3, 0, 0, 0, 120, 254, 1, 0, 0, 0, 188, 255, 1, 0, 0, 0, 254, 255, 0, 0, 0, 0, 255, 127, 0, 0, 0, 128, 255, 63, 0, 0, 0, 192, 255, 30, 0, 0, 0, 0 )",
+							"texture": "res://packs/hA8yMy2D/textures/materials/GrassDry_tile.png",
+							"smooth": false
+						},
+						{
+							"bitmap": "PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 96, 0, 0, 0, 0, 0, 112, 0, 28, 0, 0, 0, 248, 255, 31, 0, 0, 0, 252, 255, 15, 0, 0, 0, 252, 255, 15, 0, 0, 0, 255, 255, 3, 0, 0, 128, 3, 0, 0, 0, 0, 128, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 )",
+							"texture": "res://packs/A9Ogfn7p/textures/materials/ruins_tile.png",
+							"smooth": true
+						}
+					]
+				},
+				"paths": [
+					{
+						"position": "Vector2( 4096, 2176 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, 1280, 0 )",
+						"smoothness": 1,
+						"texture": "res://textures/paths/stairs_stone.png",
+						"width": 256,
+						"layer": 100,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": true,
+						"node_id": "53"
+					},
+					{
+						"position": "Vector2( 1664, 3072 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, 0, -1792, 0, -1792 )",
+						"smoothness": 1,
+						"texture": "res://textures/paths/stairs_wood_2.png",
+						"width": 255,
+						"layer": 100,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "59"
+					},
+					{
+						"position": "Vector2( 1536, 1408 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, 2560, 0 )",
+						"smoothness": 1,
+						"texture": "res://textures/paths/stairs_wood_2.png",
+						"width": 255,
+						"layer": 100,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "5b"
+					},
+					{
+						"position": "Vector2( 1792, 3072 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, 0, -1536, 0, -1536 )",
+						"smoothness": 1,
+						"texture": "res://textures/paths/wooden_fence.png",
+						"width": 28,
+						"layer": 100,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "62"
+					},
+					{
+						"position": "Vector2( 1792, 1536 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, 2304, 0, 2304, 0 )",
+						"smoothness": 1,
+						"texture": "res://textures/paths/wooden_fence.png",
+						"width": 28,
+						"layer": 100,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "63"
+					},
+					{
+						"position": "Vector2( 1792, 3072 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, 0, -1536, 0, -1536 )",
+						"smoothness": 1,
+						"texture": "res://textures/paths/rope.png",
+						"width": 28,
+						"layer": 100,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "64"
+					},
+					{
+						"position": "Vector2( 4096, 1536 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, -2304, 0, -2304, 0 )",
+						"smoothness": 1,
+						"texture": "res://packs/b65LP7hJ/textures/paths/Ruin_Path-Plank_wood_1.png",
+						"width": 82,
+						"layer": 100,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "6c"
+					},
+					{
+						"position": "Vector2( 1792, 1536 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, 0, 1536, 0, 1536 )",
+						"smoothness": 1,
+						"texture": "res://packs/b65LP7hJ/textures/paths/Ruin_Path-Plank_wood_1.png",
+						"width": 82,
+						"layer": 100,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "6d"
+					},
+					{
+						"position": "Vector2( 1064.87, 1542.54 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, 0.363525, -9.66528, 2.46051, -28.5499, 6.30743, -46.7637, 11.8123, -64.2159, 18.8831, -80.8155, 27.4279, -96.4714, 37.3548, -111.093, 48.5716, -124.589, 60.9865, -136.868, 74.5073, -147.839, 89.0423, -157.412, 104.499, -165.496, 120.786, -171.999, 137.812, -176.831, 155.483, -179.9, 173.708, -181.116, 183, -181, 192.198, -180.671, 210.293, -178.691, 227.909, -175.022, 244.951, -169.754, 261.324, -162.975, 276.934, -154.772, 291.687, -145.236, 305.487, -134.453, 318.241, -122.513, 329.854, -109.504, 340.232, -95.5149, 349.279, -80.6334, 356.902, -64.9484, 363.006, -48.5483, 367.497, -31.5215, 370.279, -13.9566, 371, -5, 369.954, 4.13354, 366.593, 22.0256, 361.618, 39.3442, 355.122, 56.0001, 347.201, 71.9043, 337.947, 86.9678, 327.455, 101.102, 315.819, 114.217, 303.133, 126.225, 289.491, 137.036, 274.986, 146.562, 259.713, 154.713, 243.766, 161.401, 227.239, 166.537, 210.226, 170.031, 192.82, 171.795, 184, 172, 174.853, 172.021, 156.853, 170.664, 139.325, 167.52, 122.363, 162.676, 106.06, 156.221, 90.512, 148.244, 75.8123, 138.835, 62.0552, 128.082, 49.335, 116.074, 37.7462, 102.9, 27.3826, 88.6498, 18.3388, 73.4115, 10.709, 57.2743, 4.58728, 40.3271, 0.0681152, 22.6592, -2.75446, 4.35925, -3.5, -5 )",
+						"smoothness": 1,
+						"texture": "res://textures/paths/shadow_(flat).png",
+						"width": 76.799995,
+						"layer": -100,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "138"
+					},
+					{
+						"position": "Vector2( 1088.7, 1535.54 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, 0.759888, -8.14142, 3.39197, -24.0055, 7.43994, -39.2496, 12.8234, -53.7998, 19.462, -67.5823, 27.2751, -80.5231, 36.1826, -92.5484, 46.1037, -103.584, 56.9582, -113.557, 68.6656, -122.392, 81.1456, -130.017, 94.3176, -136.356, 108.101, -141.336, 122.416, -144.884, 137.182, -146.925, 152.318, -147.386, 160, -147, 168.086, -146.207, 183.967, -143.617, 199.394, -139.751, 214.285, -134.682, 228.559, -128.485, 242.134, -121.233, 254.929, -113, 266.862, -103.861, 277.852, -93.8883, 287.818, -83.1567, 296.678, -71.7397, 304.35, -59.7114, 310.754, -47.1457, 315.808, -34.1164, 319.43, -20.6974, 321.538, -6.96271, 322, 0, 319.205, 8.10596, 312.878, 23.8428, 305.635, 38.8884, 297.557, 53.1727, 288.727, 66.626, 279.226, 79.178, 269.135, 90.7594, 258.537, 101.3, 247.513, 110.73, 236.144, 118.979, 224.513, 125.978, 212.702, 131.657, 200.791, 135.945, 188.862, 138.774, 176.998, 140.073, 165.279, 139.772, 159.5, 139, 152.617, 139.123, 138.9, 138.272, 125.317, 136.013, 111.95, 132.416, 98.8807, 127.549, 86.1915, 121.481, 73.9641, 114.28, 62.2803, 106.015, 51.2223, 96.7551, 40.8719, 86.568, 31.311, 75.5228, 22.6215, 63.688, 14.8854, 51.1321, 8.18463, 37.9241, 2.60114, 24.1322, -1.78314, 9.8252, -3.5, 2.5 )",
+						"smoothness": 1,
+						"texture": "res://textures/paths/shadow_(flat).png",
+						"width": 89.599998,
+						"layer": -100,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "139"
+					},
+					{
+						"position": "Vector2( 1098.87, 1535.7 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, 1.09674, -6.5426, 4.25067, -19.4042, 8.62268, -31.9125, 14.138, -44.0005, 20.7218, -55.6021, 28.299, -66.6503, 36.7947, -77.0788, 46.1342, -86.8207, 56.2424, -95.8096, 67.0447, -103.979, 78.4658, -111.262, 90.4311, -117.592, 102.866, -122.903, 115.694, -127.127, 128.843, -130.199, 142.235, -132.052, 149, -132.5, 156.992, -131.725, 172.595, -129.278, 187.626, -125.692, 202.011, -121.032, 215.676, -115.366, 228.547, -108.76, 240.548, -101.282, 251.606, -92.9979, 261.647, -83.975, 270.595, -74.2802, 278.377, -63.9802, 284.918, -53.1418, 290.143, -41.832, 293.979, -30.1176, 296.35, -18.0654, 297.184, -5.74225, 297, 0.5, 296.181, 8.02454, 293.535, 22.6838, 289.61, 36.7664, 284.48, 50.2041, 278.219, 62.9291, 270.902, 74.873, 262.602, 85.9679, 253.395, 96.1456, 243.354, 105.338, 232.555, 113.477, 221.071, 120.495, 208.978, 126.322, 196.348, 130.893, 183.257, 134.137, 169.779, 135.987, 155.989, 136.375, 149, 136, 141.709, 135.924, 127.365, 134.72, 113.401, 132.171, 99.8925, 128.344, 86.9143, 123.308, 74.5413, 117.131, 62.8483, 109.88, 51.9102, 101.625, 41.8019, 92.4324, 32.5984, 82.3711, 24.3745, 71.5093, 17.205, 59.9147, 11.1649, 47.6558, 6.32916, 34.8005, 2.77258, 21.4169, 0.570068, 7.573, 0, 0.5 )",
+						"smoothness": 1,
+						"texture": "res://textures/paths/shadow_(flat).png",
+						"width": 102.399994,
+						"layer": -100,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "13a"
+					},
+					{
+						"position": "Vector2( 1401.53, 1549.57 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, -1, 12, -13.5, 11.5, -17.5, -10, -21.5, -23.5, -24, -31.5, -29, -35, -37.5, -35.5, -38.5, -27 )",
+						"smoothness": 1,
+						"texture": "res://textures/paths/rope.png",
+						"width": 22.399998,
+						"layer": 200,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "13b"
+					},
+					{
+						"position": "Vector2( 1364.03, 1549.57 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, -1, 7, -7, 12, -19, 5, -26, -24.5, -31.5, -36.5, -39, -38, -44, -33.5, -44.5, -28 )",
+						"smoothness": 1,
+						"texture": "res://textures/paths/rope.png",
+						"width": 22.399998,
+						"layer": 200,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "13c"
+					},
+					{
+						"position": "Vector2( 1320.53, 1549.07 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, -0.5, 8.5, -5.5, 12.5, -17.5, 5, -26.5, -21.5, -28, -28.5, -34, -33.5, -43.5, -36.5, -48, -29.5, -48, -26 )",
+						"smoothness": 1,
+						"texture": "res://textures/paths/rope.png",
+						"width": 22.399998,
+						"layer": 200,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "13d"
+					},
+					{
+						"position": "Vector2( 1273.03, 1550.07 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, -0.5, 6.5, -11, 11.5, -16.5, -3, -27, -24.5, -34.5, -36, -49, -39, -48.5, -27 )",
+						"smoothness": 1,
+						"texture": "res://textures/paths/rope.png",
+						"width": 22.399998,
+						"layer": 200,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "13e"
+					},
+					{
+						"position": "Vector2( 1224.53, 1547.57 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, 0.5, 23, 27.5, 45.5, 40.5, 49 )",
+						"smoothness": 1,
+						"texture": "res://textures/paths/rope.png",
+						"width": 22.399998,
+						"layer": 100,
+						"fade_in": false,
+						"fade_out": true,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "13f"
+					},
+					{
+						"position": "Vector2( 1252.53, 1592.57 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, 26, 9.5, 38, 4.5 )",
+						"smoothness": 1,
+						"texture": "res://textures/paths/rope.png",
+						"width": 22.399998,
+						"layer": -100,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": true,
+						"block_light": false,
+						"loop": false,
+						"node_id": "140"
+					}
+				],
+				"objects": [
+					{
+						"position": "Vector2( 4224, 1920 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/8LR9chxF/textures/objects/Skront_Wooden_Stuff/Colorable/Chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "7a"
+					},
+					{
+						"position": "Vector2( 5248, 1920 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/tables/table_corner_wood_07.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "76"
+					},
+					{
+						"position": "Vector2( 4224, 1664 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/chairs/armchair_03.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "74"
+					},
+					{
+						"position": "Vector2( 5120, 512 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/structures/trap_door_02.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "38"
+					},
+					{
+						"position": "Vector2( 4224, 1408 )",
+						"rotation": -1.047198,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/scroll_bowl_04.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "3c"
+					},
+					{
+						"position": "Vector2( 5504, 896 )",
+						"rotation": 0,
+						"scale": "Vector2( 2, 2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/smithing/slack_tub.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "40"
+					},
+					{
+						"position": "Vector2( 1664, 1152 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1.1, 1.1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/camp/campfire_01.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "42"
+					},
+					{
+						"position": "Vector2( 4992, 512 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://textures/objects/decor/floor/carpet_02.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff809dab",
+						"node_id": "45"
+					},
+					{
+						"position": "Vector2( 4992, 512 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/beds/bed_04.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff809dab",
+						"node_id": "47"
+					},
+					{
+						"position": "Vector2( 3456, 1152 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/tables/small_table_04.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff809dab",
+						"node_id": "48"
+					},
+					{
+						"position": "Vector2( 2688, 384 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/decor/statues/statue_01.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "6e"
+					},
+					{
+						"position": "Vector2( 2688, 1152 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/decor/statues/statue_01.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "72"
+					},
+					{
+						"position": "Vector2( 5248, 1920 )",
+						"rotation": 1.832596,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/kNUrZPY0/textures/objects/Skront Alchemy/Colorable/Vial_Full.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "7d"
+					},
+					{
+						"position": "Vector2( 640, 1024 )",
+						"rotation": 1.832596,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/yjfy2kT3/textures/objects/Tree-Trunk-04.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff61788d",
+						"node_id": "7f"
+					},
+					{
+						"position": "Vector2( 384, 2560 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/trees/stump_05.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff61788d",
+						"node_id": "85"
+					},
+					{
+						"position": "Vector2( 384, 2560 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/trees/tree_big_green_01.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "86"
+					},
+					{
+						"position": "Vector2( 1272.86, 1592.74 )",
+						"rotation": -0.785398,
+						"scale": "Vector2( 0.7, 0.7 )",
+						"mirror": false,
+						"texture": "res://textures/objects/clutter/water/water_circle_02.png",
+						"layer": -100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "12b"
+					},
+					{
+						"position": "Vector2( 1489.34, 1519.08 )",
+						"rotation": 1.600518,
+						"scale": "Vector2( 0.7, 0.7 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/logging/log_pile_04.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "12c"
+					},
+					{
+						"position": "Vector2( 1276.77, 1536 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/mining/plank_02.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "12d"
+					},
+					{
+						"position": "Vector2( 1065.77, 1723.33 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/structures/pillars/pillar_stone_28.png",
+						"layer": 200,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "12e"
+					},
+					{
+						"position": "Vector2( 1065.77, 1350 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/structures/pillars/pillar_stone_28.png",
+						"layer": 200,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "12f"
+					},
+					{
+						"position": "Vector2( 1427.1, 1347.33 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/structures/pillars/pillar_stone_28.png",
+						"layer": 200,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "130"
+					},
+					{
+						"position": "Vector2( 1431.1, 1724.67 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/structures/pillars/pillar_stone_28.png",
+						"layer": 200,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "131"
+					},
+					{
+						"position": "Vector2( 1248.1, 1536.67 )",
+						"rotation": 2.356194,
+						"scale": "Vector2( 1.2, 1.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/magic/magic_portal_03.png",
+						"layer": -400,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "132"
+					},
+					{
+						"position": "Vector2( 1248.1, 1536.67 )",
+						"rotation": 0,
+						"scale": "Vector2( 1.5, 1.5 )",
+						"mirror": false,
+						"texture": "res://textures/objects/structures/well_02.png",
+						"layer": -400,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "133"
+					},
+					{
+						"position": "Vector2( 1510.36, 1487.71 )",
+						"rotation": -3.111871,
+						"scale": "Vector2( 0.7, 0.7 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/logging/log_pile_04.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "134"
+					},
+					{
+						"position": "Vector2( 1223.03, 1581.2 )",
+						"rotation": 0.135009,
+						"scale": "Vector2( 1.03079, 1.03079 )",
+						"mirror": false,
+						"texture": "res://textures/objects/structures/bucket.png",
+						"layer": -400,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "00000000",
+						"node_id": "135"
+					},
+					{
+						"position": "Vector2( 4992, 1920 )",
+						"rotation": -0.523599,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/fiQwsb3E/textures/objects/Camp-Cooking_12.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "1f0"
+					},
+					{
+						"position": "Vector2( 1280, 2816 )",
+						"rotation": -0.785398,
+						"scale": "Vector2( 0.6, 0.6 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/roots/exposed_roots_06.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "1f1"
+					},
+					{
+						"position": "Vector2( 1280, 2304 )",
+						"rotation": -0.785398,
+						"scale": "Vector2( 0.6, 0.6 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/fallen/leaves_03.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "1f2"
+					},
+					{
+						"position": "Vector2( 512, 1536 )",
+						"rotation": -0.785398,
+						"scale": "Vector2( 0.6, 0.6 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/fallen/leaves_02.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "1f3"
+					},
+					{
+						"position": "Vector2( 1408, 1152 )",
+						"rotation": -0.785398,
+						"scale": "Vector2( 0.6, 0.6 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/fallen/leaves_01.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "1f4"
+					},
+					{
+						"position": "Vector2( 896, 128 )",
+						"rotation": -0.785398,
+						"scale": "Vector2( 0.6, 0.6 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/fallen/leaves_01.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "1f5"
+					},
+					{
+						"position": "Vector2( 5760, 1536 )",
+						"rotation": 2.094395,
+						"scale": "Vector2( 0.9, 0.9 )",
+						"mirror": false,
+						"texture": "res://textures/objects/vegetation/trees/tree_branch_03.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "1f7"
+					},
+					{
+						"position": "Vector2( 1536, 256 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.9, 0.9 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/logging/log_pile_01.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "1f8"
+					},
+					{
+						"position": "Vector2( 1408, 256 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.9, 0.9 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/logging/log_pile_01.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "1f9"
+					},
+					{
+						"position": "Vector2( 2176, 1152 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1.2, 1.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/bookshelf_corner_01.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "1fa"
+					},
+					{
+						"position": "Vector2( 4608, 1920 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.2, 1.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/desks/desk_02.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "1fb"
+					},
+					{
+						"position": "Vector2( 1152, 1280 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.7, 0.7 )",
+						"mirror": false,
+						"texture": "res://textures/objects/structures/chimneys/chimney_02.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "1fc"
+					},
+					{
+						"position": "Vector2( 4608, 1920 )",
+						"rotation": 1.832596,
+						"scale": "Vector2( 0.7, 0.7 )",
+						"mirror": false,
+						"texture": "res://packs/kNUrZPY0/textures/objects/Skront Alchemy/Vial_Satchel_Empty_02.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "1fe"
+					},
+					{
+						"position": "Vector2( 4608, 1920 )",
+						"rotation": 1.832596,
+						"scale": "Vector2( 0.7, 0.7 )",
+						"mirror": false,
+						"texture": "res://packs/kNUrZPY0/textures/objects/Skront Alchemy/Vial_Uncorked.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "1ff"
+					},
+					{
+						"position": "Vector2( 4567.52, 1862.62 )",
+						"rotation": -1.832596,
+						"scale": "Vector2( 0.6, 0.6 )",
+						"mirror": false,
+						"texture": "res://packs/MJQ9gdYx/textures/objects/BookLargeA03.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "201"
+					},
+					{
+						"position": "Vector2( 5310.02, 1706.12 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.7, 0.7 )",
+						"mirror": false,
+						"texture": "res://packs/dS0IUhwf/textures/objects/Skront_Alchemy_Mk2/Bottle_Rack_Wood.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "203"
+					},
+					{
+						"position": "Vector2( 5312.02, 1924.62 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.7, 0.7 )",
+						"mirror": false,
+						"texture": "res://packs/dS0IUhwf/textures/objects/Skront_Alchemy_Mk2/Scales_01.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "205"
+					},
+					{
+						"position": "Vector2( 4662.02, 1964.62 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.7, 0.7 )",
+						"mirror": false,
+						"texture": "res://packs/dS0IUhwf/textures/objects/Skront_Alchemy_Mk2/Vial_Stand_02.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "207"
+					},
+					{
+						"position": "Vector2( 4637.52, 1828.12 )",
+						"rotation": 1.832596,
+						"scale": "Vector2( 0.3, 0.3 )",
+						"mirror": false,
+						"texture": "res://packs/dS0IUhwf/textures/objects/Skront_Alchemy_Mk2/Bottle_Round_01.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "208"
+					},
+					{
+						"position": "Vector2( 5333.02, 1649.62 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.2, 0.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/stable/trough_stable_02.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "20a"
+					},
+					{
+						"position": "Vector2( 5292.52, 1649.62 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.2, 0.2 )",
+						"mirror": false,
+						"texture": "res://textures/objects/stable/trough_barn_03.png",
+						"layer": 100,
+						"shadow": true,
+						"block_light": false,
+						"node_id": "20b"
+					}
+				],
+				"lights": [
+
+				],
+				"roofs": {
+					"shade": true,
+					"shade_contrast": 0.5,
+					"sun_direction": 45,
+					"roofs": [
+
+					]
+				},
+				"texts": [
+					{
+						"text": "The Forgotten Wharf",
+						"position": "Vector2( 3388, 2606 )",
+						"font_name": "Tangerine",
+						"font_size": 90,
+						"font_color": "ff000000",
+						"box_shape": 0,
+						"node_id": "b"
+					}
+				]
+			}
+		}
+	}
+}

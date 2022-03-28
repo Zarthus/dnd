@@ -1,0 +1,27 @@
+<section id="{{ dungeon.name | classify('dungeon-overview-') }}" class="content">
+    {% if not dungoen.banner | empty %}<img src="{{ dungeon_dir }}{{ dungeon.banner }}" alt="{{ dungeon.name }} Banner">{% endif %}
+    {% if dungeon.questline | empty %}
+        <span class="tag is-success is-medium">Single Quest</span>
+    {% else %}
+        <span class="tag is-success is-medium">Quest Line: {{ dungeon.questline.name }}</span>
+    {% endif %}
+    <span class="tag is-success is-medium">Levels: {{ dungeon.level_range | join('-') }}</span>
+    {% for tag in dungeon.tags %}
+        <span class="tag is-info is-medium">{{ tag }}</span>
+    {% endfor %}
+
+    <h4>Description</h4>
+    <p>
+        {{ dungeon.setting }}
+    </p>
+    <p>
+        {{ dungeon.description | nl2br | safe }}
+    </p>
+
+    <div class="spoilers">
+        <h3>Objective</h3>
+        <p>{{ dungeon.objective | nl2br | safe }}</p>
+        <h3>Dungeon Master's Guide</h3>
+        <p>{{ dungeon.dm_guide | nl2br | safe }}</p>
+    </div>
+</section>

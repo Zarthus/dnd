@@ -1,0 +1,11 @@
+<section id="{{ dungeon.name | classify('dungeon-authors-') }}" class="content is-js">
+    <h4>Authors</h4>
+    {% if not dungeon.authors | empty %}
+        {% for author in dungeon.authors %}
+            <a target="_blank" href="{{ author.social }}">
+                {{ author.name }}
+            </a>
+        {% endfor %}
+    {% endif %}
+    <p>License: <a rel="license" href="{{ dungeon.license.url }}">{{ dungeon.license.name }}</a></p>
+</section>

@@ -1,0 +1,55 @@
+{
+  "name": "Galeb Duhr",
+  "manual": "Monster Manual Pg 139",
+  "armor_class": 16,
+  "hitpoints": 85,
+  "hitpoints_die": "9d8 +45",
+  "size": "medium",
+  "type": "elemental",
+  "alignment": "TN",
+  "speed": {
+    "move": 15,
+    "fly": null
+  },
+  "stats": {
+    "str": 20,
+    "dex": 14,
+    "con": 20,
+    "int": 11,
+    "wis": 12,
+    "cha": 11
+  },
+  "skills": {
+    "False Appearance": "While the galeb duhr remains motionless, it is indistinguishable from an inanimate statue.",
+    "Rolling Charge": null
+  },
+  "senses": {
+    "Passive Perception": "11",
+    "Darkvision": "60 ft",
+    "Temorsense": "60 ft"
+  },
+  "languages": [
+    "Terran"
+  ],
+  "challenge": {
+    "rating": 6,
+    "exp": 2300
+  },
+  "spells": [
+  ],
+  "actions": [
+    {
+      "name": "Slam",
+      "reach": 5,
+      "range": null,
+      "targets": 1,
+      "radius": null,
+      "hit_die": 12,
+      "type": "bludgeoning",
+      "description": [
+        "Melee Weapon Attack: 2d6 + 5"
+      ]
+    }
+  ],
+  "special": []
+}

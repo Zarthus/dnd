@@ -1,2 +1,36 @@
 {% set page_name = 'World - Dungeons' %}
-{% extends "layouts/wip.njk" %}
+{% extends "layouts/layout.njk" %}
+{% import 'macros/link.njk' as link %}
+
+{% block content %}
+    <div class="container">
+        {% include "partials/snippets/spoiler-warning.njk" %}
+        <div class="columns">
+            <div class="column is-offset-3 is-6 has-text-info">
+                The purpose of this directory is to inspire you with your own Dungeons, provide you with maps, and have fun.
+            </div>
+        </div>
+        <hr>
+
+        {% set dungeon_list = (''|dungeon_ls) %}
+
+        {% if dungeon_list | empty %}
+            <h3>There aren't any Dungeons to display</h3>
+        {% else %}
+            <div class="columns">
+                <div class="column is-offset-2 is-8">
+                {% for key in dungeon_list %}
+                    {% set dungeon = ( key | dungeon_parse ) %}
+                    {% include "partials/world/dungeon.njk" %}
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}
+
+{% block styles %}
+    {{ link.style('codex/npcs.css') }}
+{% endblock %}
+{% block scripts %}
+    {{ link.script('world/dungeons.js') }}
+{% endblock %}

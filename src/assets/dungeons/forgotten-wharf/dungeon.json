@@ -1,0 +1,57 @@
+{
+  "name": "Forgotten Wharf",
+  "questline": null,
+  "objective": [
+    "N/A; This is a generic dungeon that can be used in random events in attempts to reward the PCs.\n"
+  ],
+  "description": [
+    "An old forgotten wharf."
+  ],
+  "dm_guide": [
+    "This wharf may once have been occupied by someone else, but currently is being used by a powerful wizard or sorcerer of sorts.\n",
+    "They have potions scattered about, books, drawers, and a couple of statues.\n\n",
+    "There are multiple ways to play this, but in essence: The area only becomes hostile once players start looting things.\n"
+  ],
+  "setting": "Small Dungeon Nearby Water",
+  "tags": ["Random Encounter"],
+  "level_range": [3, 10],
+  "resources": [],
+  "maps": [
+    {
+      "name": "Forgotten Wharf",
+      "url": "./maps/forgotten-wharf.jpg",
+      "dm_guide": [
+        "- The PCs can loot the house freely - they will get some potions from it, and leave.\n",
+        "- Opening the chest on the ground floor next to the chair will trigger the two statues in the house, refer to NPCs\n",
+        "- There is a 'secret' trapdoor inside the house under the bed, barely visible. This brings them to the basement through a ladder\n"
+      ]
+    },
+    {
+      "name": "Basement",
+      "url": "./maps/forgotten-wharf-basement.jpg",
+      "dm_guide": [
+        "- The basement does not have much interesting to loot on the main room, but once you go through the door several dangerous statues will trigger.\n",
+        "- There's gold on the altar, free for the taking. The map might point to somewhere useful, or may just be a general map of the lands\n",
+        "- Some sort of light is required, only the light from the trapdoor above gives off light\n"
+      ]
+    }
+  ],
+  "npcs": [],
+  "monsters": [
+    { "$ref": "galeb-duhr.json" },
+    { "$ref": "gargoyle.json" },
+    { "$ref": "ghost.json" },
+    { "$ref": "specter.json" }
+  ],
+  "authors": [
+    {
+      "name": "Zarthus",
+      "social": "https://github.com/zarthus",
+      "artwork": true
+    }
+  ],
+  "license": {
+    "name": "CC0 4.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}
