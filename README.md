@@ -14,5 +14,5 @@ npm build
 A webserver pointing to the `public/` folder should do the trick. For dev purposes, browsersync will do:
 
 ```
-npm start
+npm serve
 ```
