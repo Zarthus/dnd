@@ -1,0 +1,288 @@
+{
+  "name": "Forgotten Wharf",
+  "questline": null,
+  "objective": [
+    "N/A; This is a generic dungeon that can be used in random events in attempts to reward the PCs.\n"
+  ],
+  "description": [
+    "An old forgotten wharf."
+  ],
+  "dm_guide": [
+    "This wharf may once have been occupied by someone else, but currently is being used by a powerful wizard or sorcerer of sorts.\n",
+    "They have potions scattered about, books, drawers, and a couple of statues.\n\n",
+    "There are multiple ways to play this, but in essence: The area only becomes hostile once players start looting things.\n"
+  ],
+  "setting": "Small Dungeon Nearby Water",
+  "tags": [
+    "Random Encounter"
+  ],
+  "level_range": [
+    3,
+    10
+  ],
+  "resources": [],
+  "maps": [
+    {
+      "name": "Forgotten Wharf",
+      "url": "./maps/forgotten-wharf.jpg",
+      "dm_guide": [
+        "- The PCs can loot the house freely - they will get some potions from it, and leave.\n",
+        "- Opening the chest on the ground floor next to the chair will trigger the two statues in the house, refer to NPCs\n",
+        "- There is a 'secret' trapdoor inside the house under the bed, barely visible. This brings them to the basement through a ladder\n"
+      ]
+    },
+    {
+      "name": "Basement",
+      "url": "./maps/forgotten-wharf-basement.jpg",
+      "dm_guide": [
+        "- The basement does not have much interesting to loot on the main room, but once you go through the door several dangerous statues will trigger.\n",
+        "- There's gold on the altar, free for the taking. The map might point to somewhere useful, or may just be a general map of the lands\n",
+        "- Some sort of light is required, only the light from the trapdoor above gives off light\n"
+      ]
+    }
+  ],
+  "npcs": [],
+  "monsters": [
+    {
+      "name": "Galeb Duhr",
+      "manual": "Monster Manual Pg 139",
+      "armor_class": 16,
+      "hitpoints": 85,
+      "hitpoints_die": "9d8 +45",
+      "size": "medium",
+      "type": "elemental",
+      "alignment": "TN",
+      "speed": {
+        "move": 15,
+        "fly": null
+      },
+      "stats": {
+        "str": 20,
+        "dex": 14,
+        "con": 20,
+        "int": 11,
+        "wis": 12,
+        "cha": 11
+      },
+      "skills": {
+        "False Appearance": "While the galeb duhr remains motionless, it is indistinguishable from an inanimate statue.",
+        "Rolling Charge": null
+      },
+      "senses": {
+        "Passive Perception": "11",
+        "Darkvision": "60 ft",
+        "Temorsense": "60 ft"
+      },
+      "languages": [
+        "Terran"
+      ],
+      "challenge": {
+        "rating": 6,
+        "exp": 2300
+      },
+      "spells": [],
+      "actions": [
+        {
+          "name": "Slam",
+          "reach": 5,
+          "range": null,
+          "targets": 1,
+          "radius": null,
+          "hit_die": 12,
+          "type": "bludgeoning",
+          "description": [
+            "Melee Weapon Attack: 2d6 + 5"
+          ]
+        }
+      ],
+      "special": []
+    },
+    {
+      "name": "Gargoyle",
+      "manual": "Monster Manual Pg 140",
+      "armor_class": 15,
+      "hitpoints": 52,
+      "hitpoints_die": "7d8 +21",
+      "size": "medium",
+      "type": "elemental",
+      "alignment": "CE",
+      "speed": {
+        "move": 30,
+        "fly": 60
+      },
+      "stats": {
+        "str": 15,
+        "dex": 11,
+        "con": 16,
+        "int": 6,
+        "wis": 11,
+        "cha": 7
+      },
+      "skills": {
+        "False Appearance": "While the gargoyle remains motionless, it is indistinguishable from an inanimate statue."
+      },
+      "senses": {
+        "Passive Perception": "10",
+        "Darkvision": "60 ft"
+      },
+      "languages": [
+        "Terran"
+      ],
+      "challenge": {
+        "rating": 2,
+        "exp": 450
+      },
+      "spells": [],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": [
+            "The gargoyle makes two attacks: One with its bite, one with its claws."
+          ]
+        },
+        {
+          "name": "Bite",
+          "reach": 5,
+          "range": null,
+          "targets": 1,
+          "radius": null,
+          "hit_die": 5,
+          "type": "piercing",
+          "description": [
+            "Melee Weapon Attack: 1d6 + 2"
+          ]
+        },
+        {
+          "name": "Claws",
+          "reach": 5,
+          "range": null,
+          "targets": 1,
+          "radius": null,
+          "hit_die": 5,
+          "type": "slashing",
+          "description": [
+            "Melee Weapon Attack: 1d6 + 2"
+          ]
+        }
+      ],
+      "special": [
+        "Shards of Elemental Evil"
+      ]
+    },
+    {
+      "name": "Ghost",
+      "manual": "Monster Manual Pg 147",
+      "armor_class": 11,
+      "hitpoints": 45,
+      "hitpoints_die": "10d8",
+      "size": "medium",
+      "type": "undead",
+      "alignment": null,
+      "speed": {
+        "move": 0,
+        "fly": 40
+      },
+      "stats": {
+        "str": 7,
+        "dex": 13,
+        "con": 10,
+        "int": 10,
+        "wis": 12,
+        "cha": 17
+      },
+      "skills": {
+        "Ethereal Sight": "The Ghost can see 60 feet into the Ethereal Plane",
+        "Incorporeal Movement": "The Ghost can move through creatures and objects"
+      },
+      "senses": {
+        "Passive Perception": "11",
+        "Darkvision": "60 ft"
+      },
+      "languages": [
+        "Any"
+      ],
+      "challenge": {
+        "rating": 4,
+        "exp": 1100
+      },
+      "spells": [],
+      "actions": [
+        {
+          "name": "Withering Touch",
+          "reach": 5,
+          "range": null,
+          "targets": 1,
+          "radius": null,
+          "hit_die": 17,
+          "type": "necrotic",
+          "description": [
+            "Melee Weapon Attack: 4d6 + 3"
+          ]
+        }
+      ],
+      "special": []
+    },
+    {
+      "name": "Specter",
+      "manual": "Monster Manual Pg 279",
+      "armor_class": 12,
+      "hitpoints": 22,
+      "hitpoints_die": "5d8",
+      "size": "medium",
+      "type": "undead",
+      "alignment": "CE",
+      "speed": {
+        "move": 0,
+        "fly": 50
+      },
+      "stats": {
+        "str": 1,
+        "dex": 14,
+        "con": 11,
+        "int": 10,
+        "wis": 10,
+        "cha": 11
+      },
+      "skills": {
+        "Incorporeal Movement": "The Ghost can move through creatures and objects",
+        "Sunlight Sensitivity": "While in sunlight, disadvantage on attack rolls"
+      },
+      "senses": {
+        "Passive Perception": "10",
+        "Darkvision": "60 ft"
+      },
+      "languages": [],
+      "challenge": {
+        "rating": 1,
+        "exp": 200
+      },
+      "spells": [],
+      "actions": [
+        {
+          "name": "Life Drain",
+          "reach": 5,
+          "range": null,
+          "targets": 1,
+          "radius": null,
+          "hit_die": 10,
+          "type": "necrotic",
+          "description": [
+            "Melee Weapon Attack: 10 3d6, target must succeed DC10 Constitution saving throw"
+          ]
+        }
+      ],
+      "special": []
+    }
+  ],
+  "authors": [
+    {
+      "name": "Zarthus",
+      "social": "https://github.com/zarthus",
+      "artwork": true
+    }
+  ],
+  "license": {
+    "name": "CC0 4.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}

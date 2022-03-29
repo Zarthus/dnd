@@ -17,6 +17,7 @@
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="msapplication-config" content="/resources/assets/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/dnd/resources/css/codex/npcs.css" />
     <title>World - Dungeons</title>
   </head>
   <body class="page-world-dungeons theme-dark">
@@ -32,7 +33,7 @@
         <div class="navbar-link">
           Navigation
         </div>
-        <div class="navbar-item is-js" id="theme-switcher-container is-js">
+        <div class="navbar-item is-js" id="theme-switcher-container is-js-activated">
           <div class="field">
             <input id="theme-switcher" type="checkbox" class="switch is-info" checked="checked" />
             <label for="theme-switcher">Dark Mode</label>
@@ -102,50 +103,413 @@
       </section>
     </header>
     <div id="content-main"></div>
-    <div class="container is-max-desktop is-info">
-      <h2 class="title is-3">Work in Progress</h2>
-      <h3 class="title is-5">Come back later</h3>
-    </div>
-    <footer class="footer">
-      <div class="container">
-        <hr>
-        <div class="content has-text-centered">
-          <p>
-            Website by <a href="/dnd/dm/about">Zarthus</a>.
-            The source code is licensed under <a rel="license" href="/dnd/content/acknowledgements">Unlicense</a> &amp;
-            website content under <a rel="license" href="/dnd/content/acknowledgements">CC0 4.0</a>.
-          </p>
+    <div class="container">
+      <div class="columns">
+        <div class="column is-offset-3 is-6 has-text-warning">
+          <span class="bi-asterisk"></span>
+          The information below might spoil elements of future campaigns or one-shots.
+          If you are a player you might wish to stop reading to maintain elements of surprise and wonder.
         </div>
-        <div class="content">
-          <div class="columns">
-            <div class="column is-one-third"></div>
-            <div class="column has-text-centered">
-              <a href="https://github.com/Zarthus" target="_blank">
-                <i class="bi-github" role="img" aria-hidden="true"></i>
-                GitHub
-                <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+      </div>
+      <div class="columns">
+        <div class="column is-offset-3 is-6 has-text-info">
+          The purpose of this directory is to inspire you with your own Dungeons, provide you with maps, and have fun.
+        </div>
+      </div>
+      <hr>
+      <div class="columns">
+        <div class="column is-offset-2 is-8">
+          <div id="dungeon-forgotten-wharf">
+            <div class="tabs">
+              <ul>
+                <li class="dungeon-title">
+                  Forgotten Wharf
+                </li>
+                <li><a href="#dungeon-overview-forgotten-wharf"><span class="bi-info"></span>&nbsp;Overview</a></li>
+                <li><a href="#dungeon-maps-forgotten-wharf"><span class="bi-map"></span>&nbsp;Maps</a></li>
+                <li><a href="#dungeon-monsters-forgotten-wharf"><span class="bi-book"></span>&nbsp;Monsters</a></li>
+                <li><a href="#dungeon-authors-forgotten-wharf"><span class="bi-people"></span>&nbsp;Authors</a></li>
+              </ul>
+            </div>
+            <section id="dungeon-overview-forgotten-wharf" class="content">
+              <span class="tag is-success is-medium">Single Quest</span>
+              <span class="tag is-success is-medium">Levels: 3-10</span>
+              <span class="tag is-info is-medium">Random Encounter</span>
+              <h4>Description</h4>
+              <p>
+                Small Dungeon Nearby Water
+              </p>
+              <p>
+                An old forgotten wharf.<br>
+              </p>
+              <div class="spoilers">
+                <h3>Objective</h3>
+                <p>N/A; This is a generic dungeon that can be used in random events in attempts to reward the PCs.
+                  <br>
+                </p>
+                <h3>Dungeon Master's Guide</h3>
+                <p>This wharf may once have been occupied by someone else, but currently is being used by a powerful wizard or sorcerer of sorts.
+                  <br>
+                  They have potions scattered about, books, drawers, and a couple of statues.
+                  <br>
+                  There are multiple ways to play this, but in essence: The area only becomes hostile once players start looting things.
+                  <br>
+                </p>
+              </div>
+            </section>
+            <section id="dungeon-maps-forgotten-wharf" class="content is-js">
+              <h4>Maps</h4>
+              <h5>Forgotten Wharf <small>(<a target="_blank" href="/dnd/resources/assets/dungeons/forgotten-wharf/./maps/forgotten-wharf.jpg">download link</a>)</small></h5>
+              <img src="/dnd/resources/assets/dungeons/forgotten-wharf/./maps/forgotten-wharf.jpg" alt="Map: Forgotten Wharf">
+              <h6>Dungeon Master's Guide</h6>
+              <p>- The PCs can loot the house freely - they will get some potions from it, and leave.
+                <br>
+                - Opening the chest on the ground floor next to the chair will trigger the two statues in the house, refer to NPCs
+                <br>
+                - There is a 'secret' trapdoor inside the house under the bed, barely visible. This brings them to the basement through a ladder
+                <br>
+              </p>
+              <hr>
+              <h5>Basement <small>(<a target="_blank" href="/dnd/resources/assets/dungeons/forgotten-wharf/./maps/forgotten-wharf-basement.jpg">download link</a>)</small></h5>
+              <img src="/dnd/resources/assets/dungeons/forgotten-wharf/./maps/forgotten-wharf-basement.jpg" alt="Map: Basement">
+              <h6>Dungeon Master's Guide</h6>
+              <p>- The basement does not have much interesting to loot on the main room, but once you go through the door several dangerous statues will trigger.
+                <br>
+                - There's gold on the altar, free for the taking. The map might point to somewhere useful, or may just be a general map of the lands
+                <br>
+                - Some sort of light is required, only the light from the trapdoor above gives off light
+                <br>
+              </p>
+              <hr>
+            </section>
+            <section id="dungeon-npcs-forgotten-wharf" class="content is-js">
+              <h4>NPCs</h4>
+            </section>
+            <section id="dungeon-resources-forgotten-wharf" class="content is-js">
+              <h4>Resources</h4>
+            </section>
+            <section id="dungeon-monsters-forgotten-wharf" class="content is-js">
+              <h4 class="has-text-centered">Monsters</h4>
+              <div class="columns is-multiline">
+                <div class="column is-12">
+                  <div class="card">
+                    <div class="card-content content">
+                      <div class="media-content">
+                        <h4 class="title is-4">Galeb Duhr</h4>
+                        <p>
+                          <span class="circle is-small">CR 6</span>
+                          <span class="circle is-small">AC 16</span>
+                          <span class="circle is-small">HP 85</span>
+                        </p>
+                        <p>
+                          Elemental
+                          <br>
+                          Monster Manual Pg 139
+                        </p>
+                      </div>
+                      <hr>
+                      <div class="stats">
+                        <div class="dnd-stats-str circle is-small">STR 20</div>
+                        <div class="dnd-stats-dex circle is-small">DEX 14</div>
+                        <div class="dnd-stats-con circle is-small">CON 20</div>
+                        <div class="dnd-stats-int circle is-small">INT 11</div>
+                        <div class="dnd-stats-wis circle is-small">WIS 12</div>
+                        <div class="dnd-stats-cha circle is-small">CHA 11</div>
+                        <br>
+                        <p>
+                          Move: 15<br>
+                          Fly: Cannot fly<br>
+                          Languages: Terran<br>
+                          EXP: 2300
+                        </p>
+                        <h4>Senses</h4>
+                        <p>
+                          Passive Perception: 11<br>
+                          Darkvision: 60 ft<br>
+                          Temorsense: 60 ft<br>
+                        </p>
+                        <h4>Skills</h4>
+                        <p>
+                          False Appearance: While the galeb duhr remains motionless, it is indistinguishable from an inanimate statue.
+                        </p>
+                        <p>
+                          Rolling Charge
+                        </p>
+                        <h4>Actions</h4>
+                        <h6>Slam</h6>
+                        <p>
+                          Reach: 5<br>
+                          Range: none<br>
+                          Targets: 1<br>
+                          Radius: none<br>
+                          Type: bludgeoning
+                        </p>
+                        <p>
+                          Hit Die: 12<br>
+                          Melee Weapon Attack: 2d6 + 5<br>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-12">
+                  <div class="card">
+                    <div class="card-content content">
+                      <div class="media-content">
+                        <h4 class="title is-4">Gargoyle</h4>
+                        <p>
+                          <span class="circle is-small">CR 2</span>
+                          <span class="circle is-small">AC 15</span>
+                          <span class="circle is-small">HP 52</span>
+                        </p>
+                        <p>
+                          Elemental
+                          <br>
+                          Monster Manual Pg 140
+                        </p>
+                      </div>
+                      <hr>
+                      <div class="stats">
+                        <div class="dnd-stats-str circle is-small">STR 15</div>
+                        <div class="dnd-stats-dex circle is-small">DEX 11</div>
+                        <div class="dnd-stats-con circle is-small">CON 16</div>
+                        <div class="dnd-stats-int circle is-small">INT 6</div>
+                        <div class="dnd-stats-wis circle is-small">WIS 11</div>
+                        <div class="dnd-stats-cha circle is-small">CHA 7</div>
+                        <br>
+                        <p>
+                          Move: 30<br>
+                          Fly: 60<br>
+                          Languages: Terran<br>
+                          EXP: 450
+                        </p>
+                        <h4>Senses</h4>
+                        <p>
+                          Passive Perception: 10<br>
+                          Darkvision: 60 ft<br>
+                        </p>
+                        <h4>Skills</h4>
+                        <p>
+                          False Appearance: While the gargoyle remains motionless, it is indistinguishable from an inanimate statue.
+                        </p>
+                        <h4>Actions</h4>
+                        <h6>Multiattack</h6>
+                        <p>
+                          Reach: none<br>
+                          Range: none<br>
+                          Targets: ?<br>
+                          Radius: none<br>
+                          Type: unknown
+                        </p>
+                        <p>
+                          Hit Die: none<br>
+                          The gargoyle makes two attacks: One with its bite, one with its claws.<br>
+                        </p>
+                        <h6>Bite</h6>
+                        <p>
+                          Reach: 5<br>
+                          Range: none<br>
+                          Targets: 1<br>
+                          Radius: none<br>
+                          Type: piercing
+                        </p>
+                        <p>
+                          Hit Die: 5<br>
+                          Melee Weapon Attack: 1d6 + 2<br>
+                        </p>
+                        <h6>Claws</h6>
+                        <p>
+                          Reach: 5<br>
+                          Range: none<br>
+                          Targets: 1<br>
+                          Radius: none<br>
+                          Type: slashing
+                        </p>
+                        <p>
+                          Hit Die: 5<br>
+                          Melee Weapon Attack: 1d6 + 2<br>
+                        </p>
+                        <h4>Special</h4>
+                        <p>
+                          S: h
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-12">
+                  <div class="card">
+                    <div class="card-content content">
+                      <div class="media-content">
+                        <h4 class="title is-4">Ghost</h4>
+                        <p>
+                          <span class="circle is-small">CR 4</span>
+                          <span class="circle is-small">AC 11</span>
+                          <span class="circle is-small">HP 45</span>
+                        </p>
+                        <p>
+                          Undead
+                          <br>
+                          Monster Manual Pg 147
+                        </p>
+                      </div>
+                      <hr>
+                      <div class="stats">
+                        <div class="dnd-stats-str circle is-small">STR 7</div>
+                        <div class="dnd-stats-dex circle is-small">DEX 13</div>
+                        <div class="dnd-stats-con circle is-small">CON 10</div>
+                        <div class="dnd-stats-int circle is-small">INT 10</div>
+                        <div class="dnd-stats-wis circle is-small">WIS 12</div>
+                        <div class="dnd-stats-cha circle is-small">CHA 17</div>
+                        <br>
+                        <p>
+                          Move: 0<br>
+                          Fly: 40<br>
+                          Languages: Any<br>
+                          EXP: 1100
+                        </p>
+                        <h4>Senses</h4>
+                        <p>
+                          Passive Perception: 11<br>
+                          Darkvision: 60 ft<br>
+                        </p>
+                        <h4>Skills</h4>
+                        <p>
+                          Ethereal Sight: The Ghost can see 60 feet into the Ethereal Plane
+                        </p>
+                        <p>
+                          Incorporeal Movement: The Ghost can move through creatures and objects
+                        </p>
+                        <h4>Actions</h4>
+                        <h6>Withering Touch</h6>
+                        <p>
+                          Reach: 5<br>
+                          Range: none<br>
+                          Targets: 1<br>
+                          Radius: none<br>
+                          Type: necrotic
+                        </p>
+                        <p>
+                          Hit Die: 17<br>
+                          Melee Weapon Attack: 4d6 + 3<br>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-12">
+                  <div class="card">
+                    <div class="card-content content">
+                      <div class="media-content">
+                        <h4 class="title is-4">Specter</h4>
+                        <p>
+                          <span class="circle is-small">CR 1</span>
+                          <span class="circle is-small">AC 12</span>
+                          <span class="circle is-small">HP 22</span>
+                        </p>
+                        <p>
+                          Undead
+                          <br>
+                          Monster Manual Pg 279
+                        </p>
+                      </div>
+                      <hr>
+                      <div class="stats">
+                        <div class="dnd-stats-str circle is-small">STR 1</div>
+                        <div class="dnd-stats-dex circle is-small">DEX 14</div>
+                        <div class="dnd-stats-con circle is-small">CON 11</div>
+                        <div class="dnd-stats-int circle is-small">INT 10</div>
+                        <div class="dnd-stats-wis circle is-small">WIS 10</div>
+                        <div class="dnd-stats-cha circle is-small">CHA 11</div>
+                        <br>
+                        <p>
+                          Move: 0<br>
+                          Fly: 50<br>
+                          Languages: <br>
+                          EXP: 200
+                        </p>
+                        <h4>Senses</h4>
+                        <p>
+                          Passive Perception: 10<br>
+                          Darkvision: 60 ft<br>
+                        </p>
+                        <h4>Skills</h4>
+                        <p>
+                          Incorporeal Movement: The Ghost can move through creatures and objects
+                        </p>
+                        <p>
+                          Sunlight Sensitivity: While in sunlight, disadvantage on attack rolls
+                        </p>
+                        <h4>Actions</h4>
+                        <h6>Life Drain</h6>
+                        <p>
+                          Reach: 5<br>
+                          Range: none<br>
+                          Targets: 1<br>
+                          Radius: none<br>
+                          Type: necrotic
+                        </p>
+                        <p>
+                          Hit Die: 10<br>
+                          Melee Weapon Attack: 10 3d6, target must succeed DC10 Constitution saving throw<br>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="dungeon-authors-forgotten-wharf" class="content is-js">
+              <h4>Authors</h4>
+              <a target="_blank" href="https://github.com/zarthus">
+                Zarthus
               </a>
-            </div>
-            <div class="column has-text-centered">
-              <a href="https://github.com/Zarthus" target="_blank">
-                <i class="bi-discord" role="img" aria-hidden="true"></i>
-                Discord
-                <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
-              </a>
-            </div>
-            <div class="column has-text-centered">
-              <a href="/dnd/content/acknowledgements">Privacy Policy &amp; Terms of Use</a>
-            </div>
-            <div class="column is-one-third"></div>
+              <p>License: <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 4.0</a></p>
+            </section>
           </div>
         </div>
       </div>
-    </footer>
-    <script async type="text/javascript" src="/dnd/resources/javascript/theme-switcher.js"></script>
-    <script type="text/javascript">
-      (function() {
-        document.body.classList.add('js-enabled');
-      })();
-    </script>
+      <footer class="footer">
+        <div class="container">
+          <hr>
+          <div class="content has-text-centered">
+            <p>
+              Website by <a href="/dnd/dm/about">Zarthus</a>.
+              The source code is licensed under <a rel="license" href="/dnd/content/acknowledgements">Unlicense</a> &amp;
+              website content under <a rel="license" href="/dnd/content/acknowledgements">CC0 4.0</a>.
+            </p>
+          </div>
+          <div class="content">
+            <div class="columns">
+              <div class="column is-one-third"></div>
+              <div class="column has-text-centered">
+                <a href="https://github.com/Zarthus" target="_blank">
+                  <i class="bi-github" role="img" aria-hidden="true"></i>
+                  GitHub
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </div>
+              <div class="column has-text-centered">
+                <a href="https://github.com/Zarthus" target="_blank">
+                  <i class="bi-discord" role="img" aria-hidden="true"></i>
+                  Discord
+                  <i class="bi-box-arrow-up-right" role="img" aria-describedby="external link"></i>
+                </a>
+              </div>
+              <div class="column has-text-centered">
+                <a href="/dnd/content/acknowledgements">Privacy Policy &amp; Terms of Use</a>
+              </div>
+              <div class="column is-one-third"></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script async type="text/javascript" src="/dnd/resources/javascript/world/dungeons.js"></script>
+      <script async type="text/javascript" src="/dnd/resources/javascript/theme-switcher.js"></script>
+      <script type="text/javascript">
+        (function() {
+          document.body.classList.add('js-enabled');
+        })();
+      </script>
   </body>
 </html>

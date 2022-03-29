@@ -6875,8 +6875,8 @@ label.panel-block:hover {
 }
 
 .tabs a:hover {
-  border-bottom-color: #363636;
-  color: #363636;
+  border-bottom-color: #61afef;
+  color: #61afef;
 }
 
 .tabs li {
@@ -12703,7 +12703,11 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   color: #b5b5b5;
 }
 
-body:not(.js-enabled) .is-js {
+body:not(.js-enabled) .is-js-activated {
+  display: none;
+}
+
+body.js-enabled .is-js {
   display: none;
 }
 
