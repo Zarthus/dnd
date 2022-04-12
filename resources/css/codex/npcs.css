@@ -36,10 +36,10 @@
   border-color: #abb2bf;
 }
 .theme-dark .circle .is-white {
-  background-color: white;
+  background-color: hsl(0deg, 0%, 100%);
 }
 .theme-dark .circle .is-black {
-  background-color: #0a0a0a;
+  background-color: hsl(0deg, 0%, 4%);
 }
 .theme-dark .circle .is-light {
   background-color: #abb2bf;
@@ -67,31 +67,31 @@
   border-color: #282c34;
 }
 .theme-light .circle .is-white {
-  background-color: white;
+  background-color: hsl(0deg, 0%, 100%);
 }
 .theme-light .circle .is-black {
-  background-color: #0a0a0a;
+  background-color: hsl(0deg, 0%, 4%);
 }
 .theme-light .circle .is-light {
-  background-color: whitesmoke;
+  background-color: hsl(0deg, 0%, 96%);
 }
 .theme-light .circle .is-dark {
-  background-color: #363636;
+  background-color: hsl(0deg, 0%, 21%);
 }
 .theme-light .circle .is-primary {
   background-color: #61afef;
 }
 .theme-light .circle .is-link {
-  background-color: #485fc7;
+  background-color: hsl(229deg, 53%, 53%);
 }
 .theme-light .circle .is-info {
-  background-color: #3e8ed0;
+  background-color: hsl(207deg, 61%, 53%);
 }
 .theme-light .circle .is-warning {
-  background-color: #ffe08a;
+  background-color: hsl(44deg, 100%, 77%);
 }
 .theme-light .circle .is-danger {
-  background-color: #f14668;
+  background-color: hsl(348deg, 86%, 61%);
 }
 
 .npc {
@@ -147,10 +147,10 @@
   color: royalblue;
 }
 .theme-dark .dnd-class-artificer {
-  color: #68471c;
+  color: rgb(104, 71, 28);
 }
 .theme-dark .dnd-class-bloodhunter {
-  color: #691d1d;
+  color: rgb(105, 29, 29);
 }
 .theme-dark .dnd-race-dragonborn {
   color: red;
@@ -217,10 +217,10 @@
   color: royalblue;
 }
 .theme-light .dnd-class-artificer {
-  color: #68471c;
+  color: rgb(104, 71, 28);
 }
 .theme-light .dnd-class-bloodhunter {
-  color: #691d1d;
+  color: rgb(105, 29, 29);
 }
 .theme-light .dnd-race-dragonborn {
   color: red;
