@@ -13,8 +13,7 @@ jobs:
         - name: Build
           run: |
               npm ci
-              sed -i "s/webroot = ''/webroot = '\/dnd'/" src/javascript/modules/nunjucks/envs.js
-              sed -i "s/webroot: ''/webroot: '\/dnd'/" src/sass/env/env.sass
+              mkdir public
               npm run build
         - name: Deploy
           uses: JamesIves/github-pages-deploy-action@v4.2.5
