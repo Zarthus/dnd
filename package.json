@@ -10,16 +10,19 @@
     "bulma-switch": "^2.0.4",
     "chokidar": "^3.5.3",
     "copyfiles": "^2.4.1",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "npm-run-all": "^4.1.5",
     "nunjucks": "^3.2.3",
     "onchange": "^7.1.0",
+    "pretty": "^2.0.0",
     "run-for-every-file": "^1.1.0",
-    "sass": "^1.49.9",
-    "pretty": "^2.0.0"
+    "sass": "^1.49.9"
   },
   "scripts": {
     "build": "npm-run-all --parallel build:*",
-    "test": "npm-run-all --paralell test:*",
+    "test": "npm-run-all --parallel test:*",
     "watch": "npm-run-all --parallel watch:*",
     "start": "browser-sync start --config=bs-config.js",
     "serve": "npm-run-all build start",
@@ -35,7 +38,9 @@
     "watch:sass": "onchange src/sass/**/*.sass -- npm run build:sass",
     "watch:scripts": "onchange src/javascript/**/*.js -- npm run build:scripts",
     "watch:dungeons": "onchange src/assets/dungeons/**/*.json -- npm run build:dungeons",
-    "test:foo": "true"
+    "test:foo": "true",
+    "test:lint-modules": "true",
+    "test:lint-scripts": "eslint ./src/javascript/pages"
   },
   "repository": {
     "type": "git",

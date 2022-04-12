@@ -1,5 +1,5 @@
-const { env } = require('./envs')
-const compile = require('./compile')
+const { env } = require('./envs');
+const compile = require('./compile');
 const paths = require('./pathing');
 
 exports.env = env;

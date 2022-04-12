@@ -1,21 +1,21 @@
 (function () {
     const hchange = function () {
-        const loc = document.getElementById(location.hash.replace(/^#/, ''))
+        const loc = document.getElementById(document.location.hash.replace(/^#/, ''));
 
         if (loc === null) {
-            return
+            return;
         }
 
-        document.querySelectorAll('section').forEach(function (el) {
+        document.querySelectorAll('section').forEach((el) => {
             if (el.id.match(/^dungeon/)) {
-                el.classList.add('is-js')
+                el.classList.add('is-js');
             }
-        })
-        loc.classList.remove('is-js')
-    }
+        });
+        loc.classList.remove('is-js');
+    };
 
-    window.addEventListener('hashchange', hchange)
-    if (location.hash !== null) {
-        hchange()
+    window.addEventListener('hashchange', hchange);
+    if (document.location.hash !== null) {
+        hchange();
     }
-})()
+}());
